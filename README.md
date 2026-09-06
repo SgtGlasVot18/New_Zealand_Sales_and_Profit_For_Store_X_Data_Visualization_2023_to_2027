@@ -1,25 +1,2 @@
 # New_Zealand_Sales_and_Profit_For_Store_X_Data_Visualization_2023_to_2027
 A simple data visualization about sales, profit, cost and quantity of the store "X" chain operational in 5 different regional of New Zealand from 2023-2027. Data enriches and modifies from the orginal Kaggle of "(New Zealand) Power BI Sales and Profit Analysis Dataset [by: anu2701]".
-
-=====
-Longer Description:
-A data visualization the original dataset from Kaggle of "(New Zealand) Power BI Sales and Profit Analysis Dataset [by: anu2701]" with some data enrichment by self to visualize more deeper data analysis and other inspiration taken from the "Small Business Sales Performance Dataset [by: Pacifique Fashaho]" and "Sales Dataset [by: Vinoth Kanna S.]".
-
-This dataset presents transaction data for Store "X" covering the period from 2023 to 2027. The "Home Page" reveals a projected decline in profit over the subsequent five-year period, aligning with a forecast increase in the cost of sales, while consumer purchase volumes are projected to remain stagnant for the next five-year period (2028-2032).
-
-The "Home Page" also display transaction information across the five product categories offered by Store "X" (2023–2027). The results show a narrow margin between the lowest and highest sales percentages: 18.71% (Toys Category) and 21.22% (Clothing Category), a difference of 2.51%. Similarly, sales volumes by day of the week show little variation, ranging from 1,442 units (Saturday) to 1,350 units (Tuesday) with 92 units' difference.
-
-Finally, for the top 10 sales data visualization from:
-- Firstly, the top 10 brand sales: coming from the clothing brand and entertaiment industries, since they have lots of item distributed more than 1 kind of items and even some of them are across categories. Where for the first top 3 brand each gaining $90.000s sales for 2023-2027, and next top 3 brand (rank 4-6) each gaining $70.000s sales for 2023-2027.
-- Secondly, the top 10 item sales: the first top 3 item comes from the home decor and clothing categories, with a particular difference between the rank 1 sales (Curtain - $102.520) and the rank 2 sales (T-Shirt - $87.540) with $14.980 differences. But, for the subsequent ranking differences, there're no significant disparities between the levels (of more than $7.000).
-- For the third one, top 10 product aisles by sales displayed: That, there're a significant gap of $20,810 between the first-ranked item (Product-3: $91,500) and the third-ranked item (Product-3: $70,690), whereas differences between subsequent product aisles are less significant (under $7,000).
-
-Additionally, I have included data visualizations for "Quantity Sold," "Profit," "Cost," and "Sales" regarding Store "X's" transactions (2023–2027). These visualizations cover "Region (in New Zealand)" and "Category," with drill-down capabilities to "Item" and "Brand" levels for more detailed analysis.
-
-For the bonus, i also included a clustering page in which covering a binning data clusterization for the profit, cost, sales and quantity that are being made for the Store "X" 2023-2027 operational in New Zealand. Where, i also include the Regional and Category filtering that could be crossed. Firstly, for the Sales and Cost Cluster Visualizations are sizing for 300 data per-bin, both have bin cluster ranging value from "-600" to "1.800". And for Quantity and Profit Cluster Visualizations, i'm using funnel chart instead of bar chart like the previous two, to give the viewer an easier way to identified the chart ranking more properly and since it's also have less clusterization than the previous two in my opinion. For the Quantity, i'm clustering 2 data per-bin with ranging value from "0" to "10". Then, for the Profit, i'm clustering 100 data per-bin with ranging value from "-100" to "400".
-
-Lastly, based on the data visualization derived from the dataset, it can be concluded that Store "X" needs to devise a strategy to significantly reduce their product costs, thereby preventing future profits from being further eroded. And also, Store "X" needs to implement more aggressive marketing in terms of increasing their product "Quantity Solds" in the coming years.
-
-That's all for now. If you have any criticism or suggestions for the graphs I've shared and any improvement ideas, please don't be hesitate to share it with me, i'll highly appreciated it. Thank you for viewing and reading this post. Have a great day !
-
-That's all for now. If you have any criticism or suggestions for the graphs I've shared and any improvement ideas, please don't be hesitate to share it with me, i'll highly appreciated it. Thank you for viewing and reading this post. Have a great day !
