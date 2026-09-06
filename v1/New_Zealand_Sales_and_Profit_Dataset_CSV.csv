@@ -1,0 +1,1827 @@
+Order_ID;Order_Date;Cust_Type;Region;Product;Category;Item;Brand;Qty;Sales;Cost;Profit
+NZ-ORD-1;01/01/2023;Returning;Christchurch;Product-18;Home Decor;Vase;IKEA;9;592.38;122.76;469.62
+NZ-ORD-2;02/01/2023;Returning;Wellington;Product-27;Toys;Doll;Barbie;1;1397.1;1039.03;358.07
+NZ-ORD-3;03/01/2023;Returning;Auckland;Product-5;Home Decor;Window Blind;Brother;2;1515.86;1314.33;201.53
+NZ-ORD-4;04/01/2023;Returning;Auckland;Product-26;Electronics;CCTV;Huawei;4;1338.42;1427;-88.58
+NZ-ORD-5;05/01/2023;Returning;Wellington;Product-16;Home Decor;Curtain;IKEA;6;481.89;361.61;120.28
+NZ-ORD-6;06/01/2023;Returning;Wellington;Product-14;Electronics;CCTV;Huawei;6;1379.39;1356.3;23.09
+NZ-ORD-7;07/01/2023;New;Christchurch;Product-26;Electronics;Mobile Phone;Apple;3;1324.24;930.49;393.75
+NZ-ORD-8;08/01/2023;Returning;Auckland;Product-1;Electronics;Hardisk SDD;Kingston;1;140.43;158.45;-18.02
+NZ-ORD-9;09/01/2023;New;Wellington;Product-22;Home Decor;Curtain;Rails;4;1948.69;1824.01;124.68
+NZ-ORD-10;10/01/2023;Returning;Wellington;Product-15;Electronics;CCTV;Toshiba;8;632.38;542.26;90.12
+NZ-ORD-11;11/01/2023;Returning;Christchurch;Product-12;Books;Documentary;Universal;10;1504.97;1420.64;84.33
+NZ-ORD-12;12/01/2023;New;Dunedin;Product-9;Books;Romance;Warner Bros;10;1717.59;1536.9;180.69
+NZ-ORD-13;13/01/2023;New;Hamilton;Product-21;Electronics;Hardisk SDD;Toshiba;3;1984.1;2052.26;-68.16
+NZ-ORD-14;14/01/2023;New;Wellington;Product-23;Clothing;Pant;Puma;2;813.57;393.07;420.5
+NZ-ORD-15;15/01/2023;New;Christchurch;Product-21;Clothing;Shirt;Puma;3;980.56;957.62;22.94
+NZ-ORD-16;16/01/2023;Returning;Wellington;Product-5;Home Decor;Vase;Midea;6;1044.35;855.28;189.07
+NZ-ORD-17;17/01/2023;Returning;Hamilton;Product-26;Books;Cartoon;Warner Bros;5;1703.89;1698.47;5.42
+NZ-ORD-18;18/01/2023;Returning;Wellington;Product-16;Home Decor;Vase;Midea;10;1068.13;1039.56;28.57
+NZ-ORD-19;19/01/2023;Returning;Dunedin;Product-9;Home Decor;Curtain;Rails;3;230.45;64.94;165.51
+NZ-ORD-20;20/01/2023;New;Hamilton;Product-28;Toys;Doll;Yin Mang;3;1983.13;1746.57;236.56
+NZ-ORD-21;21/01/2023;New;Dunedin;Product-3;Clothing;Pant;Adidas;7;1412.79;1199.3;213.49
+NZ-ORD-22;22/01/2023;Returning;Wellington;Product-7;Books;Romance;Disney;9;1497.35;1039.27;458.08
+NZ-ORD-23;23/01/2023;Returning;Auckland;Product-22;Clothing;Jacket;Adidas;2;1454.58;1286.22;168.36
+NZ-ORD-24;24/01/2023;Returning;Hamilton;Product-10;Books;Romance;Disney;7;1492.82;1534.72;-41.9
+NZ-ORD-25;25/01/2023;New;Auckland;Product-30;Electronics;CCTV;Samsung;9;1891.48;1733.71;157.77
+NZ-ORD-26;26/01/2023;Returning;Dunedin;Product-11;Toys;Card Game;Marvel;8;66.05;-94.52;160.57
+NZ-ORD-27;27/01/2023;New;Dunedin;Product-29;Clothing;Shoe;Converse;5;1038.45;775.26;263.19
+NZ-ORD-28;28/01/2023;Returning;Christchurch;Product-21;Home Decor;Miniature Statue;Bucchari;2;1954.62;1998.76;-44.14
+NZ-ORD-29;29/01/2023;New;Wellington;Product-29;Home Decor;Vase;IKEA;4;1558.92;1288.76;270.16
+NZ-ORD-30;30/01/2023;Returning;Hamilton;Product-22;Electronics;Mobile Phone;Vivo;6;1164.95;1168.19;-3.24
+NZ-ORD-31;31/01/2023;Returning;Auckland;Product-7;Toys;Doll;Hasbro;10;1496.33;1099.56;396.77
+NZ-ORD-32;01/02/2023;Returning;Christchurch;Product-27;Clothing;Shirt;Converse;7;339.2;136.62;202.58
+NZ-ORD-33;02/02/2023;Returning;Dunedin;Product-29;Clothing;Shoe;Adidas;4;202.99;251.09;-48.1
+NZ-ORD-34;03/02/2023;New;Hamilton;Product-9;Home Decor;Vase;Foshan;2;826.14;692.59;133.55
+NZ-ORD-35;04/02/2023;Returning;Auckland;Product-2;Electronics;Mobile Phone;Oppo;10;793.24;625.47;167.77
+NZ-ORD-36;05/02/2023;New;Christchurch;Product-22;Home Decor;Window Blind;Kels;6;481.32;105.32;376
+NZ-ORD-37;06/02/2023;New;Hamilton;Product-26;Home Decor;Vinyl Paper;Kenko;9;1222.2;1072.76;149.44
+NZ-ORD-38;07/02/2023;New;Dunedin;Product-28;Clothing;Jacket;Nike;1;1432.87;1490.16;-57.29
+NZ-ORD-39;08/02/2023;New;Auckland;Product-29;Electronics;Mobile Phone;Apple;3;1958.79;1959.7;-0.91
+NZ-ORD-40;09/02/2023;New;Auckland;Product-15;Books;Documentary;National Geographic;4;576.75;167.72;409.03
+NZ-ORD-41;10/02/2023;Returning;Dunedin;Product-20;Electronics;TV;Samsung;10;1357.52;1146.86;210.66
+NZ-ORD-42;11/02/2023;Returning;Dunedin;Product-4;Toys;Puzzle;Marvel;10;531.25;200.69;330.56
+NZ-ORD-43;12/02/2023;Returning;Auckland;Product-14;Toys;Puzzle;Hasbro;5;1097.27;764.5;332.77
+NZ-ORD-44;13/02/2023;Returning;Auckland;Product-5;Books;Romance;Warner Bros;8;1639;1348.61;290.39
+NZ-ORD-45;14/02/2023;New;Wellington;Product-5;Books;Romance;Lionsgate;2;1256.06;830.68;425.38
+NZ-ORD-46;15/02/2023;New;Wellington;Product-29;Toys;Puzzle;Gramedia;9;353.65;412.55;-58.9
+NZ-ORD-47;16/02/2023;Returning;Wellington;Product-3;Clothing;Shirt;New Balance;6;1534.52;1429.16;105.36
+NZ-ORD-48;17/02/2023;Returning;Hamilton;Product-26;Toys;Card Game;Dungeons;9;1970.79;1824.25;146.54
+NZ-ORD-49;18/02/2023;New;Hamilton;Product-26;Clothing;T-Shirt;Puma;2;136.91;-122.16;259.07
+NZ-ORD-50;19/02/2023;New;Auckland;Product-25;Books;Documentary;National Geographic;8;1762.82;1362.06;400.76
+NZ-ORD-51;20/02/2023;New;Wellington;Product-9;Clothing;Jacket;Nike;9;83.6;-175.32;258.92
+NZ-ORD-52;21/02/2023;Returning;Hamilton;Product-28;Home Decor;Curtain;IKEA;6;890.18;453.46;436.72
+NZ-ORD-53;22/02/2023;New;Christchurch;Product-16;Home Decor;Vase;IKEA;3;1243.11;1039.72;203.39
+NZ-ORD-54;23/02/2023;New;Christchurch;Product-25;Toys;Robot;Capcom;4;1358.1;1401.24;-43.14
+NZ-ORD-55;24/02/2023;New;Dunedin;Product-16;Home Decor;Vinyl Paper;Kenko;7;869.48;701.87;167.61
+NZ-ORD-56;25/02/2023;Returning;Auckland;Product-23;Books;Comedy;20th Century Fox;5;315.06;-114.96;430.02
+NZ-ORD-57;26/02/2023;Returning;Wellington;Product-5;Clothing;Shirt;Puma;4;406.7;341.89;64.81
+NZ-ORD-58;27/02/2023;Returning;Auckland;Product-24;Electronics;DVD Player;Changhong;7;1770.33;1354.82;415.51
+NZ-ORD-59;28/02/2023;New;Hamilton;Product-13;Toys;Board Game;Marvel;7;534.81;218.07;316.74
+NZ-ORD-60;01/03/2023;New;Dunedin;Product-28;Home Decor;Curtain;Kels;10;877.85;758.04;119.81
+NZ-ORD-61;02/03/2023;Returning;Christchurch;Product-27;Electronics;DVD Player;Panasonic;1;699.85;593.01;106.84
+NZ-ORD-62;03/03/2023;Returning;Wellington;Product-6;Electronics;Mobile Phone;Apple;8;1770.53;1703.63;66.9
+NZ-ORD-63;04/03/2023;New;Wellington;Product-20;Electronics;CCTV;Toshiba;7;609.31;151.15;458.16
+NZ-ORD-64;05/03/2023;Returning;Hamilton;Product-10;Home Decor;Vinyl Paper;Level Up;2;818.65;383.68;434.97
+NZ-ORD-65;06/03/2023;Returning;Hamilton;Product-29;Electronics;CCTV;Huawei;1;422.96;37.57;385.39
+NZ-ORD-66;07/03/2023;New;Hamilton;Product-1;Electronics;Mobile Phone;Huawei;6;1845.43;1887.19;-41.76
+NZ-ORD-67;08/03/2023;New;Dunedin;Product-22;Toys;Board Game;Hasbro;7;655.62;653.93;1.69
+NZ-ORD-68;09/03/2023;New;Wellington;Product-14;Clothing;T-Shirt;Converse;4;930.88;496.33;434.55
+NZ-ORD-69;10/03/2023;New;Christchurch;Product-21;Home Decor;Curtain;IKEA;5;1026.31;646.65;379.66
+NZ-ORD-70;11/03/2023;Returning;Dunedin;Product-25;Toys;Doll;Yin Mang;3;537.87;175.04;362.83
+NZ-ORD-71;12/03/2023;New;Hamilton;Product-11;Clothing;T-Shirt;Puma;3;1983.15;1541.76;441.39
+NZ-ORD-72;13/03/2023;New;Dunedin;Product-3;Books;Comedy;Warner Bros;7;1480.3;1231.09;249.21
+NZ-ORD-73;14/03/2023;New;Christchurch;Product-24;Books;Romance;Warner Bros;7;664.41;336.99;327.42
+NZ-ORD-74;15/03/2023;Returning;Dunedin;Product-15;Books;Comedy;Warner Bros;4;848.55;425.1;423.45
+NZ-ORD-75;16/03/2023;New;Christchurch;Product-3;Clothing;Jacket;Puma;1;624.22;527.41;96.81
+NZ-ORD-76;17/03/2023;New;Wellington;Product-19;Clothing;Shoe;Adidas;5;65;63.71;1.29
+NZ-ORD-77;18/03/2023;New;Dunedin;Product-20;Clothing;Jacket;Converse;1;943.62;467.7;475.92
+NZ-ORD-78;19/03/2023;Returning;Dunedin;Product-26;Toys;Board Game;Century;7;1565.39;1487.15;78.24
+NZ-ORD-79;20/03/2023;Returning;Hamilton;Product-2;Home Decor;Vinyl Paper;Joyko;7;1738.05;1472.19;265.86
+NZ-ORD-80;21/03/2023;New;Auckland;Product-24;Books;Cartoon;Pixar;2;499.18;427.01;72.17
+NZ-ORD-81;22/03/2023;Returning;Wellington;Product-23;Electronics;Hardisk SDD;Sandisk;2;486.64;295.47;191.17
+NZ-ORD-82;23/03/2023;Returning;Christchurch;Product-1;Toys;Robot;Namco;8;1598.85;1371.68;227.17
+NZ-ORD-83;24/03/2023;New;Auckland;Product-25;Toys;Card Game;Marvel;6;1911.07;1413.57;497.5
+NZ-ORD-84;25/03/2023;Returning;Christchurch;Product-28;Books;Romance;20th Century Fox;8;1481.26;1299.35;181.91
+NZ-ORD-85;26/03/2023;New;Wellington;Product-8;Clothing;Pant;New Balance;8;583.23;612.6;-29.37
+NZ-ORD-86;27/03/2023;Returning;Dunedin;Product-1;Electronics;CCTV;Huawei;9;84.07;-15.13;99.2
+NZ-ORD-87;28/03/2023;New;Wellington;Product-28;Clothing;Shirt;Converse;7;1368.66;1335.33;33.33
+NZ-ORD-88;29/03/2023;New;Dunedin;Product-22;Electronics;Hardisk SDD;Seagate;6;216.85;-250.8;467.65
+NZ-ORD-89;30/03/2023;New;Hamilton;Product-18;Home Decor;Window Blind;Kels;10;1826.54;1870.78;-44.24
+NZ-ORD-90;31/03/2023;New;Hamilton;Product-16;Electronics;Hardisk SDD;Samsung;1;421.92;476.92;-55
+NZ-ORD-91;01/04/2023;New;Christchurch;Product-22;Toys;Doll;Lego;8;1951.56;1977.88;-26.32
+NZ-ORD-92;02/04/2023;Returning;Hamilton;Product-25;Books;Documentary;Universal;7;1605.88;1661.79;-55.91
+NZ-ORD-93;03/04/2023;New;Christchurch;Product-25;Toys;Robot;Konami;8;1198.69;1092.31;106.38
+NZ-ORD-94;04/04/2023;Returning;Christchurch;Product-3;Clothing;Shirt;Nike;2;1914.79;1700.11;214.68
+NZ-ORD-95;05/04/2023;New;Hamilton;Product-5;Toys;Board Game;Century;9;519.96;139.67;380.29
+NZ-ORD-96;06/04/2023;New;Christchurch;Product-27;Clothing;Shirt;Adidas;4;1986.9;1630.44;356.46
+NZ-ORD-97;07/04/2023;New;Christchurch;Product-14;Toys;Card Game;Telltale;8;1689.72;1247.06;442.66
+NZ-ORD-98;08/04/2023;New;Christchurch;Product-23;Books;Romance;Universal;3;1579.83;1446.17;133.66
+NZ-ORD-99;09/04/2023;Returning;Auckland;Product-21;Electronics;CCTV;Sony;10;891.91;740.78;151.13
+NZ-ORD-100;10/04/2023;New;Auckland;Product-3;Clothing;Shirt;New Balance;8;1076.32;1125.36;-49.04
+NZ-ORD-101;11/04/2023;Returning;Christchurch;Product-4;Electronics;DVD Player;Changhong;8;420.02;205.5;214.52
+NZ-ORD-102;12/04/2023;New;Hamilton;Product-9;Clothing;Pant;Converse;9;1424.52;1520.33;-95.81
+NZ-ORD-103;13/04/2023;Returning;Dunedin;Product-18;Electronics;TV;Sony;3;268.79;180.48;88.31
+NZ-ORD-104;14/04/2023;New;Wellington;Product-8;Home Decor;Curtain;Brother;4;1635.78;1643.74;-7.96
+NZ-ORD-105;15/04/2023;New;Auckland;Product-20;Home Decor;Window Blind;Rails;2;1627.58;1498.72;128.86
+NZ-ORD-106;16/04/2023;Returning;Wellington;Product-20;Clothing;Jacket;New Balance;8;1271.38;1071.06;200.32
+NZ-ORD-107;17/04/2023;New;Wellington;Product-14;Books;Cartoon;Disney;8;1290.59;1344.3;-53.71
+NZ-ORD-108;18/04/2023;New;Dunedin;Product-8;Home Decor;Vase;Zhongwei;1;555.6;489.48;66.12
+NZ-ORD-109;19/04/2023;Returning;Christchurch;Product-13;Clothing;Pant;Nike;6;294.76;49.44;245.32
+NZ-ORD-110;20/04/2023;Returning;Wellington;Product-13;Toys;Puzzle;Gramedia;2;1997.72;1549.91;447.81
+NZ-ORD-111;21/04/2023;New;Hamilton;Product-11;Home Decor;Window Blind;Bardy;1;1847.68;1818.9;28.78
+NZ-ORD-112;22/04/2023;Returning;Wellington;Product-5;Toys;Card Game;Marvel;10;1840.79;1685.41;155.38
+NZ-ORD-113;23/04/2023;New;Dunedin;Product-17;Electronics;Hardisk SDD;Samsung;6;61.13;-329.81;390.94
+NZ-ORD-114;24/04/2023;Returning;Wellington;Product-17;Toys;Puzzle;Gramedia;3;1652.55;1158.49;494.06
+NZ-ORD-115;25/04/2023;Returning;Hamilton;Product-18;Clothing;Shirt;Nike;2;1453.01;1052.14;400.87
+NZ-ORD-116;26/04/2023;New;Auckland;Product-2;Books;Documentary;Discovery;2;471.3;560.04;-88.74
+NZ-ORD-117;27/04/2023;Returning;Wellington;Product-16;Toys;Puzzle;Marvel;2;911.36;903.96;7.4
+NZ-ORD-118;28/04/2023;Returning;Christchurch;Product-18;Home Decor;Window Blind;IKEA;8;1541.18;1281.8;259.38
+NZ-ORD-119;29/04/2023;Returning;Wellington;Product-11;Toys;Card Game;Telltale;3;378.4;6.44;371.96
+NZ-ORD-120;30/04/2023;Returning;Hamilton;Product-8;Books;Cartoon;Nickelodeon;10;1898.21;1976.72;-78.51
+NZ-ORD-121;01/05/2023;Returning;Dunedin;Product-17;Home Decor;Vinyl Paper;Joyko;4;1354.96;1329.94;25.02
+NZ-ORD-122;02/05/2023;Returning;Dunedin;Product-24;Home Decor;Vinyl Paper;Kenko;4;1917.61;1896.86;20.75
+NZ-ORD-123;03/05/2023;Returning;Auckland;Product-2;Toys;Puzzle;Marvel;3;510.84;421.1;89.74
+NZ-ORD-124;04/05/2023;New;Wellington;Product-2;Toys;Doll;Hasbro;10;886.32;923.73;-37.41
+NZ-ORD-125;05/05/2023;Returning;Dunedin;Product-23;Electronics;TV;Xiaomi;3;1685.93;1718.64;-32.71
+NZ-ORD-126;06/05/2023;Returning;Christchurch;Product-24;Home Decor;Curtain;IKEA;10;461.78;452.85;8.93
+NZ-ORD-127;07/05/2023;Returning;Wellington;Product-24;Clothing;Jacket;Converse;6;1333.6;1222.38;111.22
+NZ-ORD-128;08/05/2023;Returning;Dunedin;Product-23;Electronics;CCTV;Xiaomi;3;960.73;512.55;448.18
+NZ-ORD-129;09/05/2023;New;Dunedin;Product-2;Home Decor;Window Blind;Brother;5;763.01;691.76;71.25
+NZ-ORD-130;10/05/2023;Returning;Hamilton;Product-27;Clothing;Pant;Puma;6;554.83;259.72;295.11
+NZ-ORD-131;11/05/2023;New;Dunedin;Product-5;Home Decor;Vinyl Paper;Kenko;10;1381.58;980.69;400.89
+NZ-ORD-132;12/05/2023;New;Wellington;Product-28;Books;Romance;Warner Bros;6;575.7;609.84;-34.14
+NZ-ORD-133;13/05/2023;New;Christchurch;Product-4;Toys;Board Game;Century;8;193.01;204.29;-11.28
+NZ-ORD-134;14/05/2023;New;Dunedin;Product-6;Clothing;Shoe;New Balance;5;998.41;717.52;280.89
+NZ-ORD-135;15/05/2023;Returning;Hamilton;Product-13;Toys;Card Game;Dungeons;7;1144.64;721.5;423.14
+NZ-ORD-136;16/05/2023;New;Dunedin;Product-17;Clothing;Pant;New Balance;1;1712.5;1531.88;180.62
+NZ-ORD-137;17/05/2023;New;Christchurch;Product-11;Toys;Card Game;Telltale;10;141.13;78.87;62.26
+NZ-ORD-138;18/05/2023;Returning;Christchurch;Product-16;Home Decor;Vinyl Paper;Level Up;8;92.33;136.79;-44.46
+NZ-ORD-139;19/05/2023;Returning;Dunedin;Product-26;Electronics;Hardisk SDD;Samsung;3;1485.48;1264.34;221.14
+NZ-ORD-140;20/05/2023;New;Christchurch;Product-18;Clothing;Shirt;Puma;7;986.12;962.82;23.3
+NZ-ORD-141;21/05/2023;New;Dunedin;Product-19;Clothing;Shirt;New Balance;5;1405.55;1439.92;-34.37
+NZ-ORD-142;22/05/2023;Returning;Christchurch;Product-11;Home Decor;Vinyl Paper;Level Up;1;1180.65;1223.6;-42.95
+NZ-ORD-143;23/05/2023;New;Dunedin;Product-16;Clothing;Jacket;Nike;2;1230.42;1253.47;-23.05
+NZ-ORD-144;24/05/2023;Returning;Hamilton;Product-13;Home Decor;Window Blind;Rails;6;1956.43;1990.08;-33.65
+NZ-ORD-145;25/05/2023;New;Wellington;Product-28;Clothing;Shoe;Puma;10;625.25;660.46;-35.21
+NZ-ORD-146;26/05/2023;New;Christchurch;Product-10;Electronics;Mobile Phone;Huawei;3;1778.05;1316.37;461.68
+NZ-ORD-147;27/05/2023;Returning;Wellington;Product-6;Books;Cartoon;Disney;3;1775.15;1647.4;127.75
+NZ-ORD-148;28/05/2023;Returning;Hamilton;Product-14;Toys;Robot;Sega;2;1747.41;1606.11;141.3
+NZ-ORD-149;29/05/2023;Returning;Dunedin;Product-7;Toys;Doll;Marvel;10;60.22;-357.31;417.53
+NZ-ORD-150;30/05/2023;New;Hamilton;Product-4;Toys;Puzzle;Wonder World;9;624.89;373.1;251.79
+NZ-ORD-151;31/05/2023;New;Dunedin;Product-7;Books;Romance;Universal;1;1242.21;1015.15;227.06
+NZ-ORD-152;01/06/2023;New;Christchurch;Product-5;Books;Comedy;Lionsgate;2;865.07;538.49;326.58
+NZ-ORD-153;02/06/2023;Returning;Hamilton;Product-9;Clothing;Shirt;New Balance;5;121.28;-330.25;451.53
+NZ-ORD-154;03/06/2023;New;Hamilton;Product-24;Clothing;Pant;Adidas;8;1863.17;1629.7;233.47
+NZ-ORD-155;04/06/2023;Returning;Dunedin;Product-10;Books;Cartoon;Nickelodeon;4;1907.11;1483.48;423.63
+NZ-ORD-156;05/06/2023;Returning;Dunedin;Product-16;Clothing;Shirt;New Balance;2;1090.78;1043.16;47.62
+NZ-ORD-157;06/06/2023;New;Auckland;Product-27;Books;Documentary;National Geographic;4;1947.98;1623.96;324.02
+NZ-ORD-158;07/06/2023;New;Christchurch;Product-7;Books;Romance;Universal;10;1159.58;947.94;211.64
+NZ-ORD-159;08/06/2023;Returning;Dunedin;Product-27;Electronics;Mobile Phone;Vivo;2;1788.49;1663.42;125.07
+NZ-ORD-160;09/06/2023;New;Dunedin;Product-17;Toys;Doll;Yin Mang;9;606.08;359.66;246.42
+NZ-ORD-161;10/06/2023;Returning;Wellington;Product-19;Toys;Doll;Marvel;8;63.87;-213.45;277.32
+NZ-ORD-162;11/06/2023;Returning;Christchurch;Product-19;Electronics;TV;Panasonic;1;77.76;27.04;50.72
+NZ-ORD-163;12/06/2023;Returning;Auckland;Product-25;Books;Comedy;Lionsgate;9;733.74;348.57;385.17
+NZ-ORD-164;13/06/2023;Returning;Wellington;Product-3;Home Decor;Miniature Statue;Baurdani;10;293.2;21.19;272.01
+NZ-ORD-165;14/06/2023;New;Christchurch;Product-10;Electronics;Hardisk SDD;Seagate;2;765.58;646.31;119.27
+NZ-ORD-166;15/06/2023;New;Christchurch;Product-25;Clothing;Jacket;New Balance;3;873.33;871.94;1.39
+NZ-ORD-167;16/06/2023;New;Dunedin;Product-12;Toys;Board Game;Exploding;9;91.79;3.56;88.23
+NZ-ORD-168;17/06/2023;New;Auckland;Product-29;Home Decor;Window Blind;Rails;7;1063.81;759.78;304.03
+NZ-ORD-169;18/06/2023;Returning;Hamilton;Product-14;Books;Documentary;Warner Bros;7;1652.28;1416.46;235.82
+NZ-ORD-170;19/06/2023;Returning;Auckland;Product-12;Home Decor;Vinyl Paper;Seiko;1;695.55;554.8;140.75
+NZ-ORD-171;20/06/2023;Returning;Christchurch;Product-9;Toys;Robot;Namco;9;634.38;281.43;352.95
+NZ-ORD-172;21/06/2023;New;Dunedin;Product-8;Electronics;Mobile Phone;Apple;8;515.52;193.44;322.08
+NZ-ORD-173;22/06/2023;New;Auckland;Product-18;Home Decor;Vase;Yuzhei Wong;10;1076.78;787.21;289.57
+NZ-ORD-174;23/06/2023;New;Hamilton;Product-28;Home Decor;Curtain;Brother;9;1838.54;1797.91;40.63
+NZ-ORD-175;24/06/2023;New;Dunedin;Product-13;Electronics;Mobile Phone;Apple;5;403.79;-43.47;447.26
+NZ-ORD-176;25/06/2023;New;Christchurch;Product-17;Home Decor;Vase;Foshan;2;940.13;783.44;156.69
+NZ-ORD-177;26/06/2023;New;Dunedin;Product-8;Home Decor;Curtain;IKEA;4;429.28;333.17;96.11
+NZ-ORD-178;27/06/2023;Returning;Dunedin;Product-7;Electronics;DVD Player;Changhong;1;1505.11;1438.88;66.23
+NZ-ORD-179;28/06/2023;Returning;Christchurch;Product-21;Books;Comedy;Universal;7;197.12;3.2;193.92
+NZ-ORD-180;29/06/2023;Returning;Dunedin;Product-18;Toys;Robot;Bandai;3;1165.81;904.31;261.5
+NZ-ORD-181;30/06/2023;New;Wellington;Product-18;Electronics;DVD Player;Changhong;10;33.39;47.83;-14.44
+NZ-ORD-182;01/07/2023;New;Dunedin;Product-25;Books;Documentary;Discovery;7;1471.36;1339.44;131.92
+NZ-ORD-183;02/07/2023;Returning;Dunedin;Product-20;Electronics;TV;Panasonic;1;1184.01;1235.37;-51.36
+NZ-ORD-184;03/07/2023;New;Dunedin;Product-5;Clothing;Shoe;Puma;2;1226.21;1286.47;-60.26
+NZ-ORD-185;04/07/2023;New;Auckland;Product-28;Books;Horror;Universal;1;821.21;542.15;279.06
+NZ-ORD-186;05/07/2023;Returning;Dunedin;Product-3;Toys;Board Game;Exploding;4;1742.95;1464.54;278.41
+NZ-ORD-187;06/07/2023;Returning;Hamilton;Product-19;Clothing;Pant;New Balance;10;372.96;360.67;12.29
+NZ-ORD-188;07/07/2023;New;Auckland;Product-28;Books;Comedy;Disney;8;1069.84;820.26;249.58
+NZ-ORD-189;08/07/2023;New;Wellington;Product-9;Home Decor;Vinyl Paper;Joyko;5;278.03;274.15;3.88
+NZ-ORD-190;09/07/2023;Returning;Auckland;Product-7;Clothing;T-Shirt;Puma;1;93.49;161.17;-67.68
+NZ-ORD-191;10/07/2023;New;Hamilton;Product-21;Books;Horror;Universal;2;162.07;-244.78;406.85
+NZ-ORD-192;11/07/2023;Returning;Dunedin;Product-18;Clothing;Shirt;Puma;8;119.06;-110.18;229.24
+NZ-ORD-193;12/07/2023;Returning;Wellington;Product-20;Home Decor;Curtain;Bardy;10;1713.19;1382.88;330.31
+NZ-ORD-194;13/07/2023;New;Christchurch;Product-4;Home Decor;Miniature Statue;Baurdani;5;1584.09;1652.36;-68.27
+NZ-ORD-195;14/07/2023;Returning;Hamilton;Product-16;Electronics;TV;Xiaomi;9;837.58;746.07;91.51
+NZ-ORD-196;15/07/2023;Returning;Hamilton;Product-27;Toys;Card Game;Marvel;4;634.42;322.12;312.3
+NZ-ORD-197;16/07/2023;Returning;Auckland;Product-20;Books;Comedy;Warner Bros;9;155.11;-51.44;206.55
+NZ-ORD-198;17/07/2023;New;Wellington;Product-28;Toys;Board Game;Hasbro;10;1843.22;1443.36;399.86
+NZ-ORD-199;18/07/2023;New;Christchurch;Product-9;Home Decor;Vinyl Paper;Seven;5;860.77;656.94;203.83
+NZ-ORD-200;19/07/2023;Returning;Christchurch;Product-6;Toys;Puzzle;Marvel;10;1816.19;1592.28;223.91
+NZ-ORD-201;20/07/2023;New;Dunedin;Product-11;Books;Romance;Disney;4;782.11;436.78;345.33
+NZ-ORD-202;21/07/2023;New;Dunedin;Product-17;Electronics;CCTV;Xiaomi;9;1301.83;1260.8;41.03
+NZ-ORD-203;22/07/2023;New;Dunedin;Product-15;Home Decor;Curtain;Kels;3;1912.1;1671.47;240.63
+NZ-ORD-204;23/07/2023;Returning;Auckland;Product-1;Books;Documentary;20th Century Fox;1;999.42;1055.9;-56.48
+NZ-ORD-205;24/07/2023;New;Wellington;Product-14;Toys;Puzzle;Telltale;9;1773.65;1738.12;35.53
+NZ-ORD-206;25/07/2023;New;Christchurch;Product-25;Books;Horror;Lionsgate;9;1253.04;962.5;290.54
+NZ-ORD-207;26/07/2023;New;Auckland;Product-18;Toys;Puzzle;Marvel;9;1926.68;1707.14;219.54
+NZ-ORD-208;27/07/2023;Returning;Hamilton;Product-9;Home Decor;Vase;Zhongwei;3;392.13;92.4;299.73
+NZ-ORD-209;28/07/2023;Returning;Auckland;Product-13;Clothing;Jacket;Converse;10;507.18;499.65;7.53
+NZ-ORD-210;29/07/2023;Returning;Hamilton;Product-25;Home Decor;Miniature Statue;Bucchari;7;1445.47;1315.66;129.81
+NZ-ORD-211;30/07/2023;New;Hamilton;Product-1;Clothing;Jacket;Converse;1;215.94;126.05;89.89
+NZ-ORD-212;31/07/2023;New;Hamilton;Product-23;Toys;Board Game;Exploding;9;1914.12;1447.31;466.81
+NZ-ORD-213;01/08/2023;New;Christchurch;Product-29;Clothing;Shirt;Converse;7;853.52;925.17;-71.65
+NZ-ORD-214;02/08/2023;New;Auckland;Product-14;Toys;Card Game;Hasbro;9;197.65;-186.2;383.85
+NZ-ORD-215;03/08/2023;Returning;Christchurch;Product-20;Books;Horror;Bloom House;1;1416.08;1238.96;177.12
+NZ-ORD-216;04/08/2023;New;Dunedin;Product-4;Toys;Board Game;Century;6;1021.08;1079.39;-58.31
+NZ-ORD-217;05/08/2023;New;Dunedin;Product-22;Electronics;DVD Player;Panasonic;7;92.63;-332.55;425.18
+NZ-ORD-218;06/08/2023;Returning;Christchurch;Product-4;Clothing;Shoe;Converse;2;187.11;-262.14;449.25
+NZ-ORD-219;07/08/2023;Returning;Dunedin;Product-15;Clothing;Jacket;Adidas;6;1985.21;1631.83;353.38
+NZ-ORD-220;08/08/2023;New;Christchurch;Product-6;Electronics;TV;Toshiba;2;1860.09;1645.58;214.51
+NZ-ORD-221;09/08/2023;Returning;Wellington;Product-1;Electronics;CCTV;Xiaomi;4;764.85;338.49;426.36
+NZ-ORD-222;10/08/2023;Returning;Wellington;Product-28;Home Decor;Miniature Statue;Holmes Brok;4;499.24;54.16;445.08
+NZ-ORD-223;11/08/2023;Returning;Auckland;Product-19;Home Decor;Window Blind;Kels;2;377.06;406.82;-29.76
+NZ-ORD-224;12/08/2023;Returning;Auckland;Product-23;Home Decor;Miniature Statue;Bucchari;4;490.59;72.84;417.75
+NZ-ORD-225;13/08/2023;New;Christchurch;Product-10;Toys;Doll;Marvel;1;1068.55;805.98;262.57
+NZ-ORD-226;14/08/2023;Returning;Dunedin;Product-3;Electronics;Hardisk SDD;Seagate;9;851.96;729.5;122.46
+NZ-ORD-227;15/08/2023;Returning;Dunedin;Product-3;Toys;Card Game;Century;3;1353.64;1329.74;23.9
+NZ-ORD-228;16/08/2023;Returning;Auckland;Product-30;Clothing;T-Shirt;Nike;3;1342.05;1061.71;280.34
+NZ-ORD-229;17/08/2023;Returning;Wellington;Product-14;Books;Cartoon;Nickelodeon;3;708.22;740.74;-32.52
+NZ-ORD-230;18/08/2023;New;Dunedin;Product-23;Home Decor;Vase;Foshan;10;1590.52;1371.17;219.35
+NZ-ORD-231;19/08/2023;New;Dunedin;Product-18;Home Decor;Window Blind;IKEA;2;123.13;-149.39;272.52
+NZ-ORD-232;20/08/2023;Returning;Wellington;Product-5;Home Decor;Curtain;Kels;1;182.17;-8.12;190.29
+NZ-ORD-233;21/08/2023;New;Christchurch;Product-19;Toys;Doll;Marvel;1;801.3;351.06;450.24
+NZ-ORD-234;22/08/2023;Returning;Hamilton;Product-20;Home Decor;Curtain;Brother;3;1522.91;1602.88;-79.97
+NZ-ORD-235;23/08/2023;Returning;Christchurch;Product-12;Toys;Doll;Yin Mang;7;1240.05;1322.98;-82.93
+NZ-ORD-236;24/08/2023;New;Dunedin;Product-2;Clothing;Shoe;New Balance;2;1028.46;686.56;341.9
+NZ-ORD-237;25/08/2023;New;Wellington;Product-10;Books;Horror;Bloom House;3;1884.09;1424.4;459.69
+NZ-ORD-238;26/08/2023;Returning;Christchurch;Product-1;Clothing;Shirt;Converse;6;428.02;442.5;-14.48
+NZ-ORD-239;27/08/2023;New;Wellington;Product-13;Books;Comedy;Lionsgate;9;344.42;257.49;86.93
+NZ-ORD-240;28/08/2023;Returning;Auckland;Product-22;Electronics;Mobile Phone;Huawei;7;74.12;-211.87;285.99
+NZ-ORD-241;29/08/2023;New;Auckland;Product-26;Clothing;Jacket;New Balance;4;962.49;733.98;228.51
+NZ-ORD-242;30/08/2023;Returning;Christchurch;Product-20;Clothing;Jacket;Adidas;7;925.18;552.26;372.92
+NZ-ORD-243;31/08/2023;Returning;Dunedin;Product-25;Books;Documentary;Universal;4;67.82;-352.32;420.14
+NZ-ORD-244;01/09/2023;New;Auckland;Product-12;Home Decor;Vase;Midea;10;587.8;353.11;234.69
+NZ-ORD-245;02/09/2023;Returning;Christchurch;Product-27;Books;Cartoon;Pixar;1;1207.14;1106.39;100.75
+NZ-ORD-246;03/09/2023;New;Christchurch;Product-16;Clothing;Pant;Nike;3;976.39;480.44;495.95
+NZ-ORD-247;04/09/2023;Returning;Dunedin;Product-18;Clothing;Shirt;Converse;4;1462.25;1073.69;388.56
+NZ-ORD-248;05/09/2023;New;Wellington;Product-27;Toys;Puzzle;Gramedia;3;610.02;419.64;190.38
+NZ-ORD-249;06/09/2023;Returning;Hamilton;Product-10;Electronics;Mobile Phone;Huawei;6;599.1;169.57;429.53
+NZ-ORD-250;07/09/2023;Returning;Christchurch;Product-25;Toys;Puzzle;Telltale;2;780.6;314.25;466.35
+NZ-ORD-251;08/09/2023;Returning;Hamilton;Product-6;Clothing;Shirt;Puma;8;1694.22;1683.2;11.02
+NZ-ORD-252;09/09/2023;New;Hamilton;Product-5;Clothing;Pant;Converse;8;1816.78;1599.84;216.94
+NZ-ORD-253;10/09/2023;Returning;Wellington;Product-29;Home Decor;Vase;Zhongwei;3;975.69;484.29;491.4
+NZ-ORD-254;11/09/2023;New;Christchurch;Product-7;Electronics;TV;Toshiba;1;50.72;70.4;-19.68
+NZ-ORD-255;12/09/2023;Returning;Wellington;Product-4;Home Decor;Vinyl Paper;Kenko;5;714.09;492.13;221.96
+NZ-ORD-256;13/09/2023;New;Auckland;Product-29;Home Decor;Window Blind;IKEA;4;1654.73;1382.63;272.1
+NZ-ORD-257;14/09/2023;New;Hamilton;Product-30;Toys;Robot;Konami;7;1108.1;840.42;267.68
+NZ-ORD-258;15/09/2023;New;Christchurch;Product-18;Clothing;T-Shirt;New Balance;9;1358.57;1097.07;261.5
+NZ-ORD-259;16/09/2023;Returning;Hamilton;Product-22;Toys;Board Game;Marvel;7;193.43;2.8;190.63
+NZ-ORD-260;17/09/2023;Returning;Christchurch;Product-19;Books;Comedy;Disney;7;29.74;-95.92;125.66
+NZ-ORD-261;18/09/2023;Returning;Auckland;Product-1;Clothing;Jacket;Adidas;1;990.29;1075.22;-84.93
+NZ-ORD-262;19/09/2023;New;Auckland;Product-6;Clothing;Shirt;Adidas;8;962.55;916.58;45.97
+NZ-ORD-263;20/09/2023;New;Wellington;Product-12;Electronics;Mobile Phone;Apple;10;953.13;933.09;20.04
+NZ-ORD-264;21/09/2023;Returning;Dunedin;Product-2;Home Decor;Window Blind;Bardy;1;1840.18;1354.35;485.83
+NZ-ORD-265;22/09/2023;Returning;Hamilton;Product-6;Home Decor;Miniature Statue;Bucchari;8;459.22;293.46;165.76
+NZ-ORD-266;23/09/2023;Returning;Auckland;Product-27;Clothing;T-Shirt;Adidas;6;953.07;1033.04;-79.97
+NZ-ORD-267;24/09/2023;Returning;Dunedin;Product-19;Home Decor;Miniature Statue;Oates;2;1285.13;932.62;352.51
+NZ-ORD-268;25/09/2023;New;Auckland;Product-6;Toys;Doll;Lego;10;1722.02;1781.38;-59.36
+NZ-ORD-269;26/09/2023;New;Christchurch;Product-25;Books;Documentary;20th Century Fox;8;785.14;574.1;211.04
+NZ-ORD-270;27/09/2023;New;Hamilton;Product-9;Electronics;DVD Player;Changhong;5;1223.5;1164.08;59.42
+NZ-ORD-271;28/09/2023;New;Hamilton;Product-2;Home Decor;Window Blind;Kels;1;952.87;557.1;395.77
+NZ-ORD-272;29/09/2023;Returning;Christchurch;Product-30;Electronics;Hardisk SDD;Seagate;5;1480.91;1173.49;307.42
+NZ-ORD-273;30/09/2023;Returning;Auckland;Product-26;Toys;Board Game;Marvel;2;168.77;-83.74;252.51
+NZ-ORD-274;01/10/2023;New;Hamilton;Product-13;Clothing;T-Shirt;Nike;8;1814.94;1466.02;348.92
+NZ-ORD-275;02/10/2023;New;Wellington;Product-8;Books;Comedy;20th Century Fox;8;1523.52;1054.8;468.72
+NZ-ORD-276;03/10/2023;New;Wellington;Product-13;Clothing;Pant;Converse;2;146.87;-126.67;273.54
+NZ-ORD-277;04/10/2023;Returning;Wellington;Product-29;Clothing;Jacket;Converse;10;798.57;404.23;394.34
+NZ-ORD-278;05/10/2023;New;Christchurch;Product-8;Electronics;Hardisk SDD;Kingston;2;1068.73;638.42;430.31
+NZ-ORD-279;06/10/2023;Returning;Auckland;Product-10;Clothing;Shirt;Adidas;6;520.07;171.83;348.24
+NZ-ORD-280;07/10/2023;New;Auckland;Product-7;Books;Comedy;Warner Bros;1;421.22;42.44;378.78
+NZ-ORD-281;08/10/2023;Returning;Dunedin;Product-6;Electronics;DVD Player;Panasonic;3;922.14;1017.97;-95.83
+NZ-ORD-282;09/10/2023;New;Dunedin;Product-9;Home Decor;Curtain;Bardy;10;1567.81;1481.26;86.55
+NZ-ORD-283;10/10/2023;Returning;Auckland;Product-20;Toys;Puzzle;Gramedia;4;1075.87;755.47;320.4
+NZ-ORD-284;11/10/2023;New;Hamilton;Product-3;Home Decor;Curtain;Kels;5;916.32;789.31;127.01
+NZ-ORD-285;12/10/2023;Returning;Dunedin;Product-12;Electronics;TV;Toshiba;4;892.22;508.01;384.21
+NZ-ORD-286;13/10/2023;Returning;Christchurch;Product-12;Books;Documentary;Warner Bros;7;1558.94;1145.09;413.85
+NZ-ORD-287;14/10/2023;Returning;Wellington;Product-24;Electronics;DVD Player;Panasonic;1;1247.16;1029.01;218.15
+NZ-ORD-288;15/10/2023;New;Wellington;Product-8;Books;Documentary;Warner Bros;5;1381.62;1080.97;300.65
+NZ-ORD-289;16/10/2023;Returning;Hamilton;Product-7;Clothing;T-Shirt;Puma;7;304.41;370.73;-66.32
+NZ-ORD-290;17/10/2023;Returning;Dunedin;Product-26;Books;Documentary;20th Century Fox;9;1836.32;1743.8;92.52
+NZ-ORD-291;18/10/2023;Returning;Wellington;Product-8;Toys;Puzzle;Gramedia;2;245.34;105.96;139.38
+NZ-ORD-292;19/10/2023;New;Christchurch;Product-18;Clothing;T-Shirt;Converse;10;1852.74;1940.11;-87.37
+NZ-ORD-293;20/10/2023;Returning;Dunedin;Product-20;Toys;Board Game;Exploding;6;632.93;598.57;34.36
+NZ-ORD-294;21/10/2023;Returning;Christchurch;Product-23;Clothing;Shoe;Converse;10;1577.1;1383.75;193.35
+NZ-ORD-295;22/10/2023;New;Wellington;Product-5;Toys;Puzzle;Wonder World;9;1316.77;854.75;462.02
+NZ-ORD-296;23/10/2023;New;Wellington;Product-3;Electronics;CCTV;Xiaomi;9;1717.83;1691.02;26.81
+NZ-ORD-297;24/10/2023;Returning;Auckland;Product-27;Home Decor;Vase;Foshan;8;1595.21;1304.16;291.05
+NZ-ORD-298;25/10/2023;New;Hamilton;Product-15;Toys;Card Game;Hasbro;4;1327.73;1180.8;146.93
+NZ-ORD-299;26/10/2023;New;Auckland;Product-29;Toys;Robot;Konami;4;1509.57;1266.48;243.09
+NZ-ORD-300;27/10/2023;Returning;Dunedin;Product-23;Home Decor;Vinyl Paper;Seven;10;386.16;159.93;226.23
+NZ-ORD-301;28/10/2023;New;Dunedin;Product-6;Electronics;DVD Player;Changhong;5;137.37;67.32;70.05
+NZ-ORD-302;29/10/2023;New;Christchurch;Product-18;Electronics;Mobile Phone;Vivo;8;1940.32;1678.13;262.19
+NZ-ORD-303;30/10/2023;New;Christchurch;Product-16;Books;Documentary;National Geographic;10;1568.47;1501.08;67.39
+NZ-ORD-304;31/10/2023;Returning;Wellington;Product-28;Books;Comedy;Warner Bros;10;345.3;187.38;157.92
+NZ-ORD-305;01/11/2023;Returning;Christchurch;Product-6;Clothing;Pant;Converse;7;1097.24;905.4;191.84
+NZ-ORD-306;02/11/2023;New;Christchurch;Product-1;Electronics;DVD Player;Panasonic;3;839.9;665.81;174.09
+NZ-ORD-307;03/11/2023;Returning;Hamilton;Product-26;Clothing;Pant;Adidas;10;542.81;52.87;489.94
+NZ-ORD-308;04/11/2023;New;Dunedin;Product-17;Electronics;CCTV;Xiaomi;3;603.63;365.46;238.17
+NZ-ORD-309;05/11/2023;Returning;Wellington;Product-6;Clothing;Shoe;New Balance;9;1269.28;1312.62;-43.34
+NZ-ORD-310;06/11/2023;New;Wellington;Product-28;Books;Romance;Warner Bros;10;811.26;531.38;279.88
+NZ-ORD-311;07/11/2023;Returning;Dunedin;Product-26;Home Decor;Miniature Statue;Bucchari;1;508.34;336.63;171.71
+NZ-ORD-312;08/11/2023;New;Hamilton;Product-8;Toys;Doll;Barbie;6;704.49;664.96;39.53
+NZ-ORD-313;09/11/2023;Returning;Dunedin;Product-3;Clothing;Shoe;Puma;1;296.39;386.88;-90.49
+NZ-ORD-314;10/11/2023;Returning;Wellington;Product-23;Home Decor;Vinyl Paper;Seven;2;809.91;702.94;106.97
+NZ-ORD-315;11/11/2023;New;Dunedin;Product-27;Books;Comedy;Warner Bros;5;1963.72;1782.84;180.88
+NZ-ORD-316;12/11/2023;New;Auckland;Product-30;Books;Horror;Bloom House;7;671.46;334.1;337.36
+NZ-ORD-317;13/11/2023;Returning;Hamilton;Product-15;Toys;Puzzle;Marvel;10;1486.57;1475.4;11.17
+NZ-ORD-318;14/11/2023;Returning;Dunedin;Product-28;Home Decor;Miniature Statue;Tuscany;3;589.65;103.71;485.94
+NZ-ORD-319;15/11/2023;New;Christchurch;Product-20;Home Decor;Vase;Zhongwei;3;233.02;117.62;115.4
+NZ-ORD-320;16/11/2023;New;Christchurch;Product-11;Electronics;CCTV;Sony;3;107.14;18.57;88.57
+NZ-ORD-321;17/11/2023;New;Hamilton;Product-17;Home Decor;Miniature Statue;Tuscany;7;989.52;524.65;464.87
+NZ-ORD-322;18/11/2023;Returning;Auckland;Product-2;Books;Documentary;Warner Bros;6;648.64;381.09;267.55
+NZ-ORD-323;19/11/2023;Returning;Dunedin;Product-23;Toys;Board Game;Hasbro;6;938.56;927.81;10.75
+NZ-ORD-324;20/11/2023;New;Christchurch;Product-30;Electronics;Mobile Phone;Vivo;5;1707.66;1575.42;132.24
+NZ-ORD-325;21/11/2023;New;Dunedin;Product-18;Clothing;Shoe;Puma;2;1871.12;1459.37;411.75
+NZ-ORD-326;22/11/2023;Returning;Christchurch;Product-2;Home Decor;Vase;Zhongwei;7;1000.79;1021.89;-21.1
+NZ-ORD-327;23/11/2023;New;Dunedin;Product-14;Toys;Doll;Lego;2;1192.13;915.3;276.83
+NZ-ORD-328;24/11/2023;Returning;Dunedin;Product-10;Electronics;DVD Player;Sony;5;1036;562.64;473.36
+NZ-ORD-329;25/11/2023;New;Wellington;Product-16;Home Decor;Curtain;Brother;8;650.92;639.45;11.47
+NZ-ORD-330;26/11/2023;Returning;Christchurch;Product-2;Electronics;Hardisk SDD;Samsung;7;784.42;383.8;400.62
+NZ-ORD-331;27/11/2023;Returning;Dunedin;Product-16;Home Decor;Curtain;Bardy;8;1351.97;1066.27;285.7
+NZ-ORD-332;28/11/2023;New;Wellington;Product-7;Home Decor;Curtain;Rails;6;1570.56;1488.8;81.76
+NZ-ORD-333;29/11/2023;New;Auckland;Product-19;Books;Horror;Universal;7;539.12;496.37;42.75
+NZ-ORD-334;30/11/2023;Returning;Wellington;Product-11;Electronics;DVD Player;Panasonic;5;1291.88;818.36;473.52
+NZ-ORD-335;01/12/2023;Returning;Hamilton;Product-26;Toys;Robot;Sega;3;970.18;598.8;371.38
+NZ-ORD-336;02/12/2023;New;Dunedin;Product-24;Electronics;TV;Toshiba;5;1449.13;1404.41;44.72
+NZ-ORD-337;03/12/2023;Returning;Wellington;Product-16;Toys;Board Game;Hasbro;10;1575.87;1458.71;117.16
+NZ-ORD-338;04/12/2023;New;Christchurch;Product-19;Books;Cartoon;Disney;10;1021.15;649.47;371.68
+NZ-ORD-339;05/12/2023;New;Christchurch;Product-9;Toys;Puzzle;Wonder World;6;1332.97;1431.59;-98.62
+NZ-ORD-340;06/12/2023;Returning;Wellington;Product-18;Toys;Board Game;Exploding;9;844.31;741.32;102.99
+NZ-ORD-341;07/12/2023;New;Auckland;Product-24;Clothing;Jacket;Converse;3;724.58;316.03;408.55
+NZ-ORD-342;08/12/2023;Returning;Auckland;Product-1;Toys;Robot;Capcom;6;1861;1913.08;-52.08
+NZ-ORD-343;09/12/2023;Returning;Hamilton;Product-23;Clothing;T-Shirt;Converse;7;1098.57;897.19;201.38
+NZ-ORD-344;10/12/2023;New;Auckland;Product-29;Toys;Puzzle;Hasbro;4;1023.98;748.81;275.17
+NZ-ORD-345;11/12/2023;New;Auckland;Product-18;Home Decor;Vinyl Paper;Seiko;5;566.62;538.06;28.56
+NZ-ORD-346;12/12/2023;Returning;Wellington;Product-24;Books;Comedy;Disney;1;1869.41;1444.65;424.76
+NZ-ORD-347;13/12/2023;New;Hamilton;Product-5;Books;Romance;Universal;9;1868.34;1781.21;87.13
+NZ-ORD-348;14/12/2023;New;Auckland;Product-3;Home Decor;Vase;Yuzhei Wong;9;1709.66;1696.79;12.87
+NZ-ORD-349;15/12/2023;New;Auckland;Product-22;Clothing;Pant;Nike;7;1765.52;1593.32;172.2
+NZ-ORD-350;16/12/2023;Returning;Dunedin;Product-16;Toys;Robot;Capcom;4;1935.62;1486.16;449.46
+NZ-ORD-351;17/12/2023;Returning;Christchurch;Product-13;Electronics;Mobile Phone;Oppo;7;1928.31;1893.43;34.88
+NZ-ORD-352;18/12/2023;New;Hamilton;Product-8;Home Decor;Miniature Statue;Bucchari;3;674.2;596.53;77.67
+NZ-ORD-353;19/12/2023;Returning;Christchurch;Product-18;Clothing;Shirt;Puma;10;592.16;228.68;363.48
+NZ-ORD-354;20/12/2023;Returning;Christchurch;Product-4;Clothing;Pant;New Balance;4;1530.49;1240.42;290.07
+NZ-ORD-355;21/12/2023;New;Wellington;Product-21;Books;Cartoon;Warner Bros;9;141.05;-292.91;433.96
+NZ-ORD-356;22/12/2023;New;Christchurch;Product-5;Books;Horror;Warner Bros;10;1158.57;865.3;293.27
+NZ-ORD-357;23/12/2023;Returning;Wellington;Product-25;Toys;Puzzle;Telltale;2;385.37;307.53;77.84
+NZ-ORD-358;24/12/2023;New;Hamilton;Product-2;Clothing;Shirt;Adidas;6;369.63;420.72;-51.09
+NZ-ORD-359;25/12/2023;Returning;Christchurch;Product-4;Electronics;TV;Sony;3;397.56;407.81;-10.25
+NZ-ORD-360;26/12/2023;Returning;Dunedin;Product-10;Clothing;Shoe;Nike;2;1446.61;1077.13;369.48
+NZ-ORD-361;27/12/2023;New;Hamilton;Product-27;Electronics;CCTV;Toshiba;3;1956.65;1973.88;-17.23
+NZ-ORD-362;28/12/2023;Returning;Christchurch;Product-26;Home Decor;Vinyl Paper;Seiko;5;1500.76;1119.64;381.12
+NZ-ORD-363;29/12/2023;New;Auckland;Product-12;Books;Romance;Universal;1;1974.66;1660.87;313.79
+NZ-ORD-364;30/12/2023;New;Wellington;Product-4;Books;Romance;20th Century Fox;2;163.27;169.19;-5.92
+NZ-ORD-365;31/12/2023;Returning;Dunedin;Product-28;Clothing;Shoe;Nike;3;1385.88;957.26;428.62
+NZ-ORD-366;01/01/2024;Returning;Christchurch;Product-28;Toys;Card Game;Telltale;7;962.46;1001.91;-39.45
+NZ-ORD-367;02/01/2024;Returning;Auckland;Product-11;Toys;Doll;Marvel;2;1130.89;1171.61;-40.72
+NZ-ORD-368;03/01/2024;Returning;Hamilton;Product-22;Books;Horror;Bloom House;7;1255.12;815.52;439.6
+NZ-ORD-369;04/01/2024;New;Wellington;Product-24;Electronics;Hardisk SDD;Kingston;1;1000.54;573.15;427.39
+NZ-ORD-370;05/01/2024;Returning;Hamilton;Product-11;Clothing;Jacket;New Balance;3;1087.54;1144.97;-57.43
+NZ-ORD-371;06/01/2024;Returning;Wellington;Product-12;Clothing;Jacket;New Balance;10;1593.33;1551.67;41.66
+NZ-ORD-372;07/01/2024;New;Christchurch;Product-18;Electronics;Hardisk SDD;Kingston;5;1405.87;1127.72;278.15
+NZ-ORD-373;08/01/2024;Returning;Auckland;Product-13;Clothing;Pant;Puma;5;637.44;551.96;85.48
+NZ-ORD-374;09/01/2024;New;Dunedin;Product-9;Clothing;Shirt;Nike;3;1172.14;989.89;182.25
+NZ-ORD-375;10/01/2024;New;Christchurch;Product-26;Clothing;Jacket;Adidas;4;1374.04;1400.13;-26.09
+NZ-ORD-376;11/01/2024;New;Hamilton;Product-8;Electronics;DVD Player;Samsung;1;861.74;932.98;-71.24
+NZ-ORD-377;12/01/2024;New;Hamilton;Product-19;Toys;Robot;Sega;6;163.44;-89.3;252.74
+NZ-ORD-378;13/01/2024;Returning;Christchurch;Product-14;Toys;Robot;Sega;4;1677.77;1656.61;21.16
+NZ-ORD-379;14/01/2024;Returning;Wellington;Product-2;Clothing;Shirt;New Balance;4;1542.5;1379.96;162.54
+NZ-ORD-380;15/01/2024;Returning;Auckland;Product-5;Toys;Board Game;Century;9;1887.87;1972.61;-84.74
+NZ-ORD-381;16/01/2024;New;Dunedin;Product-10;Books;Romance;Universal;1;271.67;90.03;181.64
+NZ-ORD-382;17/01/2024;New;Christchurch;Product-19;Toys;Card Game;Hasbro;7;1296.85;1262.5;34.35
+NZ-ORD-383;18/01/2024;New;Wellington;Product-13;Electronics;CCTV;Samsung;9;338.32;296.58;41.74
+NZ-ORD-384;19/01/2024;New;Dunedin;Product-9;Toys;Board Game;Exploding;5;832.16;602.07;230.09
+NZ-ORD-385;20/01/2024;Returning;Christchurch;Product-2;Books;Documentary;Warner Bros;10;1930.03;1669.7;260.33
+NZ-ORD-386;21/01/2024;New;Wellington;Product-26;Clothing;Shoe;Converse;4;1937.89;1689.3;248.59
+NZ-ORD-387;22/01/2024;New;Wellington;Product-28;Home Decor;Vinyl Paper;Seven;9;315.14;41.53;273.61
+NZ-ORD-388;23/01/2024;New;Wellington;Product-16;Books;Comedy;Disney;4;1276.78;1326.62;-49.84
+NZ-ORD-389;24/01/2024;New;Christchurch;Product-19;Books;Horror;Warner Bros;9;360.67;410.62;-49.95
+NZ-ORD-390;25/01/2024;Returning;Wellington;Product-3;Clothing;Pant;Converse;6;1859.11;1930.77;-71.66
+NZ-ORD-391;26/01/2024;New;Christchurch;Product-23;Home Decor;Vinyl Paper;Level Up;3;1952.91;1797.72;155.19
+NZ-ORD-392;27/01/2024;New;Auckland;Product-2;Books;Comedy;Warner Bros;9;1455.73;971.42;484.31
+NZ-ORD-393;28/01/2024;New;Christchurch;Product-27;Home Decor;Vinyl Paper;Joyko;3;173.73;-303.48;477.21
+NZ-ORD-394;29/01/2024;New;Dunedin;Product-4;Electronics;Hardisk SDD;Seagate;7;821.15;646.75;174.4
+NZ-ORD-395;30/01/2024;Returning;Auckland;Product-23;Electronics;Mobile Phone;Apple;1;1086.89;1147.63;-60.74
+NZ-ORD-396;31/01/2024;New;Dunedin;Product-26;Books;Comedy;Warner Bros;4;1540.07;1345.48;194.59
+NZ-ORD-397;01/02/2024;Returning;Hamilton;Product-9;Clothing;Shoe;Nike;1;1529.64;1558.65;-29.01
+NZ-ORD-398;02/02/2024;Returning;Hamilton;Product-30;Clothing;Shoe;Nike;3;1614.71;1379.43;235.28
+NZ-ORD-399;03/02/2024;Returning;Hamilton;Product-30;Clothing;T-Shirt;Nike;10;1124.82;682.65;442.17
+NZ-ORD-400;04/02/2024;New;Hamilton;Product-21;Toys;Doll;Hasbro;3;158.39;22.3;136.09
+NZ-ORD-401;05/02/2024;Returning;Dunedin;Product-23;Electronics;TV;Toshiba;10;1073.88;1143.79;-69.91
+NZ-ORD-402;06/02/2024;Returning;Dunedin;Product-23;Books;Romance;Disney;2;634.29;540.84;93.45
+NZ-ORD-403;07/02/2024;Returning;Hamilton;Product-9;Electronics;TV;Toshiba;6;278.15;-138.79;416.94
+NZ-ORD-404;08/02/2024;Returning;Christchurch;Product-28;Clothing;Shoe;Nike;8;1358.7;1034.63;324.07
+NZ-ORD-405;09/02/2024;Returning;Wellington;Product-26;Home Decor;Curtain;IKEA;5;1759.53;1469.66;289.87
+NZ-ORD-406;10/02/2024;New;Auckland;Product-10;Electronics;TV;Xiaomi;4;1104.42;781.72;322.7
+NZ-ORD-407;11/02/2024;New;Dunedin;Product-7;Clothing;T-Shirt;New Balance;3;400.46;12.94;387.52
+NZ-ORD-408;12/02/2024;Returning;Hamilton;Product-7;Electronics;Mobile Phone;Vivo;2;630.23;204.43;425.8
+NZ-ORD-409;13/02/2024;Returning;Auckland;Product-15;Clothing;Shirt;Puma;1;1694.22;1473.26;220.96
+NZ-ORD-410;14/02/2024;New;Wellington;Product-21;Toys;Doll;Hasbro;4;1214.63;853.4;361.23
+NZ-ORD-411;15/02/2024;Returning;Hamilton;Product-5;Books;Comedy;Universal;4;1629.92;1521.02;108.9
+NZ-ORD-412;16/02/2024;Returning;Auckland;Product-21;Toys;Puzzle;Telltale;1;403.66;391.22;12.44
+NZ-ORD-413;17/02/2024;Returning;Auckland;Product-20;Electronics;Hardisk SDD;Kingston;6;1441.89;1277.55;164.34
+NZ-ORD-414;18/02/2024;Returning;Auckland;Product-5;Clothing;Jacket;Converse;8;73.39;-19.44;92.83
+NZ-ORD-415;19/02/2024;Returning;Christchurch;Product-29;Home Decor;Curtain;Rails;4;600.43;330.24;270.19
+NZ-ORD-416;20/02/2024;Returning;Auckland;Product-17;Home Decor;Vase;Yuzhei Wong;9;136.59;127.83;8.76
+NZ-ORD-417;21/02/2024;New;Auckland;Product-24;Toys;Card Game;Century;10;821.61;826.64;-5.03
+NZ-ORD-418;22/02/2024;Returning;Wellington;Product-18;Clothing;Shirt;Nike;3;1935.43;1861.08;74.35
+NZ-ORD-419;23/02/2024;New;Auckland;Product-13;Home Decor;Vase;Yuzhei Wong;4;1661.5;1169.3;492.2
+NZ-ORD-420;24/02/2024;New;Christchurch;Product-21;Home Decor;Curtain;IKEA;10;580.7;449.87;130.83
+NZ-ORD-421;25/02/2024;New;Hamilton;Product-19;Books;Romance;Warner Bros;10;543.89;297.16;246.73
+NZ-ORD-422;26/02/2024;New;Hamilton;Product-24;Clothing;Shoe;Converse;1;1898.23;1623.37;274.86
+NZ-ORD-423;27/02/2024;Returning;Auckland;Product-25;Clothing;Jacket;New Balance;5;486.38;273.82;212.56
+NZ-ORD-424;28/02/2024;Returning;Auckland;Product-10;Clothing;Jacket;Converse;4;1665.11;1603.51;61.6
+NZ-ORD-425;29/02/2024;Returning;Christchurch;Product-9;Electronics;Mobile Phone;Apple;6;720.93;516.99;203.94
+NZ-ORD-426;01/03/2024;Returning;Dunedin;Product-10;Toys;Doll;Yin Mang;9;583.76;265.71;318.05
+NZ-ORD-427;02/03/2024;New;Christchurch;Product-6;Electronics;DVD Player;Samsung;8;1559.36;1194.3;365.06
+NZ-ORD-428;03/03/2024;Returning;Auckland;Product-5;Electronics;CCTV;Toshiba;4;770.15;346.98;423.17
+NZ-ORD-429;04/03/2024;Returning;Wellington;Product-15;Clothing;Jacket;Converse;7;1309.89;947.67;362.22
+NZ-ORD-430;05/03/2024;Returning;Hamilton;Product-3;Home Decor;Vase;Zhongwei;6;412.02;-39.27;451.29
+NZ-ORD-431;06/03/2024;Returning;Dunedin;Product-14;Clothing;Shoe;New Balance;7;295.28;58;237.28
+NZ-ORD-432;07/03/2024;Returning;Auckland;Product-11;Electronics;Mobile Phone;Apple;10;551.72;164.18;387.54
+NZ-ORD-433;08/03/2024;Returning;Wellington;Product-17;Clothing;Shoe;Converse;6;887.82;586.09;301.73
+NZ-ORD-434;09/03/2024;New;Hamilton;Product-21;Home Decor;Vinyl Paper;Joyko;8;869.93;791.46;78.47
+NZ-ORD-435;10/03/2024;New;Christchurch;Product-12;Electronics;Mobile Phone;Apple;7;616.34;475.15;141.19
+NZ-ORD-436;11/03/2024;New;Dunedin;Product-19;Clothing;Jacket;New Balance;9;1221.54;914.89;306.65
+NZ-ORD-437;12/03/2024;Returning;Wellington;Product-5;Home Decor;Curtain;Kels;2;525.67;531.87;-6.2
+NZ-ORD-438;13/03/2024;Returning;Christchurch;Product-21;Toys;Card Game;Marvel;7;1077.05;1029.96;47.09
+NZ-ORD-439;14/03/2024;Returning;Wellington;Product-23;Toys;Robot;Bandai;3;519.83;573.54;-53.71
+NZ-ORD-440;15/03/2024;Returning;Christchurch;Product-5;Clothing;T-Shirt;Nike;4;1135.47;668.5;466.97
+NZ-ORD-441;16/03/2024;Returning;Auckland;Product-29;Electronics;Hardisk SDD;Sandisk;3;265.8;-194.65;460.45
+NZ-ORD-442;17/03/2024;Returning;Dunedin;Product-3;Toys;Board Game;Marvel;5;1206.86;1304.03;-97.17
+NZ-ORD-443;18/03/2024;New;Dunedin;Product-12;Electronics;CCTV;Toshiba;4;336.9;249.29;87.61
+NZ-ORD-444;19/03/2024;New;Hamilton;Product-24;Books;Cartoon;Nickelodeon;8;483.08;114.96;368.12
+NZ-ORD-445;20/03/2024;New;Dunedin;Product-9;Toys;Puzzle;Telltale;4;354.74;53.64;301.1
+NZ-ORD-446;21/03/2024;New;Wellington;Product-29;Home Decor;Miniature Statue;Baurdani;4;150.88;-303.25;454.13
+NZ-ORD-447;22/03/2024;Returning;Dunedin;Product-21;Clothing;Pant;Converse;6;144.94;-40.7;185.64
+NZ-ORD-448;23/03/2024;New;Hamilton;Product-30;Clothing;T-Shirt;Adidas;8;1806.99;1385.95;421.04
+NZ-ORD-449;24/03/2024;Returning;Auckland;Product-14;Books;Comedy;Lionsgate;1;1501.84;1136.67;365.17
+NZ-ORD-450;25/03/2024;New;Auckland;Product-13;Clothing;Jacket;Converse;5;685.81;309.96;375.85
+NZ-ORD-451;26/03/2024;New;Auckland;Product-30;Toys;Puzzle;Gramedia;2;641.11;364.17;276.94
+NZ-ORD-452;27/03/2024;Returning;Wellington;Product-17;Electronics;CCTV;Toshiba;9;1637.11;1388.66;248.45
+NZ-ORD-453;28/03/2024;New;Wellington;Product-22;Home Decor;Miniature Statue;Holmes Brok;1;1738.44;1704.49;33.95
+NZ-ORD-454;29/03/2024;New;Dunedin;Product-27;Books;Romance;Disney;9;1113.08;1155.37;-42.29
+NZ-ORD-455;30/03/2024;New;Christchurch;Product-8;Clothing;Shoe;Nike;6;1105.38;734.75;370.63
+NZ-ORD-456;31/03/2024;New;Hamilton;Product-19;Home Decor;Vinyl Paper;Kenko;7;1688.77;1751.42;-62.65
+NZ-ORD-457;01/04/2024;New;Dunedin;Product-10;Home Decor;Miniature Statue;Bucchari;1;1609.65;1212.91;396.74
+NZ-ORD-458;02/04/2024;Returning;Dunedin;Product-18;Books;Romance;Universal;8;1390.17;1444.19;-54.02
+NZ-ORD-459;03/04/2024;Returning;Auckland;Product-2;Home Decor;Curtain;Rails;3;1389.59;1331.72;57.87
+NZ-ORD-460;04/04/2024;New;Auckland;Product-3;Books;Documentary;Universal;6;1690.84;1248.73;442.11
+NZ-ORD-461;05/04/2024;Returning;Auckland;Product-25;Electronics;Hardisk SDD;Toshiba;2;1114.5;885.38;229.12
+NZ-ORD-462;06/04/2024;New;Dunedin;Product-25;Clothing;T-Shirt;Converse;5;163.13;149.32;13.81
+NZ-ORD-463;07/04/2024;Returning;Auckland;Product-8;Clothing;Shirt;Converse;6;517.73;189.31;328.42
+NZ-ORD-464;08/04/2024;New;Dunedin;Product-21;Clothing;Jacket;New Balance;3;571.7;167.99;403.71
+NZ-ORD-465;09/04/2024;Returning;Hamilton;Product-28;Toys;Robot;Sega;6;1732.48;1441.1;291.38
+NZ-ORD-466;10/04/2024;Returning;Hamilton;Product-8;Clothing;Jacket;Puma;2;1885.54;1484.23;401.31
+NZ-ORD-467;11/04/2024;Returning;Wellington;Product-22;Books;Horror;20th Century Fox;2;577.71;469.7;108.01
+NZ-ORD-468;12/04/2024;New;Auckland;Product-27;Clothing;Shoe;Puma;10;1257.55;1278.56;-21.01
+NZ-ORD-469;13/04/2024;New;Christchurch;Product-10;Home Decor;Miniature Statue;Oates;7;578.48;216.83;361.65
+NZ-ORD-470;14/04/2024;Returning;Christchurch;Product-21;Electronics;DVD Player;Changhong;5;64.34;149.64;-85.3
+NZ-ORD-471;15/04/2024;Returning;Wellington;Product-29;Books;Horror;Lionsgate;5;1478.59;1003.99;474.6
+NZ-ORD-472;16/04/2024;New;Christchurch;Product-22;Toys;Puzzle;Hasbro;9;746.94;698.7;48.24
+NZ-ORD-473;17/04/2024;Returning;Hamilton;Product-10;Electronics;TV;Panasonic;3;1994.91;2069.79;-74.88
+NZ-ORD-474;18/04/2024;Returning;Christchurch;Product-4;Electronics;Hardisk SDD;Samsung;3;126.59;-138.93;265.52
+NZ-ORD-475;19/04/2024;New;Hamilton;Product-19;Electronics;CCTV;Samsung;2;512.29;102.36;409.93
+NZ-ORD-476;20/04/2024;Returning;Dunedin;Product-20;Clothing;Shoe;Puma;2;1359.94;1176.46;183.48
+NZ-ORD-477;21/04/2024;New;Auckland;Product-4;Home Decor;Window Blind;Brother;3;1016.41;1061.29;-44.88
+NZ-ORD-478;22/04/2024;Returning;Christchurch;Product-29;Toys;Robot;Konami;10;451.54;70.49;381.05
+NZ-ORD-479;23/04/2024;New;Hamilton;Product-9;Books;Comedy;Lionsgate;5;419.96;54.49;365.47
+NZ-ORD-480;24/04/2024;Returning;Auckland;Product-7;Home Decor;Miniature Statue;Oates;1;726.59;746.59;-20
+NZ-ORD-481;25/04/2024;Returning;Christchurch;Product-16;Home Decor;Miniature Statue;Bucchari;8;709.4;725.46;-16.06
+NZ-ORD-482;26/04/2024;New;Dunedin;Product-13;Books;Romance;20th Century Fox;8;1194.81;851.17;343.64
+NZ-ORD-483;27/04/2024;New;Auckland;Product-21;Home Decor;Vase;Yuzhei Wong;5;1235.73;1110.04;125.69
+NZ-ORD-484;28/04/2024;New;Auckland;Product-22;Clothing;Shoe;Nike;6;600.26;645.43;-45.17
+NZ-ORD-485;29/04/2024;Returning;Wellington;Product-25;Home Decor;Vinyl Paper;Kenko;4;1344.72;1244.44;100.28
+NZ-ORD-486;30/04/2024;Returning;Auckland;Product-17;Electronics;DVD Player;Panasonic;7;1203.42;1170.23;33.19
+NZ-ORD-487;01/05/2024;Returning;Hamilton;Product-8;Clothing;Shirt;Nike;10;165.29;-76.57;241.86
+NZ-ORD-488;02/05/2024;New;Hamilton;Product-18;Electronics;DVD Player;Panasonic;6;1322.09;1217.3;104.79
+NZ-ORD-489;03/05/2024;Returning;Dunedin;Product-22;Home Decor;Curtain;IKEA;2;152.41;-98.1;250.51
+NZ-ORD-490;04/05/2024;New;Hamilton;Product-13;Toys;Puzzle;Wonder World;4;507.69;495.53;12.16
+NZ-ORD-491;05/05/2024;New;Christchurch;Product-2;Home Decor;Miniature Statue;Holmes Brok;6;1622.96;1500.41;122.55
+NZ-ORD-492;06/05/2024;New;Auckland;Product-25;Toys;Doll;Hasbro;9;1294.68;1092;202.68
+NZ-ORD-493;07/05/2024;Returning;Hamilton;Product-27;Home Decor;Window Blind;Rails;5;156.29;33.64;122.65
+NZ-ORD-494;08/05/2024;Returning;Hamilton;Product-14;Toys;Board Game;Telltale;6;612.61;169.17;443.44
+NZ-ORD-495;09/05/2024;New;Wellington;Product-10;Home Decor;Window Blind;Bardy;3;371.14;-32.94;404.08
+NZ-ORD-496;10/05/2024;New;Hamilton;Product-13;Clothing;Jacket;New Balance;1;1517.49;1154.84;362.65
+NZ-ORD-497;11/05/2024;Returning;Dunedin;Product-1;Books;Romance;Warner Bros;1;1035.73;937.58;98.15
+NZ-ORD-498;12/05/2024;New;Auckland;Product-2;Toys;Robot;Bandai;2;1197.18;1026.43;170.75
+NZ-ORD-499;13/05/2024;New;Wellington;Product-24;Books;Romance;Universal;10;476.29;334.94;141.35
+NZ-ORD-500;14/05/2024;New;Wellington;Product-13;Clothing;T-Shirt;Nike;7;1208.23;1236.79;-28.56
+NZ-ORD-501;15/05/2024;New;Dunedin;Product-30;Books;Horror;Bloom House;7;152.91;-100.45;253.36
+NZ-ORD-502;16/05/2024;New;Auckland;Product-6;Books;Comedy;Universal;7;1056.38;765.13;291.25
+NZ-ORD-503;17/05/2024;Returning;Auckland;Product-23;Clothing;T-Shirt;Adidas;5;1950.06;1683.67;266.39
+NZ-ORD-504;18/05/2024;New;Dunedin;Product-27;Home Decor;Window Blind;Brother;1;1907.49;1713.82;193.67
+NZ-ORD-505;19/05/2024;Returning;Christchurch;Product-20;Clothing;Shirt;Nike;2;257.26;-25.21;282.47
+NZ-ORD-506;20/05/2024;Returning;Dunedin;Product-17;Toys;Doll;Yin Mang;1;313.52;198.06;115.46
+NZ-ORD-507;21/05/2024;New;Wellington;Product-13;Home Decor;Window Blind;Rails;5;1088.68;754.04;334.64
+NZ-ORD-508;22/05/2024;New;Dunedin;Product-20;Electronics;TV;Toshiba;6;1486.95;1121.66;365.29
+NZ-ORD-509;23/05/2024;Returning;Auckland;Product-11;Electronics;CCTV;Sony;5;884.15;691.29;192.86
+NZ-ORD-510;24/05/2024;New;Wellington;Product-9;Toys;Puzzle;Hasbro;2;1990.32;2087.4;-97.08
+NZ-ORD-511;25/05/2024;New;Hamilton;Product-2;Electronics;TV;Sony;2;792.82;623.72;169.1
+NZ-ORD-512;26/05/2024;New;Dunedin;Product-9;Clothing;Jacket;New Balance;5;81.51;78.28;3.23
+NZ-ORD-513;27/05/2024;New;Hamilton;Product-20;Books;Horror;20th Century Fox;3;1530.05;1521.05;9
+NZ-ORD-514;28/05/2024;New;Christchurch;Product-4;Toys;Board Game;Telltale;7;589.03;250.15;338.88
+NZ-ORD-515;29/05/2024;Returning;Auckland;Product-25;Electronics;Mobile Phone;Huawei;3;228.54;23.92;204.62
+NZ-ORD-516;30/05/2024;Returning;Auckland;Product-22;Electronics;TV;Samsung;6;1801.72;1600.78;200.94
+NZ-ORD-517;31/05/2024;New;Hamilton;Product-6;Books;Cartoon;Dreamworks;5;824.17;627.78;196.39
+NZ-ORD-518;01/06/2024;Returning;Hamilton;Product-21;Clothing;Shirt;Adidas;10;1383.01;1008.92;374.09
+NZ-ORD-519;02/06/2024;New;Wellington;Product-3;Books;Horror;Warner Bros;10;1876.84;1972.32;-95.48
+NZ-ORD-520;03/06/2024;New;Auckland;Product-12;Books;Comedy;Universal;3;1141.7;867.33;274.37
+NZ-ORD-521;04/06/2024;New;Christchurch;Product-5;Clothing;Jacket;New Balance;10;1749.25;1635.72;113.53
+NZ-ORD-522;05/06/2024;Returning;Wellington;Product-29;Books;Documentary;20th Century Fox;7;1402.52;1310.65;91.87
+NZ-ORD-523;06/06/2024;New;Christchurch;Product-23;Books;Documentary;Discovery;3;167.63;-14.01;181.64
+NZ-ORD-524;07/06/2024;Returning;Wellington;Product-21;Electronics;TV;Samsung;7;608.75;258.48;350.27
+NZ-ORD-525;08/06/2024;Returning;Dunedin;Product-21;Toys;Card Game;Telltale;8;586.92;172.79;414.13
+NZ-ORD-526;09/06/2024;Returning;Hamilton;Product-3;Books;Horror;Universal;9;231.31;-74.69;306
+NZ-ORD-527;10/06/2024;New;Auckland;Product-29;Home Decor;Vase;Yuzhei Wong;6;92.77;-41.63;134.4
+NZ-ORD-528;11/06/2024;New;Hamilton;Product-30;Home Decor;Vase;Midea;8;152.03;-174.86;326.89
+NZ-ORD-529;12/06/2024;Returning;Wellington;Product-4;Clothing;Jacket;Adidas;4;214.41;-157.46;371.87
+NZ-ORD-530;13/06/2024;Returning;Hamilton;Product-26;Books;Romance;Warner Bros;9;1965.51;2007.43;-41.92
+NZ-ORD-531;14/06/2024;Returning;Dunedin;Product-21;Books;Romance;Universal;4;1085.72;1134.48;-48.76
+NZ-ORD-532;15/06/2024;New;Auckland;Product-13;Toys;Board Game;Exploding;10;817.86;487.73;330.13
+NZ-ORD-533;16/06/2024;Returning;Hamilton;Product-8;Clothing;Shoe;New Balance;9;912.55;868.09;44.46
+NZ-ORD-534;17/06/2024;Returning;Dunedin;Product-12;Clothing;Pant;Nike;2;388.75;19.2;369.55
+NZ-ORD-535;18/06/2024;Returning;Auckland;Product-26;Electronics;Hardisk SDD;Kingston;5;1440.78;1355.68;85.1
+NZ-ORD-536;19/06/2024;New;Auckland;Product-9;Clothing;Pant;Nike;10;1405.26;1006.71;398.55
+NZ-ORD-537;20/06/2024;Returning;Wellington;Product-4;Clothing;Pant;Converse;10;1820.48;1854.71;-34.23
+NZ-ORD-538;21/06/2024;Returning;Hamilton;Product-21;Home Decor;Curtain;Bardy;2;801.35;667.49;133.86
+NZ-ORD-539;22/06/2024;Returning;Hamilton;Product-13;Toys;Robot;Bandai;10;1823.55;1610.39;213.16
+NZ-ORD-540;23/06/2024;New;Wellington;Product-11;Toys;Robot;Namco;4;1356.21;1428.19;-71.98
+NZ-ORD-541;24/06/2024;Returning;Hamilton;Product-15;Home Decor;Miniature Statue;Tuscany;9;1397.09;1324.33;72.76
+NZ-ORD-542;25/06/2024;Returning;Dunedin;Product-3;Electronics;DVD Player;Panasonic;8;1479.36;1534.3;-54.94
+NZ-ORD-543;26/06/2024;New;Wellington;Product-3;Books;Romance;Universal;7;1361.29;1022.14;339.15
+NZ-ORD-544;27/06/2024;Returning;Auckland;Product-28;Electronics;TV;Samsung;6;1054.98;746.88;308.1
+NZ-ORD-545;28/06/2024;New;Auckland;Product-26;Books;Cartoon;Pixar;6;1025.55;589.92;435.63
+NZ-ORD-546;29/06/2024;Returning;Hamilton;Product-21;Books;Romance;Disney;8;1547.31;1243.17;304.14
+NZ-ORD-547;30/06/2024;Returning;Auckland;Product-7;Books;Romance;Disney;1;1286.64;1155.97;130.67
+NZ-ORD-548;01/07/2024;Returning;Auckland;Product-18;Electronics;DVD Player;Toshiba;1;408.72;25.52;383.2
+NZ-ORD-549;02/07/2024;Returning;Hamilton;Product-29;Toys;Puzzle;Gramedia;3;1132.65;1192.96;-60.31
+NZ-ORD-550;03/07/2024;New;Auckland;Product-17;Clothing;Jacket;Puma;3;1412.46;1257.71;154.75
+NZ-ORD-551;04/07/2024;New;Dunedin;Product-8;Home Decor;Vinyl Paper;Seven;9;984.39;560.94;423.45
+NZ-ORD-552;05/07/2024;New;Wellington;Product-9;Books;Documentary;Universal;10;77.79;-109.92;187.71
+NZ-ORD-553;06/07/2024;Returning;Christchurch;Product-27;Electronics;TV;Panasonic;2;1030.78;796.34;234.44
+NZ-ORD-554;07/07/2024;New;Wellington;Product-3;Home Decor;Vinyl Paper;Seven;4;1949.72;1454.72;495
+NZ-ORD-555;08/07/2024;New;Hamilton;Product-24;Books;Documentary;20th Century Fox;4;1713.26;1496.45;216.81
+NZ-ORD-556;09/07/2024;New;Hamilton;Product-3;Toys;Board Game;Century;2;1801.41;1516.39;285.02
+NZ-ORD-557;10/07/2024;Returning;Dunedin;Product-5;Home Decor;Miniature Statue;Baurdani;6;1090.61;673.91;416.7
+NZ-ORD-558;11/07/2024;Returning;Wellington;Product-25;Toys;Puzzle;Marvel;6;204.19;272.75;-68.56
+NZ-ORD-559;12/07/2024;New;Wellington;Product-17;Home Decor;Window Blind;Kels;5;1758.19;1346.1;412.09
+NZ-ORD-560;13/07/2024;New;Auckland;Product-30;Clothing;Shirt;Puma;8;1912.39;1483.12;429.27
+NZ-ORD-561;14/07/2024;Returning;Hamilton;Product-27;Toys;Board Game;Hasbro;1;1930.43;1627.82;302.61
+NZ-ORD-562;15/07/2024;Returning;Auckland;Product-25;Clothing;Shoe;Puma;3;388.26;-77.29;465.55
+NZ-ORD-563;16/07/2024;New;Auckland;Product-4;Electronics;TV;Samsung;5;645.82;462.45;183.37
+NZ-ORD-564;17/07/2024;Returning;Christchurch;Product-29;Books;Comedy;Lionsgate;2;135.04;79.75;55.29
+NZ-ORD-565;18/07/2024;New;Christchurch;Product-3;Home Decor;Curtain;Rails;10;1265.89;1327.88;-61.99
+NZ-ORD-566;19/07/2024;Returning;Hamilton;Product-6;Home Decor;Curtain;IKEA;4;1340.54;996.62;343.92
+NZ-ORD-567;20/07/2024;New;Christchurch;Product-6;Books;Horror;20th Century Fox;10;1204.91;1245.4;-40.49
+NZ-ORD-568;21/07/2024;New;Hamilton;Product-1;Toys;Doll;Lego;5;262.41;-66.47;328.88
+NZ-ORD-569;22/07/2024;Returning;Wellington;Product-30;Books;Horror;Warner Bros;6;1737.02;1779.51;-42.49
+NZ-ORD-570;23/07/2024;Returning;Auckland;Product-11;Clothing;Jacket;New Balance;8;926.97;908.78;18.19
+NZ-ORD-571;24/07/2024;Returning;Christchurch;Product-28;Electronics;DVD Player;Sony;2;1641.4;1176.77;464.63
+NZ-ORD-572;25/07/2024;New;Auckland;Product-24;Home Decor;Miniature Statue;Baurdani;3;746.58;674.75;71.83
+NZ-ORD-573;26/07/2024;Returning;Wellington;Product-25;Clothing;Shirt;New Balance;6;1317.5;1133.39;184.11
+NZ-ORD-574;27/07/2024;Returning;Christchurch;Product-10;Home Decor;Vase;Midea;7;795.59;506.87;288.72
+NZ-ORD-575;28/07/2024;Returning;Dunedin;Product-22;Clothing;Jacket;Puma;3;384.87;186.77;198.1
+NZ-ORD-576;29/07/2024;Returning;Dunedin;Product-25;Clothing;T-Shirt;Nike;9;734.1;371.24;362.86
+NZ-ORD-577;30/07/2024;New;Hamilton;Product-13;Home Decor;Curtain;Kels;9;236.7;2.39;234.31
+NZ-ORD-578;31/07/2024;Returning;Dunedin;Product-11;Clothing;Jacket;Converse;3;239.52;-27.26;266.78
+NZ-ORD-579;01/08/2024;New;Dunedin;Product-28;Clothing;Pant;Nike;3;696.07;263.33;432.74
+NZ-ORD-580;02/08/2024;Returning;Dunedin;Product-1;Toys;Robot;Sega;10;1281.81;1122.18;159.63
+NZ-ORD-581;03/08/2024;Returning;Hamilton;Product-19;Books;Comedy;Disney;1;143.1;70.9;72.2
+NZ-ORD-582;04/08/2024;New;Auckland;Product-20;Books;Horror;Lionsgate;4;390.69;465.21;-74.52
+NZ-ORD-583;05/08/2024;New;Dunedin;Product-8;Home Decor;Vinyl Paper;Level Up;10;329.33;206.47;122.86
+NZ-ORD-584;06/08/2024;Returning;Hamilton;Product-11;Books;Cartoon;Disney;5;1417.36;1248.49;168.87
+NZ-ORD-585;07/08/2024;New;Hamilton;Product-16;Toys;Doll;Marvel;5;191.24;119.12;72.12
+NZ-ORD-586;08/08/2024;Returning;Wellington;Product-27;Clothing;Shirt;Puma;7;1886.16;1437.69;448.47
+NZ-ORD-587;09/08/2024;New;Dunedin;Product-14;Books;Comedy;20th Century Fox;8;922.3;757.29;165.01
+NZ-ORD-588;10/08/2024;New;Auckland;Product-15;Home Decor;Curtain;Rails;6;1807.87;1662.33;145.54
+NZ-ORD-589;11/08/2024;New;Wellington;Product-19;Electronics;DVD Player;Samsung;3;1805.75;1724.6;81.15
+NZ-ORD-590;12/08/2024;New;Auckland;Product-1;Books;Comedy;Universal;1;1902.28;1688.82;213.46
+NZ-ORD-591;13/08/2024;New;Auckland;Product-12;Home Decor;Window Blind;IKEA;5;1470.92;1354.4;116.52
+NZ-ORD-592;14/08/2024;New;Auckland;Product-23;Electronics;Hardisk SDD;Kingston;10;1012.49;526.16;486.33
+NZ-ORD-593;15/08/2024;Returning;Dunedin;Product-5;Books;Comedy;20th Century Fox;8;961.06;921.96;39.1
+NZ-ORD-594;16/08/2024;Returning;Auckland;Product-30;Books;Documentary;20th Century Fox;2;619.63;713.65;-94.02
+NZ-ORD-595;17/08/2024;New;Wellington;Product-16;Clothing;Shoe;Nike;9;408.71;-43.9;452.61
+NZ-ORD-596;18/08/2024;New;Wellington;Product-20;Books;Horror;Universal;4;1962.35;1918.55;43.8
+NZ-ORD-597;19/08/2024;Returning;Christchurch;Product-2;Home Decor;Vinyl Paper;Kenko;6;1316.69;1361.03;-44.34
+NZ-ORD-598;20/08/2024;Returning;Auckland;Product-21;Home Decor;Miniature Statue;Holmes Brok;8;1831.37;1702.01;129.36
+NZ-ORD-599;21/08/2024;New;Wellington;Product-12;Home Decor;Vase;IKEA;8;1364.36;866.2;498.16
+NZ-ORD-600;22/08/2024;New;Wellington;Product-24;Electronics;CCTV;Toshiba;8;1895.65;1659.7;235.95
+NZ-ORD-601;23/08/2024;New;Hamilton;Product-28;Clothing;Shoe;Nike;7;126.29;-247.74;374.03
+NZ-ORD-602;24/08/2024;New;Wellington;Product-14;Electronics;Hardisk SDD;Sandisk;7;1338.66;1087.06;251.6
+NZ-ORD-603;25/08/2024;Returning;Auckland;Product-30;Books;Romance;Universal;8;312.1;-75.91;388.01
+NZ-ORD-604;26/08/2024;New;Christchurch;Product-13;Home Decor;Window Blind;Kels;7;1820.73;1657.98;162.75
+NZ-ORD-605;27/08/2024;New;Christchurch;Product-29;Books;Romance;20th Century Fox;4;1804.02;1723.47;80.55
+NZ-ORD-606;28/08/2024;Returning;Auckland;Product-16;Toys;Doll;Yin Mang;1;1052.23;818.92;233.31
+NZ-ORD-607;29/08/2024;Returning;Hamilton;Product-25;Toys;Card Game;Hasbro;6;1293.33;852.09;441.24
+NZ-ORD-608;30/08/2024;Returning;Wellington;Product-28;Books;Cartoon;Warner Bros;8;1370.02;923.06;446.96
+NZ-ORD-609;31/08/2024;Returning;Auckland;Product-27;Books;Documentary;National Geographic;6;693.76;282.99;410.77
+NZ-ORD-610;01/09/2024;New;Dunedin;Product-28;Clothing;Shoe;Puma;7;1401.58;1478.11;-76.53
+NZ-ORD-611;02/09/2024;Returning;Christchurch;Product-27;Electronics;TV;Toshiba;6;774.87;481.02;293.85
+NZ-ORD-612;03/09/2024;Returning;Auckland;Product-16;Clothing;Jacket;New Balance;2;1563.11;1357.48;205.63
+NZ-ORD-613;04/09/2024;New;Wellington;Product-4;Home Decor;Miniature Statue;Baurdani;4;923.22;742.16;181.06
+NZ-ORD-614;05/09/2024;New;Dunedin;Product-12;Electronics;Mobile Phone;Apple;3;609.04;339.87;269.17
+NZ-ORD-615;06/09/2024;Returning;Wellington;Product-20;Home Decor;Curtain;IKEA;9;649.12;561.62;87.5
+NZ-ORD-616;07/09/2024;Returning;Hamilton;Product-10;Clothing;Shirt;Converse;1;1462.28;1072.37;389.91
+NZ-ORD-617;08/09/2024;Returning;Wellington;Product-19;Books;Comedy;20th Century Fox;4;1522.36;1452.27;70.09
+NZ-ORD-618;09/09/2024;New;Auckland;Product-11;Toys;Card Game;Hasbro;6;278.41;-4.9;283.31
+NZ-ORD-619;10/09/2024;New;Christchurch;Product-19;Books;Cartoon;Nickelodeon;3;1837;1770.4;66.6
+NZ-ORD-620;11/09/2024;Returning;Dunedin;Product-4;Books;Horror;Warner Bros;9;981.81;960.5;21.31
+NZ-ORD-621;12/09/2024;Returning;Hamilton;Product-5;Books;Cartoon;Disney;10;1623.11;1623.15;-0.04
+NZ-ORD-622;13/09/2024;New;Wellington;Product-3;Home Decor;Window Blind;IKEA;1;1204.56;942.2;262.36
+NZ-ORD-623;14/09/2024;Returning;Dunedin;Product-19;Clothing;T-Shirt;Nike;2;1191.35;1085.43;105.92
+NZ-ORD-624;15/09/2024;New;Hamilton;Product-24;Toys;Board Game;Century;6;89.34;-117.49;206.83
+NZ-ORD-625;16/09/2024;New;Hamilton;Product-21;Electronics;CCTV;Sony;7;629.43;622.19;7.24
+NZ-ORD-626;17/09/2024;Returning;Auckland;Product-4;Toys;Puzzle;Marvel;1;1255.57;1123.99;131.58
+NZ-ORD-627;18/09/2024;New;Hamilton;Product-12;Books;Romance;Disney;3;110.43;-376.07;486.5
+NZ-ORD-628;19/09/2024;Returning;Dunedin;Product-13;Home Decor;Curtain;Bardy;7;308.48;114.73;193.75
+NZ-ORD-629;20/09/2024;Returning;Christchurch;Product-1;Clothing;Shoe;Puma;10;1877.72;1709.74;167.98
+NZ-ORD-630;21/09/2024;New;Wellington;Product-16;Electronics;Mobile Phone;Apple;8;1402.64;1368.36;34.28
+NZ-ORD-631;22/09/2024;Returning;Hamilton;Product-29;Books;Romance;Warner Bros;5;1309.71;829.23;480.48
+NZ-ORD-632;23/09/2024;Returning;Hamilton;Product-17;Clothing;T-Shirt;Puma;6;1673.6;1284.41;389.19
+NZ-ORD-633;24/09/2024;Returning;Wellington;Product-1;Books;Comedy;Disney;6;990.33;686.93;303.4
+NZ-ORD-634;25/09/2024;Returning;Wellington;Product-23;Toys;Board Game;Marvel;10;307.02;-30.16;337.18
+NZ-ORD-635;26/09/2024;New;Auckland;Product-5;Electronics;DVD Player;Changhong;2;742.53;535.15;207.38
+NZ-ORD-636;27/09/2024;New;Hamilton;Product-27;Electronics;Hardisk SDD;Sandisk;1;618.13;600.44;17.69
+NZ-ORD-637;28/09/2024;Returning;Hamilton;Product-4;Electronics;DVD Player;Changhong;2;229.44;139.5;89.94
+NZ-ORD-638;29/09/2024;Returning;Wellington;Product-15;Home Decor;Curtain;Bardy;10;1043.12;1046.84;-3.72
+NZ-ORD-639;30/09/2024;Returning;Christchurch;Product-11;Toys;Robot;Bandai;7;1203.79;1098.43;105.36
+NZ-ORD-640;01/10/2024;New;Auckland;Product-28;Clothing;T-Shirt;New Balance;6;1900.15;1694.52;205.63
+NZ-ORD-641;02/10/2024;New;Auckland;Product-30;Books;Horror;Warner Bros;9;1145.91;1040.82;105.09
+NZ-ORD-642;03/10/2024;New;Dunedin;Product-13;Books;Documentary;Warner Bros;10;847.96;556.64;291.32
+NZ-ORD-643;04/10/2024;Returning;Christchurch;Product-29;Toys;Puzzle;Telltale;10;1953.36;1678.17;275.19
+NZ-ORD-644;05/10/2024;Returning;Wellington;Product-2;Toys;Robot;Sega;5;1457.08;1437.05;20.03
+NZ-ORD-645;06/10/2024;New;Hamilton;Product-14;Toys;Card Game;Century;9;224.78;124.67;100.11
+NZ-ORD-646;07/10/2024;Returning;Auckland;Product-21;Clothing;Shoe;Adidas;7;1444.79;1231.18;213.61
+NZ-ORD-647;08/10/2024;New;Dunedin;Product-18;Books;Romance;20th Century Fox;5;174;-107.8;281.8
+NZ-ORD-648;09/10/2024;Returning;Dunedin;Product-24;Books;Horror;Lionsgate;4;1523.35;1459.93;63.42
+NZ-ORD-649;10/10/2024;Returning;Christchurch;Product-4;Clothing;Shoe;Nike;9;218.77;-99.42;318.19
+NZ-ORD-650;11/10/2024;Returning;Christchurch;Product-5;Electronics;DVD Player;Toshiba;4;1973.23;1746.96;226.27
+NZ-ORD-651;12/10/2024;New;Auckland;Product-17;Books;Cartoon;Pixar;6;715.76;544.71;171.05
+NZ-ORD-652;13/10/2024;Returning;Hamilton;Product-19;Toys;Doll;Hasbro;1;993.97;616.78;377.19
+NZ-ORD-653;14/10/2024;New;Wellington;Product-16;Electronics;Hardisk SDD;Samsung;3;1558.17;1099.33;458.84
+NZ-ORD-654;15/10/2024;New;Dunedin;Product-10;Clothing;Shirt;New Balance;9;1250.45;1039.55;210.9
+NZ-ORD-655;16/10/2024;Returning;Wellington;Product-1;Books;Cartoon;Pixar;9;1052.83;971.66;81.17
+NZ-ORD-656;17/10/2024;New;Christchurch;Product-17;Books;Comedy;Universal;6;622.49;326.59;295.9
+NZ-ORD-657;18/10/2024;New;Hamilton;Product-9;Books;Romance;Lionsgate;6;181.81;-60.49;242.3
+NZ-ORD-658;19/10/2024;Returning;Christchurch;Product-12;Clothing;Jacket;Puma;5;240.14;-107.69;347.83
+NZ-ORD-659;20/10/2024;Returning;Wellington;Product-26;Electronics;CCTV;Samsung;8;1578.74;1393.35;185.39
+NZ-ORD-660;21/10/2024;Returning;Dunedin;Product-19;Books;Cartoon;Pixar;1;1076.02;888.9;187.12
+NZ-ORD-661;22/10/2024;New;Wellington;Product-3;Electronics;Mobile Phone;Apple;5;1383.78;910.73;473.05
+NZ-ORD-662;23/10/2024;Returning;Wellington;Product-4;Toys;Doll;Lego;3;1431.35;1459.6;-28.25
+NZ-ORD-663;24/10/2024;New;Christchurch;Product-26;Toys;Puzzle;Telltale;10;571.18;378.94;192.24
+NZ-ORD-664;25/10/2024;New;Hamilton;Product-3;Books;Documentary;Warner Bros;2;1991.29;2018.54;-27.25
+NZ-ORD-665;26/10/2024;Returning;Hamilton;Product-30;Clothing;Pant;Converse;8;1062.96;718.59;344.37
+NZ-ORD-666;27/10/2024;New;Christchurch;Product-11;Home Decor;Vase;Yuzhei Wong;8;825.67;713.19;112.48
+NZ-ORD-667;28/10/2024;New;Christchurch;Product-3;Electronics;DVD Player;Sony;4;1355.67;932.35;423.32
+NZ-ORD-668;29/10/2024;New;Auckland;Product-23;Books;Horror;Bloom House;2;841.12;611.61;229.51
+NZ-ORD-669;30/10/2024;Returning;Wellington;Product-4;Toys;Doll;Yin Mang;6;1452.95;1119.18;333.77
+NZ-ORD-670;31/10/2024;Returning;Christchurch;Product-11;Clothing;T-Shirt;Nike;3;712.18;369.01;343.17
+NZ-ORD-671;01/11/2024;New;Auckland;Product-22;Books;Romance;Lionsgate;6;1766.06;1709.48;56.58
+NZ-ORD-672;02/11/2024;New;Auckland;Product-11;Toys;Card Game;Century;3;129.55;-317.6;447.15
+NZ-ORD-673;03/11/2024;Returning;Christchurch;Product-21;Electronics;Mobile Phone;Vivo;1;206.52;12.9;193.62
+NZ-ORD-674;04/11/2024;New;Auckland;Product-7;Books;Cartoon;Dreamworks;5;1343.07;944.01;399.06
+NZ-ORD-675;05/11/2024;Returning;Dunedin;Product-23;Clothing;Pant;New Balance;6;1511.6;1504.77;6.83
+NZ-ORD-676;06/11/2024;New;Wellington;Product-6;Home Decor;Miniature Statue;Oates;4;322.6;217.53;105.07
+NZ-ORD-677;07/11/2024;Returning;Wellington;Product-11;Books;Cartoon;Warner Bros;7;123.96;173.93;-49.97
+NZ-ORD-678;08/11/2024;Returning;Christchurch;Product-25;Electronics;Hardisk SDD;Samsung;5;1846.54;1843.76;2.78
+NZ-ORD-679;09/11/2024;Returning;Christchurch;Product-25;Home Decor;Vinyl Paper;Joyko;9;1052.19;598.22;453.97
+NZ-ORD-680;10/11/2024;Returning;Auckland;Product-22;Books;Documentary;20th Century Fox;4;731.92;475.95;255.97
+NZ-ORD-681;11/11/2024;New;Wellington;Product-24;Clothing;Shirt;Converse;9;1907.82;1831.34;76.48
+NZ-ORD-682;12/11/2024;New;Christchurch;Product-12;Home Decor;Curtain;Brother;10;500.19;95.76;404.43
+NZ-ORD-683;13/11/2024;New;Hamilton;Product-19;Books;Horror;Lionsgate;3;1006.46;598.23;408.23
+NZ-ORD-684;14/11/2024;Returning;Hamilton;Product-6;Toys;Doll;Lego;8;103.28;-121.84;225.12
+NZ-ORD-685;15/11/2024;Returning;Dunedin;Product-14;Toys;Card Game;Telltale;6;1590.73;1601.77;-11.04
+NZ-ORD-686;16/11/2024;Returning;Dunedin;Product-22;Home Decor;Vinyl Paper;Seven;1;1020.26;678.33;341.93
+NZ-ORD-687;17/11/2024;Returning;Dunedin;Product-5;Books;Horror;Bloom House;10;1434.21;1223.38;210.83
+NZ-ORD-688;18/11/2024;New;Wellington;Product-6;Electronics;DVD Player;Sony;1;1880.95;1878.02;2.93
+NZ-ORD-689;19/11/2024;Returning;Wellington;Product-5;Electronics;DVD Player;Changhong;10;1652.98;1599.86;53.12
+NZ-ORD-690;20/11/2024;Returning;Auckland;Product-4;Electronics;CCTV;Huawei;3;1721.92;1704.41;17.51
+NZ-ORD-691;21/11/2024;New;Wellington;Product-1;Home Decor;Miniature Statue;Baurdani;5;985.59;1024.46;-38.87
+NZ-ORD-692;22/11/2024;New;Christchurch;Product-5;Clothing;T-Shirt;Nike;5;1776.88;1544.44;232.44
+NZ-ORD-693;23/11/2024;New;Christchurch;Product-11;Books;Comedy;Warner Bros;7;518.5;39.55;478.95
+NZ-ORD-694;24/11/2024;Returning;Auckland;Product-13;Books;Horror;Universal;1;557.51;189.27;368.24
+NZ-ORD-695;25/11/2024;New;Wellington;Product-14;Clothing;Shirt;Puma;6;450.43;456.02;-5.59
+NZ-ORD-696;26/11/2024;New;Wellington;Product-15;Toys;Card Game;Hasbro;7;1100.28;958.71;141.57
+NZ-ORD-697;27/11/2024;Returning;Hamilton;Product-12;Clothing;Shoe;Puma;4;108.78;105.31;3.47
+NZ-ORD-698;28/11/2024;Returning;Hamilton;Product-16;Toys;Board Game;Century;6;1424.63;1265.22;159.41
+NZ-ORD-699;29/11/2024;Returning;Hamilton;Product-18;Books;Cartoon;Disney;1;1835.87;1503.85;332.02
+NZ-ORD-700;30/11/2024;New;Wellington;Product-26;Home Decor;Vinyl Paper;Joyko;7;1552.65;1234.86;317.79
+NZ-ORD-701;01/12/2024;New;Dunedin;Product-4;Toys;Doll;Marvel;8;449.53;548.47;-98.94
+NZ-ORD-702;02/12/2024;Returning;Dunedin;Product-10;Home Decor;Vase;IKEA;2;1496.05;1507.06;-11.01
+NZ-ORD-703;03/12/2024;Returning;Wellington;Product-10;Home Decor;Window Blind;Kels;10;934.54;512.55;421.99
+NZ-ORD-704;04/12/2024;New;Dunedin;Product-8;Home Decor;Vase;IKEA;2;1899.53;1612.63;286.9
+NZ-ORD-705;05/12/2024;New;Auckland;Product-1;Clothing;Shoe;Puma;3;1619.62;1697.29;-77.67
+NZ-ORD-706;06/12/2024;New;Auckland;Product-30;Clothing;Shoe;New Balance;3;747.5;298.23;449.27
+NZ-ORD-707;07/12/2024;New;Dunedin;Product-28;Toys;Doll;Hasbro;7;608.95;555.55;53.4
+NZ-ORD-708;08/12/2024;Returning;Christchurch;Product-1;Electronics;Hardisk SDD;Samsung;4;1628.15;1182.71;445.44
+NZ-ORD-709;09/12/2024;New;Auckland;Product-20;Books;Romance;Disney;3;681.59;647.36;34.23
+NZ-ORD-710;10/12/2024;Returning;Hamilton;Product-14;Home Decor;Window Blind;Rails;3;415.68;291.6;124.08
+NZ-ORD-711;11/12/2024;New;Auckland;Product-6;Clothing;Pant;Puma;3;716.89;748.01;-31.12
+NZ-ORD-712;12/12/2024;New;Auckland;Product-16;Toys;Puzzle;Gramedia;3;1104.48;741.12;363.36
+NZ-ORD-713;13/12/2024;New;Hamilton;Product-16;Home Decor;Window Blind;IKEA;5;1038.04;789.6;248.44
+NZ-ORD-714;14/12/2024;Returning;Auckland;Product-1;Books;Horror;Warner Bros;2;1248.64;1278.5;-29.86
+NZ-ORD-715;15/12/2024;New;Christchurch;Product-9;Toys;Card Game;Dungeons;4;1104.44;1170.05;-65.61
+NZ-ORD-716;16/12/2024;Returning;Hamilton;Product-24;Books;Documentary;Discovery;8;633.76;336.99;296.77
+NZ-ORD-717;17/12/2024;Returning;Hamilton;Product-19;Home Decor;Miniature Statue;Oates;10;904.32;892.59;11.73
+NZ-ORD-718;18/12/2024;Returning;Christchurch;Product-13;Electronics;Hardisk SDD;Toshiba;10;1296.75;871.19;425.56
+NZ-ORD-719;19/12/2024;New;Auckland;Product-5;Books;Cartoon;Warner Bros;7;1841.79;1907.56;-65.77
+NZ-ORD-720;20/12/2024;New;Hamilton;Product-3;Clothing;Shoe;New Balance;2;1814.18;1821.62;-7.44
+NZ-ORD-721;21/12/2024;Returning;Christchurch;Product-1;Clothing;Jacket;Puma;3;1464.82;1516.66;-51.84
+NZ-ORD-722;22/12/2024;Returning;Wellington;Product-7;Toys;Doll;Marvel;7;804.54;460.16;344.38
+NZ-ORD-723;23/12/2024;New;Hamilton;Product-28;Toys;Puzzle;Wonder World;3;1621.71;1387.3;234.41
+NZ-ORD-724;24/12/2024;New;Christchurch;Product-14;Clothing;Shoe;Converse;7;1562.85;1534.09;28.76
+NZ-ORD-725;25/12/2024;Returning;Wellington;Product-14;Electronics;Hardisk SDD;Samsung;2;477.49;336.83;140.66
+NZ-ORD-726;26/12/2024;New;Christchurch;Product-1;Toys;Robot;Capcom;6;1315.2;916.8;398.4
+NZ-ORD-727;27/12/2024;Returning;Christchurch;Product-30;Home Decor;Vase;Midea;5;573.96;79.11;494.85
+NZ-ORD-728;28/12/2024;New;Wellington;Product-20;Electronics;Mobile Phone;Apple;2;64.21;-24.02;88.23
+NZ-ORD-729;29/12/2024;New;Auckland;Product-27;Toys;Robot;Konami;10;1613.87;1473.4;140.47
+NZ-ORD-730;30/12/2024;New;Christchurch;Product-22;Home Decor;Vinyl Paper;Seven;8;1707.91;1359.98;347.93
+NZ-ORD-731;31/12/2024;New;Christchurch;Product-23;Books;Horror;Universal;10;1644.55;1461.43;183.12
+NZ-ORD-732;01/01/2025;Returning;Hamilton;Product-15;Electronics;CCTV;Samsung;6;651.15;285.92;365.23
+NZ-ORD-733;02/01/2025;Returning;Dunedin;Product-24;Clothing;Pant;Adidas;6;848.41;523.75;324.66
+NZ-ORD-734;03/01/2025;Returning;Dunedin;Product-30;Electronics;CCTV;Sony;5;1772.02;1719.92;52.1
+NZ-ORD-735;04/01/2025;Returning;Hamilton;Product-15;Home Decor;Vinyl Paper;Kenko;8;1587.67;1148.41;439.26
+NZ-ORD-736;05/01/2025;Returning;Christchurch;Product-17;Clothing;Shirt;Nike;4;151.91;230.62;-78.71
+NZ-ORD-737;06/01/2025;Returning;Auckland;Product-6;Books;Cartoon;Dreamworks;3;402.32;-70.33;472.65
+NZ-ORD-738;07/01/2025;New;Auckland;Product-1;Clothing;Jacket;New Balance;2;625.04;663.95;-38.91
+NZ-ORD-739;08/01/2025;New;Hamilton;Product-7;Books;Documentary;Warner Bros;8;1739.88;1264.05;475.83
+NZ-ORD-740;09/01/2025;Returning;Wellington;Product-6;Books;Cartoon;Warner Bros;2;782.77;401.8;380.97
+NZ-ORD-741;10/01/2025;Returning;Wellington;Product-20;Clothing;Jacket;Puma;7;512.46;493.69;18.77
+NZ-ORD-742;11/01/2025;Returning;Dunedin;Product-23;Electronics;Mobile Phone;Apple;10;1720.74;1309.9;410.84
+NZ-ORD-743;12/01/2025;New;Auckland;Product-18;Electronics;Hardisk SDD;Seagate;6;1584.02;1575.33;8.69
+NZ-ORD-744;13/01/2025;New;Christchurch;Product-3;Home Decor;Vinyl Paper;Seven;6;1134.85;1227.2;-92.35
+NZ-ORD-745;14/01/2025;Returning;Dunedin;Product-23;Toys;Doll;Hasbro;9;1485.43;1056.4;429.03
+NZ-ORD-746;15/01/2025;New;Hamilton;Product-13;Books;Comedy;20th Century Fox;7;1667.59;1348.06;319.53
+NZ-ORD-747;16/01/2025;New;Wellington;Product-1;Books;Comedy;Warner Bros;1;1849.66;1570.45;279.21
+NZ-ORD-748;17/01/2025;Returning;Wellington;Product-5;Books;Comedy;Lionsgate;5;949.54;637.06;312.48
+NZ-ORD-749;18/01/2025;Returning;Auckland;Product-26;Clothing;T-Shirt;New Balance;5;1777.1;1754.61;22.49
+NZ-ORD-750;19/01/2025;New;Christchurch;Product-24;Toys;Puzzle;Marvel;6;1145.67;927.41;218.26
+NZ-ORD-751;20/01/2025;New;Hamilton;Product-9;Home Decor;Miniature Statue;Oates;9;36.71;-16.41;53.12
+NZ-ORD-752;21/01/2025;New;Christchurch;Product-5;Clothing;T-Shirt;Converse;5;358.6;264.54;94.06
+NZ-ORD-753;22/01/2025;Returning;Wellington;Product-14;Toys;Puzzle;Marvel;7;1897.08;1477.12;419.96
+NZ-ORD-754;23/01/2025;New;Wellington;Product-18;Clothing;Shirt;Converse;1;641.14;683.72;-42.58
+NZ-ORD-755;24/01/2025;New;Wellington;Product-7;Electronics;TV;Samsung;5;839.35;419.69;419.66
+NZ-ORD-756;25/01/2025;New;Auckland;Product-3;Toys;Card Game;Marvel;2;1070.22;911.84;158.38
+NZ-ORD-757;26/01/2025;Returning;Christchurch;Product-23;Clothing;Shoe;Puma;2;1675.34;1486.59;188.75
+NZ-ORD-758;27/01/2025;Returning;Auckland;Product-14;Home Decor;Vinyl Paper;Level Up;2;1232.98;902.28;330.7
+NZ-ORD-759;28/01/2025;New;Hamilton;Product-15;Books;Documentary;Universal;8;1447.19;1056.66;390.53
+NZ-ORD-760;29/01/2025;Returning;Auckland;Product-14;Home Decor;Miniature Statue;Tuscany;10;1079.18;1141.21;-62.03
+NZ-ORD-761;30/01/2025;New;Hamilton;Product-28;Toys;Board Game;Telltale;1;1403.02;1490.18;-87.16
+NZ-ORD-762;31/01/2025;New;Auckland;Product-9;Books;Horror;20th Century Fox;2;221.97;-35.82;257.79
+NZ-ORD-763;01/02/2025;Returning;Wellington;Product-26;Home Decor;Miniature Statue;Baurdani;10;813.09;380.23;432.86
+NZ-ORD-764;02/02/2025;New;Auckland;Product-9;Toys;Robot;Bandai;2;1640.85;1260.89;379.96
+NZ-ORD-765;03/02/2025;Returning;Christchurch;Product-12;Clothing;T-Shirt;Nike;2;242.79;-232.55;475.34
+NZ-ORD-766;04/02/2025;Returning;Dunedin;Product-15;Home Decor;Vinyl Paper;Level Up;10;1170.91;991.31;179.6
+NZ-ORD-767;05/02/2025;Returning;Hamilton;Product-30;Clothing;Pant;Converse;6;1601.54;1509.46;92.08
+NZ-ORD-768;06/02/2025;New;Dunedin;Product-23;Home Decor;Vinyl Paper;Joyko;9;1006.96;661.64;345.32
+NZ-ORD-769;07/02/2025;New;Christchurch;Product-11;Electronics;TV;Sony;8;1097.51;650.69;446.82
+NZ-ORD-770;08/02/2025;Returning;Hamilton;Product-9;Home Decor;Miniature Statue;Tuscany;5;815.32;642.87;172.45
+NZ-ORD-771;09/02/2025;Returning;Wellington;Product-24;Electronics;DVD Player;Samsung;1;343.12;126.66;216.46
+NZ-ORD-772;10/02/2025;New;Christchurch;Product-15;Toys;Card Game;Dungeons;1;1424.21;1353.74;70.47
+NZ-ORD-773;11/02/2025;New;Wellington;Product-2;Toys;Board Game;Hasbro;7;1898.23;1545.43;352.8
+NZ-ORD-774;12/02/2025;New;Hamilton;Product-25;Electronics;Mobile Phone;Vivo;10;157.42;-53.3;210.72
+NZ-ORD-775;13/02/2025;New;Hamilton;Product-7;Clothing;Jacket;Converse;10;1987.83;2045.44;-57.61
+NZ-ORD-776;14/02/2025;New;Christchurch;Product-22;Electronics;CCTV;Sony;10;1219.14;1193.76;25.38
+NZ-ORD-777;15/02/2025;Returning;Auckland;Product-21;Toys;Puzzle;Wonder World;7;1220.4;1195.96;24.44
+NZ-ORD-778;16/02/2025;Returning;Christchurch;Product-6;Toys;Doll;Yin Mang;10;965.53;652.42;313.11
+NZ-ORD-779;17/02/2025;Returning;Dunedin;Product-19;Home Decor;Vinyl Paper;Seiko;7;471.52;334.93;136.59
+NZ-ORD-780;18/02/2025;Returning;Hamilton;Product-23;Home Decor;Vinyl Paper;Level Up;1;1687.37;1311.84;375.53
+NZ-ORD-781;19/02/2025;Returning;Dunedin;Product-3;Electronics;Hardisk SDD;Kingston;9;76.46;69.18;7.28
+NZ-ORD-782;20/02/2025;Returning;Dunedin;Product-3;Home Decor;Miniature Statue;Oates;5;1510.18;1599.48;-89.3
+NZ-ORD-783;21/02/2025;Returning;Auckland;Product-10;Home Decor;Vase;Yuzhei Wong;1;1047.18;982.24;64.94
+NZ-ORD-784;22/02/2025;New;Wellington;Product-7;Books;Horror;20th Century Fox;9;593.75;518.31;75.44
+NZ-ORD-785;23/02/2025;Returning;Hamilton;Product-13;Home Decor;Window Blind;Bardy;4;695.59;722.44;-26.85
+NZ-ORD-786;24/02/2025;New;Christchurch;Product-7;Electronics;Mobile Phone;Vivo;8;1894.53;1541.27;353.26
+NZ-ORD-787;25/02/2025;Returning;Dunedin;Product-7;Toys;Puzzle;Hasbro;1;1491.85;1439.58;52.27
+NZ-ORD-788;26/02/2025;Returning;Hamilton;Product-7;Toys;Board Game;Telltale;1;1947.96;1743.14;204.82
+NZ-ORD-789;27/02/2025;Returning;Christchurch;Product-3;Clothing;Pant;Puma;2;1263.75;944.28;319.47
+NZ-ORD-790;28/02/2025;New;Auckland;Product-19;Electronics;TV;Toshiba;1;1938.12;1926.43;11.69
+NZ-ORD-791;01/03/2025;New;Hamilton;Product-20;Clothing;Pant;Converse;9;129.57;115.48;14.09
+NZ-ORD-792;02/03/2025;Returning;Auckland;Product-3;Clothing;Jacket;New Balance;5;1137.17;845.95;291.22
+NZ-ORD-793;03/03/2025;New;Christchurch;Product-5;Toys;Board Game;Marvel;7;1346.1;958.18;387.92
+NZ-ORD-794;04/03/2025;New;Dunedin;Product-13;Toys;Doll;Lego;3;1488.9;1406.59;82.31
+NZ-ORD-795;05/03/2025;New;Dunedin;Product-10;Clothing;Shirt;Converse;1;1345.39;1286.82;58.57
+NZ-ORD-796;06/03/2025;New;Christchurch;Product-18;Toys;Card Game;Hasbro;6;814.07;834.77;-20.7
+NZ-ORD-797;07/03/2025;New;Hamilton;Product-15;Home Decor;Curtain;Brother;3;1487.95;1474.52;13.43
+NZ-ORD-798;08/03/2025;New;Dunedin;Product-9;Electronics;Mobile Phone;Apple;3;1780.21;1615.01;165.2
+NZ-ORD-799;09/03/2025;New;Dunedin;Product-29;Home Decor;Curtain;IKEA;9;1112.52;796.45;316.07
+NZ-ORD-800;10/03/2025;Returning;Dunedin;Product-16;Home Decor;Curtain;Bardy;4;1300.86;1242.75;58.11
+NZ-ORD-801;11/03/2025;Returning;Christchurch;Product-14;Books;Comedy;20th Century Fox;5;1103.3;1191.81;-88.51
+NZ-ORD-802;12/03/2025;New;Wellington;Product-13;Books;Cartoon;Dreamworks;10;1203.89;710.35;493.54
+NZ-ORD-803;13/03/2025;Returning;Wellington;Product-16;Home Decor;Window Blind;Bardy;3;538.59;207.38;331.21
+NZ-ORD-804;14/03/2025;New;Hamilton;Product-11;Home Decor;Vinyl Paper;Seiko;10;1724.08;1651.03;73.05
+NZ-ORD-805;15/03/2025;New;Christchurch;Product-25;Toys;Board Game;Telltale;1;1531.37;1603.52;-72.15
+NZ-ORD-806;16/03/2025;New;Dunedin;Product-19;Toys;Card Game;Marvel;3;1488.21;1290.32;197.89
+NZ-ORD-807;17/03/2025;New;Christchurch;Product-26;Books;Horror;Warner Bros;8;1119.91;696.54;423.37
+NZ-ORD-808;18/03/2025;New;Auckland;Product-9;Clothing;Shirt;Nike;2;142.32;-134.98;277.3
+NZ-ORD-809;19/03/2025;Returning;Dunedin;Product-23;Electronics;Hardisk SDD;Seagate;1;700.73;629.47;71.26
+NZ-ORD-810;20/03/2025;New;Christchurch;Product-5;Electronics;Mobile Phone;Huawei;4;124.45;-108.92;233.37
+NZ-ORD-811;21/03/2025;Returning;Hamilton;Product-15;Toys;Card Game;Hasbro;9;785.49;446.4;339.09
+NZ-ORD-812;22/03/2025;New;Hamilton;Product-19;Books;Comedy;Universal;2;1892.3;1751.4;140.9
+NZ-ORD-813;23/03/2025;New;Auckland;Product-4;Toys;Board Game;Hasbro;2;561.08;415.33;145.75
+NZ-ORD-814;24/03/2025;New;Christchurch;Product-19;Books;Documentary;National Geographic;10;729.38;811.68;-82.3
+NZ-ORD-815;25/03/2025;New;Wellington;Product-25;Electronics;Hardisk SDD;Toshiba;4;1774.93;1744.43;30.5
+NZ-ORD-816;26/03/2025;New;Hamilton;Product-8;Electronics;Hardisk SDD;Seagate;9;1901.65;1645.7;255.95
+NZ-ORD-817;27/03/2025;New;Hamilton;Product-15;Home Decor;Vinyl Paper;Level Up;6;416.5;502.21;-85.71
+NZ-ORD-818;28/03/2025;Returning;Christchurch;Product-12;Books;Horror;Lionsgate;9;1371.12;1159.42;211.7
+NZ-ORD-819;29/03/2025;Returning;Auckland;Product-4;Electronics;DVD Player;Panasonic;3;567.52;94.86;472.66
+NZ-ORD-820;30/03/2025;Returning;Auckland;Product-16;Books;Documentary;National Geographic;3;1770.36;1364.58;405.78
+NZ-ORD-821;31/03/2025;Returning;Christchurch;Product-23;Books;Documentary;National Geographic;3;1016.68;851.44;165.24
+NZ-ORD-822;01/04/2025;Returning;Dunedin;Product-16;Electronics;TV;Xiaomi;1;658.47;569.82;88.65
+NZ-ORD-823;02/04/2025;New;Christchurch;Product-29;Toys;Card Game;Marvel;4;789.08;848.22;-59.14
+NZ-ORD-824;03/04/2025;New;Christchurch;Product-10;Electronics;CCTV;Toshiba;5;463.2;293.14;170.06
+NZ-ORD-825;04/04/2025;Returning;Christchurch;Product-3;Home Decor;Curtain;Brother;6;1338.92;887.94;450.98
+NZ-ORD-826;05/04/2025;New;Wellington;Product-7;Electronics;TV;Samsung;5;1098.97;605.55;493.42
+NZ-ORD-827;06/04/2025;New;Christchurch;Product-24;Electronics;Hardisk SDD;Kingston;9;1138.04;1028.59;109.45
+NZ-ORD-828;07/04/2025;New;Christchurch;Product-10;Toys;Robot;Bandai;7;264.69;252.18;12.51
+NZ-ORD-829;08/04/2025;Returning;Wellington;Product-1;Clothing;Pant;Puma;7;648.04;742.67;-94.63
+NZ-ORD-830;09/04/2025;Returning;Wellington;Product-28;Clothing;Jacket;Nike;8;1589.53;1513.45;76.08
+NZ-ORD-831;10/04/2025;New;Christchurch;Product-26;Toys;Doll;Lego;5;864.64;696.36;168.28
+NZ-ORD-832;11/04/2025;New;Wellington;Product-19;Clothing;Shirt;Puma;8;1486.6;1018.66;467.94
+NZ-ORD-833;12/04/2025;Returning;Auckland;Product-2;Home Decor;Vase;Midea;5;806.55;891.57;-85.02
+NZ-ORD-834;13/04/2025;Returning;Wellington;Product-24;Toys;Puzzle;Gramedia;4;1012.02;1041.69;-29.67
+NZ-ORD-835;14/04/2025;Returning;Auckland;Product-11;Toys;Doll;Barbie;4;1817.05;1523.26;293.79
+NZ-ORD-836;15/04/2025;New;Hamilton;Product-8;Clothing;Pant;Puma;1;778.73;806.57;-27.84
+NZ-ORD-837;16/04/2025;New;Hamilton;Product-13;Clothing;T-Shirt;Adidas;6;1962.13;1942.98;19.15
+NZ-ORD-838;17/04/2025;New;Dunedin;Product-29;Clothing;T-Shirt;Puma;8;1381.54;1093.06;288.48
+NZ-ORD-839;18/04/2025;Returning;Dunedin;Product-17;Electronics;CCTV;Toshiba;3;965.79;821.23;144.56
+NZ-ORD-840;19/04/2025;New;Auckland;Product-9;Home Decor;Vase;IKEA;4;1175.26;921.58;253.68
+NZ-ORD-841;20/04/2025;Returning;Christchurch;Product-16;Toys;Doll;Yin Mang;2;1828.81;1341.98;486.83
+NZ-ORD-842;21/04/2025;Returning;Dunedin;Product-14;Home Decor;Vase;Yuzhei Wong;4;1160.45;1001.61;158.84
+NZ-ORD-843;22/04/2025;Returning;Wellington;Product-20;Books;Comedy;Disney;10;1522.06;1426.67;95.39
+NZ-ORD-844;23/04/2025;Returning;Wellington;Product-27;Toys;Doll;Hasbro;4;878.93;780.5;98.43
+NZ-ORD-845;24/04/2025;New;Hamilton;Product-20;Home Decor;Window Blind;Brother;7;1384.09;1420.8;-36.71
+NZ-ORD-846;25/04/2025;Returning;Christchurch;Product-30;Electronics;DVD Player;Toshiba;8;313.85;228.8;85.05
+NZ-ORD-847;26/04/2025;New;Wellington;Product-7;Electronics;Hardisk SDD;Sandisk;8;330.99;69.17;261.82
+NZ-ORD-848;27/04/2025;Returning;Wellington;Product-24;Books;Documentary;Warner Bros;3;702.59;419.6;282.99
+NZ-ORD-849;28/04/2025;Returning;Hamilton;Product-27;Books;Romance;Warner Bros;4;1049.48;1054.9;-5.42
+NZ-ORD-850;29/04/2025;Returning;Auckland;Product-22;Clothing;Jacket;Converse;3;1202.51;932.03;270.48
+NZ-ORD-851;30/04/2025;New;Auckland;Product-21;Toys;Puzzle;Telltale;5;1009.76;612.95;396.81
+NZ-ORD-852;01/05/2025;Returning;Dunedin;Product-18;Toys;Robot;Namco;1;1585.04;1200.49;384.55
+NZ-ORD-853;02/05/2025;New;Hamilton;Product-2;Electronics;TV;Panasonic;9;846.12;910.91;-64.79
+NZ-ORD-854;03/05/2025;New;Christchurch;Product-27;Toys;Puzzle;Hasbro;5;430.02;529.32;-99.3
+NZ-ORD-855;04/05/2025;Returning;Auckland;Product-2;Electronics;Hardisk SDD;Toshiba;1;1708.98;1592.91;116.07
+NZ-ORD-856;05/05/2025;Returning;Auckland;Product-12;Home Decor;Vinyl Paper;Seven;2;1714.99;1710.98;4.01
+NZ-ORD-857;06/05/2025;New;Hamilton;Product-26;Books;Horror;Lionsgate;9;272.68;-85.23;357.91
+NZ-ORD-858;07/05/2025;New;Wellington;Product-20;Home Decor;Window Blind;Rails;1;690.93;253.06;437.87
+NZ-ORD-859;08/05/2025;Returning;Hamilton;Product-16;Toys;Puzzle;Hasbro;2;928.54;450.08;478.46
+NZ-ORD-860;09/05/2025;New;Hamilton;Product-11;Books;Documentary;20th Century Fox;9;986.29;908.79;77.5
+NZ-ORD-861;10/05/2025;Returning;Auckland;Product-3;Toys;Robot;Sega;5;1572.87;1334.77;238.1
+NZ-ORD-862;11/05/2025;New;Christchurch;Product-13;Electronics;Hardisk SDD;Samsung;1;614.91;216.92;397.99
+NZ-ORD-863;12/05/2025;New;Wellington;Product-2;Home Decor;Vinyl Paper;Seven;8;465;138.46;326.54
+NZ-ORD-864;13/05/2025;New;Christchurch;Product-13;Clothing;Pant;Puma;4;977.5;508.91;468.59
+NZ-ORD-865;14/05/2025;New;Dunedin;Product-12;Books;Horror;20th Century Fox;9;1579.95;1085.2;494.75
+NZ-ORD-866;15/05/2025;New;Auckland;Product-8;Clothing;Shoe;Nike;8;991.7;586.76;404.94
+NZ-ORD-867;16/05/2025;New;Christchurch;Product-17;Books;Horror;Warner Bros;7;1601.03;1314.44;286.59
+NZ-ORD-868;17/05/2025;Returning;Dunedin;Product-1;Books;Cartoon;Pixar;2;660.85;240.24;420.61
+NZ-ORD-869;18/05/2025;New;Hamilton;Product-6;Toys;Robot;Konami;7;1672.11;1761.1;-88.99
+NZ-ORD-870;19/05/2025;New;Wellington;Product-26;Home Decor;Curtain;Kels;7;1986.1;1824.77;161.33
+NZ-ORD-871;20/05/2025;Returning;Auckland;Product-27;Electronics;CCTV;Sony;2;41.68;-368.82;410.5
+NZ-ORD-872;21/05/2025;Returning;Christchurch;Product-23;Clothing;Shoe;Adidas;9;261.53;32.34;229.19
+NZ-ORD-873;22/05/2025;Returning;Dunedin;Product-9;Clothing;Shirt;Puma;9;345.07;395.42;-50.35
+NZ-ORD-874;23/05/2025;Returning;Wellington;Product-13;Home Decor;Vase;Foshan;4;1840.76;1764.86;75.9
+NZ-ORD-875;24/05/2025;Returning;Wellington;Product-29;Books;Horror;Lionsgate;9;1475.66;1209.87;265.79
+NZ-ORD-876;25/05/2025;Returning;Auckland;Product-5;Toys;Board Game;Marvel;5;1762.19;1739.32;22.87
+NZ-ORD-877;26/05/2025;New;Hamilton;Product-30;Electronics;TV;Xiaomi;4;410.81;348.67;62.14
+NZ-ORD-878;27/05/2025;New;Dunedin;Product-4;Home Decor;Vinyl Paper;Joyko;1;155.42;-156.84;312.26
+NZ-ORD-879;28/05/2025;New;Dunedin;Product-9;Electronics;TV;Sony;10;1060.85;746.41;314.44
+NZ-ORD-880;29/05/2025;New;Auckland;Product-12;Home Decor;Curtain;IKEA;7;1494.86;1426.15;68.71
+NZ-ORD-881;30/05/2025;New;Wellington;Product-30;Books;Comedy;Lionsgate;5;835.61;570.76;264.85
+NZ-ORD-882;31/05/2025;Returning;Auckland;Product-20;Clothing;Shoe;New Balance;10;917.93;774.72;143.21
+NZ-ORD-883;01/06/2025;New;Christchurch;Product-16;Clothing;Jacket;Puma;1;413.28;197.26;216.02
+NZ-ORD-884;02/06/2025;New;Auckland;Product-27;Books;Horror;Lionsgate;3;134.76;-127.59;262.35
+NZ-ORD-885;03/06/2025;Returning;Christchurch;Product-7;Clothing;Pant;Nike;2;1600.91;1688.21;-87.3
+NZ-ORD-886;04/06/2025;Returning;Auckland;Product-22;Electronics;CCTV;Samsung;8;1420.1;1373.06;47.04
+NZ-ORD-887;05/06/2025;New;Auckland;Product-24;Electronics;CCTV;Toshiba;4;788.33;407.32;381.01
+NZ-ORD-888;06/06/2025;Returning;Christchurch;Product-1;Books;Comedy;Warner Bros;9;363.4;326.95;36.45
+NZ-ORD-889;07/06/2025;New;Hamilton;Product-20;Books;Cartoon;Nickelodeon;1;1082.71;765.3;317.41
+NZ-ORD-890;08/06/2025;New;Christchurch;Product-8;Toys;Puzzle;Hasbro;4;1434.9;1514.59;-79.69
+NZ-ORD-891;09/06/2025;Returning;Christchurch;Product-17;Toys;Card Game;Marvel;2;302.14;287.99;14.15
+NZ-ORD-892;10/06/2025;New;Auckland;Product-27;Books;Comedy;20th Century Fox;4;436.57;271.44;165.13
+NZ-ORD-893;11/06/2025;New;Auckland;Product-24;Clothing;Shoe;Nike;6;1434.79;1128.09;306.7
+NZ-ORD-894;12/06/2025;Returning;Auckland;Product-16;Electronics;CCTV;Samsung;8;600.51;172.76;427.75
+NZ-ORD-895;13/06/2025;Returning;Christchurch;Product-4;Home Decor;Miniature Statue;Oates;4;929;967.67;-38.67
+NZ-ORD-896;14/06/2025;Returning;Wellington;Product-5;Clothing;T-Shirt;Converse;2;877.27;670.2;207.07
+NZ-ORD-897;15/06/2025;Returning;Hamilton;Product-4;Clothing;T-Shirt;New Balance;3;1329.77;1226.65;103.12
+NZ-ORD-898;16/06/2025;Returning;Auckland;Product-26;Clothing;Pant;Nike;1;1158.82;1003.2;155.62
+NZ-ORD-899;17/06/2025;Returning;Hamilton;Product-29;Home Decor;Vase;Foshan;7;1252.75;1223.61;29.14
+NZ-ORD-900;18/06/2025;New;Hamilton;Product-12;Books;Romance;20th Century Fox;8;90.85;-209.99;300.84
+NZ-ORD-901;19/06/2025;Returning;Auckland;Product-30;Clothing;Shirt;New Balance;4;1903.77;1770.32;133.45
+NZ-ORD-902;20/06/2025;Returning;Wellington;Product-23;Electronics;Mobile Phone;Apple;1;44.78;-181.01;225.79
+NZ-ORD-903;21/06/2025;New;Auckland;Product-14;Toys;Puzzle;Marvel;7;953.23;1004.57;-51.34
+NZ-ORD-904;22/06/2025;Returning;Wellington;Product-23;Home Decor;Curtain;IKEA;2;1950.07;1681.23;268.84
+NZ-ORD-905;23/06/2025;New;Hamilton;Product-10;Clothing;Pant;Converse;9;1816.57;1690.31;126.26
+NZ-ORD-906;24/06/2025;Returning;Hamilton;Product-19;Toys;Robot;Sega;7;1164.6;1059.85;104.75
+NZ-ORD-907;25/06/2025;Returning;Christchurch;Product-27;Clothing;Shoe;Adidas;2;1368.06;963.38;404.68
+NZ-ORD-908;26/06/2025;Returning;Dunedin;Product-17;Clothing;Shirt;Nike;9;891.78;585.65;306.13
+NZ-ORD-909;27/06/2025;New;Hamilton;Product-23;Toys;Card Game;Telltale;3;490.56;300.89;189.67
+NZ-ORD-910;28/06/2025;New;Christchurch;Product-7;Toys;Doll;Yin Mang;2;571.97;520.2;51.77
+NZ-ORD-911;29/06/2025;New;Wellington;Product-11;Electronics;Mobile Phone;Apple;8;678.92;498.13;180.79
+NZ-ORD-912;30/06/2025;Returning;Wellington;Product-21;Electronics;CCTV;Xiaomi;3;1476.37;1193.45;282.92
+NZ-ORD-913;01/07/2025;Returning;Auckland;Product-23;Books;Romance;Warner Bros;9;778.62;837.16;-58.54
+NZ-ORD-914;02/07/2025;Returning;Wellington;Product-4;Home Decor;Window Blind;Bardy;1;373.92;442.26;-68.34
+NZ-ORD-915;03/07/2025;New;Dunedin;Product-7;Books;Horror;Warner Bros;7;1387.97;1434.74;-46.77
+NZ-ORD-916;04/07/2025;New;Dunedin;Product-21;Electronics;DVD Player;Sony;6;738.69;620.89;117.8
+NZ-ORD-917;05/07/2025;New;Dunedin;Product-21;Books;Horror;Universal;10;1291.54;861.14;430.4
+NZ-ORD-918;06/07/2025;New;Wellington;Product-9;Home Decor;Vase;Midea;1;1540.75;1309.52;231.23
+NZ-ORD-919;07/07/2025;New;Auckland;Product-16;Clothing;Shirt;Nike;8;891.4;951.86;-60.46
+NZ-ORD-920;08/07/2025;New;Hamilton;Product-16;Books;Cartoon;Warner Bros;9;971.91;631.41;340.5
+NZ-ORD-921;09/07/2025;Returning;Christchurch;Product-17;Electronics;DVD Player;Panasonic;9;648.73;703.23;-54.5
+NZ-ORD-922;10/07/2025;Returning;Hamilton;Product-27;Books;Documentary;Discovery;8;1030.61;869.55;161.06
+NZ-ORD-923;11/07/2025;New;Hamilton;Product-17;Toys;Robot;Bandai;8;942.78;1011.02;-68.24
+NZ-ORD-924;12/07/2025;New;Hamilton;Product-30;Home Decor;Vinyl Paper;Seven;4;122.25;133.68;-11.43
+NZ-ORD-925;13/07/2025;Returning;Dunedin;Product-22;Electronics;TV;Toshiba;7;851.36;809.92;41.44
+NZ-ORD-926;14/07/2025;Returning;Auckland;Product-27;Home Decor;Window Blind;Brother;2;127.34;49.54;77.8
+NZ-ORD-927;15/07/2025;Returning;Dunedin;Product-19;Toys;Robot;Sega;1;408.59;20.21;388.38
+NZ-ORD-928;16/07/2025;Returning;Auckland;Product-8;Electronics;Hardisk SDD;Kingston;5;1596.23;1646.73;-50.5
+NZ-ORD-929;17/07/2025;New;Dunedin;Product-12;Electronics;DVD Player;Sony;2;1434.88;1276.14;158.74
+NZ-ORD-930;18/07/2025;Returning;Christchurch;Product-7;Clothing;Shoe;Adidas;8;328.49;5.56;322.93
+NZ-ORD-931;19/07/2025;New;Auckland;Product-29;Toys;Doll;Hasbro;8;199.84;216.19;-16.35
+NZ-ORD-932;20/07/2025;Returning;Hamilton;Product-29;Home Decor;Miniature Statue;Holmes Brok;8;115.25;-195.65;310.9
+NZ-ORD-933;21/07/2025;New;Dunedin;Product-24;Home Decor;Window Blind;IKEA;6;1541.1;1561.3;-20.2
+NZ-ORD-934;22/07/2025;Returning;Hamilton;Product-7;Toys;Card Game;Dungeons;1;378.41;31.67;346.74
+NZ-ORD-935;23/07/2025;New;Auckland;Product-6;Home Decor;Curtain;Rails;6;385.35;111.34;274.01
+NZ-ORD-936;24/07/2025;Returning;Dunedin;Product-22;Home Decor;Vase;Midea;3;780.97;369.54;411.43
+NZ-ORD-937;25/07/2025;Returning;Christchurch;Product-7;Electronics;Hardisk SDD;Kingston;6;624.51;545.65;78.86
+NZ-ORD-938;26/07/2025;New;Christchurch;Product-16;Toys;Card Game;Century;4;1016.04;1081.91;-65.87
+NZ-ORD-939;27/07/2025;New;Dunedin;Product-20;Toys;Card Game;Marvel;6;1110.94;1113.01;-2.07
+NZ-ORD-940;28/07/2025;New;Dunedin;Product-15;Toys;Puzzle;Marvel;10;67.8;-201.03;268.83
+NZ-ORD-941;29/07/2025;Returning;Auckland;Product-26;Electronics;TV;Toshiba;7;837.81;574.52;263.29
+NZ-ORD-942;30/07/2025;New;Christchurch;Product-11;Home Decor;Vinyl Paper;Joyko;9;654.26;500.58;153.68
+NZ-ORD-943;31/07/2025;Returning;Dunedin;Product-27;Toys;Board Game;Marvel;8;1124.89;1201.5;-76.61
+NZ-ORD-944;01/08/2025;Returning;Christchurch;Product-24;Electronics;Mobile Phone;Huawei;3;1528.32;1545.99;-17.67
+NZ-ORD-945;02/08/2025;New;Wellington;Product-12;Home Decor;Vase;Zhongwei;1;783.86;682.13;101.73
+NZ-ORD-946;03/08/2025;New;Wellington;Product-10;Electronics;CCTV;Samsung;7;1357.93;939.14;418.79
+NZ-ORD-947;04/08/2025;Returning;Auckland;Product-20;Electronics;Mobile Phone;Apple;2;1145.02;1238.97;-93.95
+NZ-ORD-948;05/08/2025;Returning;Auckland;Product-16;Home Decor;Vinyl Paper;Seiko;3;51.36;-94.57;145.93
+NZ-ORD-949;06/08/2025;New;Auckland;Product-4;Toys;Doll;Hasbro;7;630.57;263.82;366.75
+NZ-ORD-950;07/08/2025;Returning;Wellington;Product-16;Books;Cartoon;Warner Bros;5;1736.13;1820.66;-84.53
+NZ-ORD-951;08/08/2025;Returning;Christchurch;Product-14;Toys;Robot;Bandai;1;769.66;640.99;128.67
+NZ-ORD-952;09/08/2025;Returning;Christchurch;Product-10;Books;Cartoon;Dreamworks;5;975.12;654.94;320.18
+NZ-ORD-953;10/08/2025;New;Christchurch;Product-17;Electronics;TV;Sony;3;1515.49;1508.99;6.5
+NZ-ORD-954;11/08/2025;New;Wellington;Product-11;Clothing;Jacket;New Balance;10;1241.13;908.54;332.59
+NZ-ORD-955;12/08/2025;New;Dunedin;Product-15;Toys;Board Game;Telltale;6;1449.58;1163.88;285.7
+NZ-ORD-956;13/08/2025;Returning;Auckland;Product-18;Home Decor;Vase;Zhongwei;6;1955.66;1680.47;275.19
+NZ-ORD-957;14/08/2025;Returning;Hamilton;Product-10;Home Decor;Vinyl Paper;Seiko;9;1365.36;1139.68;225.68
+NZ-ORD-958;15/08/2025;Returning;Hamilton;Product-5;Books;Romance;Warner Bros;9;1464.39;1222.19;242.2
+NZ-ORD-959;16/08/2025;Returning;Dunedin;Product-29;Home Decor;Miniature Statue;Oates;1;1462.57;1358.87;103.7
+NZ-ORD-960;17/08/2025;New;Dunedin;Product-28;Home Decor;Miniature Statue;Bucchari;4;165.81;121.25;44.56
+NZ-ORD-961;18/08/2025;Returning;Wellington;Product-27;Home Decor;Vinyl Paper;Kenko;5;1379.07;1204.52;174.55
+NZ-ORD-962;19/08/2025;Returning;Christchurch;Product-26;Electronics;TV;Panasonic;8;502.74;32.03;470.71
+NZ-ORD-963;20/08/2025;Returning;Auckland;Product-4;Toys;Board Game;Marvel;4;1926.07;1749.49;176.58
+NZ-ORD-964;21/08/2025;Returning;Wellington;Product-2;Electronics;DVD Player;Samsung;3;868.32;432.6;435.72
+NZ-ORD-965;22/08/2025;Returning;Dunedin;Product-9;Toys;Board Game;Exploding;8;788.01;492.81;295.2
+NZ-ORD-966;23/08/2025;Returning;Christchurch;Product-3;Books;Romance;Universal;5;1259.19;832.34;426.85
+NZ-ORD-967;24/08/2025;New;Hamilton;Product-20;Clothing;T-Shirt;New Balance;7;88.44;7.62;80.82
+NZ-ORD-968;25/08/2025;Returning;Christchurch;Product-10;Toys;Puzzle;Marvel;7;910.52;987.65;-77.13
+NZ-ORD-969;26/08/2025;New;Hamilton;Product-24;Toys;Board Game;Century;10;836.41;544.71;291.7
+NZ-ORD-970;27/08/2025;New;Hamilton;Product-29;Electronics;TV;Toshiba;9;767.01;457.5;309.51
+NZ-ORD-971;28/08/2025;Returning;Wellington;Product-21;Books;Horror;Universal;8;1910.28;1611.4;298.88
+NZ-ORD-972;29/08/2025;New;Christchurch;Product-3;Books;Documentary;Universal;9;332.77;177.17;155.6
+NZ-ORD-973;30/08/2025;New;Auckland;Product-22;Toys;Puzzle;Marvel;5;860.33;896.72;-36.39
+NZ-ORD-974;31/08/2025;New;Christchurch;Product-28;Home Decor;Curtain;Bardy;3;1966.32;1626.74;339.58
+NZ-ORD-975;01/09/2025;Returning;Hamilton;Product-1;Electronics;Hardisk SDD;Toshiba;6;1350.42;1240.11;110.31
+NZ-ORD-976;02/09/2025;Returning;Dunedin;Product-30;Clothing;T-Shirt;New Balance;2;797.66;770.78;26.88
+NZ-ORD-977;03/09/2025;Returning;Christchurch;Product-5;Books;Documentary;Warner Bros;10;333.26;308.68;24.58
+NZ-ORD-978;04/09/2025;New;Christchurch;Product-3;Toys;Doll;Marvel;6;753.36;644.44;108.92
+NZ-ORD-979;05/09/2025;New;Wellington;Product-12;Books;Cartoon;Pixar;10;1493.21;1491.07;2.14
+NZ-ORD-980;06/09/2025;Returning;Auckland;Product-29;Electronics;Mobile Phone;Apple;2;913.4;732.63;180.77
+NZ-ORD-981;07/09/2025;Returning;Hamilton;Product-27;Books;Comedy;Disney;3;1198.6;741.18;457.42
+NZ-ORD-982;08/09/2025;New;Dunedin;Product-22;Electronics;TV;Xiaomi;6;493.69;133.72;359.97
+NZ-ORD-983;09/09/2025;Returning;Wellington;Product-18;Clothing;Shirt;Adidas;2;881.8;813.46;68.34
+NZ-ORD-984;10/09/2025;Returning;Auckland;Product-18;Books;Cartoon;Warner Bros;4;321.5;101.2;220.3
+NZ-ORD-985;11/09/2025;Returning;Christchurch;Product-23;Clothing;T-Shirt;Adidas;3;1802.48;1702.67;99.81
+NZ-ORD-986;12/09/2025;New;Christchurch;Product-3;Home Decor;Curtain;Bardy;6;1906.34;1725.13;181.21
+NZ-ORD-987;13/09/2025;New;Auckland;Product-25;Clothing;Shirt;Nike;3;426.19;72.67;353.52
+NZ-ORD-988;14/09/2025;Returning;Wellington;Product-5;Clothing;T-Shirt;Nike;5;1916.92;1494.09;422.83
+NZ-ORD-989;15/09/2025;New;Hamilton;Product-8;Toys;Card Game;Century;6;640.76;558.09;82.67
+NZ-ORD-990;16/09/2025;New;Dunedin;Product-16;Books;Romance;20th Century Fox;4;70.3;-181.92;252.22
+NZ-ORD-991;17/09/2025;New;Dunedin;Product-13;Home Decor;Window Blind;Rails;6;1212.81;1140.94;71.87
+NZ-ORD-992;18/09/2025;New;Hamilton;Product-6;Clothing;T-Shirt;Adidas;9;1975.77;1642.36;333.41
+NZ-ORD-993;19/09/2025;New;Dunedin;Product-5;Electronics;DVD Player;Panasonic;7;1560.47;1197.62;362.85
+NZ-ORD-994;20/09/2025;Returning;Christchurch;Product-15;Toys;Doll;Lego;2;516.53;346.69;169.84
+NZ-ORD-995;21/09/2025;New;Dunedin;Product-23;Clothing;Jacket;Puma;7;642.21;285.2;357.01
+NZ-ORD-996;22/09/2025;New;Auckland;Product-6;Home Decor;Curtain;Rails;5;1455.61;1189.44;266.17
+NZ-ORD-997;23/09/2025;New;Dunedin;Product-11;Home Decor;Miniature Statue;Oates;5;1137.29;1183.21;-45.92
+NZ-ORD-998;24/09/2025;Returning;Hamilton;Product-8;Home Decor;Curtain;Brother;3;730.09;756.41;-26.32
+NZ-ORD-999;25/09/2025;New;Auckland;Product-30;Toys;Card Game;Marvel;1;1673.65;1403.89;269.76
+NZ-ORD-1000;26/09/2025;New;Dunedin;Product-13;Home Decor;Miniature Statue;Holmes Brok;1;1451.5;984.78;466.72
+NZ-ORD-1001;27/09/2025;New;Christchurch;Product-19;Clothing;Jacket;Nike;3;1907.51;1911.06;-3.55
+NZ-ORD-1002;28/09/2025;New;Hamilton;Product-7;Home Decor;Vase;Midea;7;924.05;564.64;359.41
+NZ-ORD-1003;29/09/2025;Returning;Dunedin;Product-12;Home Decor;Vase;Zhongwei;8;1573.2;1223.76;349.44
+NZ-ORD-1004;30/09/2025;Returning;Christchurch;Product-1;Electronics;TV;Sony;2;274.65;287.34;-12.69
+NZ-ORD-1005;01/10/2025;Returning;Hamilton;Product-12;Home Decor;Curtain;Brother;10;1982.03;2076.93;-94.9
+NZ-ORD-1006;02/10/2025;New;Auckland;Product-5;Toys;Doll;Hasbro;8;1586.86;1481.12;105.74
+NZ-ORD-1007;03/10/2025;Returning;Christchurch;Product-14;Clothing;Jacket;Nike;3;1230.22;1051.18;179.04
+NZ-ORD-1008;04/10/2025;New;Wellington;Product-25;Home Decor;Vase;Yuzhei Wong;1;1813.41;1317.24;496.17
+NZ-ORD-1009;05/10/2025;Returning;Dunedin;Product-20;Clothing;T-Shirt;Nike;7;621.01;684.37;-63.36
+NZ-ORD-1010;06/10/2025;Returning;Hamilton;Product-9;Electronics;CCTV;Samsung;3;1917.99;1968.4;-50.41
+NZ-ORD-1011;07/10/2025;Returning;Christchurch;Product-4;Home Decor;Vinyl Paper;Seven;4;250.56;-111.02;361.58
+NZ-ORD-1012;08/10/2025;Returning;Dunedin;Product-18;Home Decor;Curtain;Rails;6;190.46;-246.05;436.51
+NZ-ORD-1013;09/10/2025;New;Auckland;Product-4;Toys;Puzzle;Wonder World;9;1468.95;1190.72;278.23
+NZ-ORD-1014;10/10/2025;New;Hamilton;Product-14;Books;Cartoon;Pixar;1;710.72;680.82;29.9
+NZ-ORD-1015;11/10/2025;New;Wellington;Product-16;Electronics;DVD Player;Sony;9;973.4;743.7;229.7
+NZ-ORD-1016;12/10/2025;New;Hamilton;Product-6;Books;Horror;Lionsgate;8;1977.82;1500.36;477.46
+NZ-ORD-1017;13/10/2025;Returning;Dunedin;Product-24;Clothing;Pant;Converse;10;137.23;-4.49;141.72
+NZ-ORD-1018;14/10/2025;New;Hamilton;Product-8;Books;Comedy;Lionsgate;7;1463.7;1301.95;161.75
+NZ-ORD-1019;15/10/2025;Returning;Dunedin;Product-19;Electronics;CCTV;Samsung;2;564.77;214.52;350.25
+NZ-ORD-1020;16/10/2025;Returning;Hamilton;Product-6;Books;Horror;Lionsgate;3;643.13;649.59;-6.46
+NZ-ORD-1021;17/10/2025;New;Dunedin;Product-30;Electronics;DVD Player;Toshiba;3;1190.21;850.81;339.4
+NZ-ORD-1022;18/10/2025;Returning;Christchurch;Product-14;Toys;Puzzle;Hasbro;3;1202.17;962.64;239.53
+NZ-ORD-1023;19/10/2025;Returning;Christchurch;Product-18;Electronics;TV;Samsung;1;399.09;288.03;111.06
+NZ-ORD-1024;20/10/2025;Returning;Wellington;Product-25;Clothing;Pant;Adidas;1;1992.45;1717.34;275.11
+NZ-ORD-1025;21/10/2025;Returning;Wellington;Product-24;Books;Comedy;Universal;6;399.31;483.6;-84.29
+NZ-ORD-1026;22/10/2025;Returning;Christchurch;Product-11;Clothing;Shoe;Converse;6;410.09;74.7;335.39
+NZ-ORD-1027;23/10/2025;New;Wellington;Product-1;Electronics;Mobile Phone;Apple;10;335.38;-113.04;448.42
+NZ-ORD-1028;24/10/2025;New;Dunedin;Product-22;Home Decor;Curtain;Kels;1;93.63;93.58;0.05
+NZ-ORD-1029;25/10/2025;New;Auckland;Product-8;Electronics;TV;Sony;3;286.83;385.05;-98.22
+NZ-ORD-1030;26/10/2025;New;Hamilton;Product-4;Clothing;Shoe;Converse;2;1320.61;1048.53;272.08
+NZ-ORD-1031;27/10/2025;New;Hamilton;Product-29;Electronics;TV;Sony;2;727.29;478.82;248.47
+NZ-ORD-1032;28/10/2025;New;Christchurch;Product-23;Electronics;DVD Player;Toshiba;4;1788.91;1745.07;43.84
+NZ-ORD-1033;29/10/2025;New;Hamilton;Product-7;Electronics;DVD Player;Toshiba;4;592.71;640.47;-47.76
+NZ-ORD-1034;30/10/2025;Returning;Christchurch;Product-11;Toys;Doll;Marvel;7;835.8;496.46;339.34
+NZ-ORD-1035;31/10/2025;New;Auckland;Product-29;Toys;Puzzle;Wonder World;6;754.62;366.53;388.09
+NZ-ORD-1036;01/11/2025;Returning;Auckland;Product-15;Books;Documentary;Universal;6;1065.82;1071.37;-5.55
+NZ-ORD-1037;02/11/2025;New;Wellington;Product-4;Clothing;Pant;Nike;7;1502.78;1010.58;492.2
+NZ-ORD-1038;03/11/2025;New;Christchurch;Product-5;Clothing;Shirt;New Balance;9;1191.04;1151.36;39.68
+NZ-ORD-1039;04/11/2025;New;Wellington;Product-7;Clothing;Shoe;Nike;2;887.09;666.49;220.6
+NZ-ORD-1040;05/11/2025;New;Auckland;Product-12;Home Decor;Curtain;Bardy;2;847.2;404.38;442.82
+NZ-ORD-1041;06/11/2025;New;Christchurch;Product-13;Electronics;Hardisk SDD;Sandisk;5;657.87;259.74;398.13
+NZ-ORD-1042;07/11/2025;Returning;Christchurch;Product-1;Clothing;T-Shirt;Puma;6;627.68;261.9;365.78
+NZ-ORD-1043;08/11/2025;New;Wellington;Product-20;Toys;Robot;Capcom;2;314.49;328.7;-14.21
+NZ-ORD-1044;09/11/2025;Returning;Christchurch;Product-19;Books;Comedy;Warner Bros;8;800.01;539.14;260.87
+NZ-ORD-1045;10/11/2025;Returning;Hamilton;Product-27;Home Decor;Vase;Foshan;3;1099.77;918.49;181.28
+NZ-ORD-1046;11/11/2025;New;Hamilton;Product-27;Books;Romance;20th Century Fox;5;1395.5;899.52;495.98
+NZ-ORD-1047;12/11/2025;New;Dunedin;Product-26;Toys;Board Game;Marvel;10;1186.57;1157.1;29.47
+NZ-ORD-1048;13/11/2025;New;Christchurch;Product-2;Toys;Puzzle;Marvel;3;414.47;469;-54.53
+NZ-ORD-1049;14/11/2025;Returning;Hamilton;Product-9;Home Decor;Window Blind;Kels;1;288.12;-167.64;455.76
+NZ-ORD-1050;15/11/2025;Returning;Dunedin;Product-5;Books;Cartoon;Pixar;1;658.95;528.95;130
+NZ-ORD-1051;16/11/2025;New;Christchurch;Product-8;Clothing;T-Shirt;Adidas;8;1483.79;1297.7;186.09
+NZ-ORD-1052;17/11/2025;Returning;Christchurch;Product-30;Books;Horror;Universal;2;420.72;394.97;25.75
+NZ-ORD-1053;18/11/2025;Returning;Dunedin;Product-20;Home Decor;Curtain;Rails;3;286.99;79.51;207.48
+NZ-ORD-1054;19/11/2025;Returning;Christchurch;Product-16;Books;Cartoon;Dreamworks;4;1003.27;522.22;481.05
+NZ-ORD-1055;20/11/2025;New;Dunedin;Product-25;Toys;Board Game;Telltale;6;732.81;745.62;-12.81
+NZ-ORD-1056;21/11/2025;New;Wellington;Product-19;Home Decor;Vinyl Paper;Seven;8;1005.69;534.2;471.49
+NZ-ORD-1057;22/11/2025;New;Auckland;Product-26;Electronics;Hardisk SDD;Kingston;3;548.56;552.41;-3.85
+NZ-ORD-1058;23/11/2025;Returning;Wellington;Product-21;Home Decor;Miniature Statue;Holmes Brok;4;1997.32;1647.32;350
+NZ-ORD-1059;24/11/2025;Returning;Auckland;Product-13;Books;Cartoon;Warner Bros;6;536.2;215.24;320.96
+NZ-ORD-1060;25/11/2025;New;Auckland;Product-3;Home Decor;Miniature Statue;Holmes Brok;8;1659.3;1683.94;-24.64
+NZ-ORD-1061;26/11/2025;Returning;Auckland;Product-6;Toys;Robot;Namco;3;451.54;268.11;183.43
+NZ-ORD-1062;27/11/2025;Returning;Christchurch;Product-19;Electronics;Mobile Phone;Apple;6;910.91;419.32;491.59
+NZ-ORD-1063;28/11/2025;Returning;Christchurch;Product-23;Books;Cartoon;Dreamworks;5;1059.63;811.13;248.5
+NZ-ORD-1064;29/11/2025;New;Auckland;Product-10;Electronics;DVD Player;Panasonic;4;1736.07;1438.48;297.59
+NZ-ORD-1065;30/11/2025;Returning;Christchurch;Product-5;Electronics;DVD Player;Toshiba;9;1592.43;1628.16;-35.73
+NZ-ORD-1066;01/12/2025;New;Dunedin;Product-9;Home Decor;Miniature Statue;Holmes Brok;6;1254.26;1231.13;23.13
+NZ-ORD-1067;02/12/2025;New;Wellington;Product-28;Books;Comedy;Disney;6;1773.53;1714.05;59.48
+NZ-ORD-1068;03/12/2025;New;Christchurch;Product-22;Home Decor;Curtain;IKEA;2;190.83;289.21;-98.38
+NZ-ORD-1069;04/12/2025;New;Dunedin;Product-13;Books;Horror;Lionsgate;4;1103.56;848.72;254.84
+NZ-ORD-1070;05/12/2025;New;Wellington;Product-5;Books;Documentary;Discovery;1;303.25;402.25;-99
+NZ-ORD-1071;06/12/2025;Returning;Auckland;Product-14;Books;Comedy;Lionsgate;4;802.48;662.55;139.93
+NZ-ORD-1072;07/12/2025;Returning;Christchurch;Product-13;Toys;Board Game;Hasbro;10;767.12;416.4;350.72
+NZ-ORD-1073;08/12/2025;New;Wellington;Product-11;Toys;Robot;Konami;3;544.79;559.31;-14.52
+NZ-ORD-1074;09/12/2025;New;Auckland;Product-23;Toys;Board Game;Century;1;1984.12;2043.75;-59.63
+NZ-ORD-1075;10/12/2025;Returning;Auckland;Product-12;Clothing;Shoe;Puma;9;919.85;553.06;366.79
+NZ-ORD-1076;11/12/2025;Returning;Christchurch;Product-1;Toys;Puzzle;Marvel;7;279.11;82.48;196.63
+NZ-ORD-1077;12/12/2025;Returning;Hamilton;Product-24;Toys;Puzzle;Wonder World;6;783.84;436.64;347.2
+NZ-ORD-1078;13/12/2025;Returning;Auckland;Product-6;Electronics;Hardisk SDD;Sandisk;10;671.73;725.41;-53.68
+NZ-ORD-1079;14/12/2025;New;Christchurch;Product-10;Clothing;Pant;Puma;3;372.08;168.43;203.65
+NZ-ORD-1080;15/12/2025;Returning;Hamilton;Product-27;Books;Cartoon;Disney;5;491.1;197.46;293.64
+NZ-ORD-1081;16/12/2025;New;Dunedin;Product-15;Toys;Robot;Namco;8;1755.68;1789.72;-34.04
+NZ-ORD-1082;17/12/2025;Returning;Auckland;Product-20;Electronics;Hardisk SDD;Sandisk;8;392.7;36.21;356.49
+NZ-ORD-1083;18/12/2025;Returning;Christchurch;Product-18;Electronics;Mobile Phone;Oppo;9;1823.55;1840.26;-16.71
+NZ-ORD-1084;19/12/2025;Returning;Wellington;Product-14;Electronics;TV;Sony;10;1949.15;1752.95;196.2
+NZ-ORD-1085;20/12/2025;Returning;Christchurch;Product-24;Home Decor;Miniature Statue;Baurdani;10;42.87;126.13;-83.26
+NZ-ORD-1086;21/12/2025;Returning;Hamilton;Product-28;Books;Documentary;Discovery;1;493.53;8.41;485.12
+NZ-ORD-1087;22/12/2025;New;Dunedin;Product-30;Books;Comedy;20th Century Fox;9;964.14;550.82;413.32
+NZ-ORD-1088;23/12/2025;Returning;Auckland;Product-28;Electronics;TV;Panasonic;1;585.67;543.87;41.8
+NZ-ORD-1089;24/12/2025;New;Christchurch;Product-27;Home Decor;Curtain;Rails;3;1104.94;1157.83;-52.89
+NZ-ORD-1090;25/12/2025;Returning;Dunedin;Product-6;Home Decor;Miniature Statue;Baurdani;9;350.04;171.63;178.41
+NZ-ORD-1091;26/12/2025;New;Christchurch;Product-21;Home Decor;Curtain;Brother;8;815.94;707.74;108.2
+NZ-ORD-1092;27/12/2025;Returning;Wellington;Product-9;Clothing;Shirt;Puma;10;523.16;418.78;104.38
+NZ-ORD-1093;28/12/2025;Returning;Dunedin;Product-14;Home Decor;Vinyl Paper;Level Up;1;1211.38;1151.54;59.84
+NZ-ORD-1094;29/12/2025;New;Dunedin;Product-14;Toys;Board Game;Telltale;4;459.3;17.69;441.61
+NZ-ORD-1095;30/12/2025;New;Christchurch;Product-9;Toys;Doll;Barbie;2;1607.35;1384.45;222.9
+NZ-ORD-1096;31/12/2025;Returning;Christchurch;Product-30;Home Decor;Window Blind;Bardy;7;743.86;567.11;176.75
+NZ-ORD-1097;01/01/2026;Returning;Dunedin;Product-18;Books;Horror;Universal;4;853.89;608.47;245.42
+NZ-ORD-1098;02/01/2026;Returning;Christchurch;Product-11;Toys;Robot;Sega;7;1277.46;794.27;483.19
+NZ-ORD-1099;03/01/2026;New;Christchurch;Product-26;Electronics;DVD Player;Toshiba;8;1638.81;1314.96;323.85
+NZ-ORD-1100;04/01/2026;Returning;Christchurch;Product-4;Books;Romance;Warner Bros;10;1060.38;600.06;460.32
+NZ-ORD-1101;05/01/2026;Returning;Dunedin;Product-22;Toys;Board Game;Telltale;9;1997.99;1877.52;120.47
+NZ-ORD-1102;06/01/2026;New;Auckland;Product-21;Home Decor;Vase;IKEA;3;870.55;634.52;236.03
+NZ-ORD-1103;07/01/2026;Returning;Wellington;Product-5;Toys;Doll;Lego;2;898.73;890.92;7.81
+NZ-ORD-1104;08/01/2026;Returning;Auckland;Product-20;Home Decor;Curtain;IKEA;7;1618.67;1363.8;254.87
+NZ-ORD-1105;09/01/2026;Returning;Auckland;Product-21;Clothing;Pant;Nike;6;1606.49;1223.5;382.99
+NZ-ORD-1106;10/01/2026;Returning;Hamilton;Product-12;Clothing;Pant;Converse;5;999.93;1090.76;-90.83
+NZ-ORD-1107;11/01/2026;Returning;Hamilton;Product-8;Electronics;Mobile Phone;Oppo;6;1227.48;906.35;321.13
+NZ-ORD-1108;12/01/2026;Returning;Hamilton;Product-2;Books;Documentary;Warner Bros;5;264.35;291.74;-27.39
+NZ-ORD-1109;13/01/2026;Returning;Dunedin;Product-20;Toys;Card Game;Telltale;1;443.82;-27.61;471.43
+NZ-ORD-1110;14/01/2026;New;Dunedin;Product-26;Clothing;Jacket;Adidas;2;807.46;512.93;294.53
+NZ-ORD-1111;15/01/2026;Returning;Christchurch;Product-1;Clothing;T-Shirt;Adidas;2;383.17;280.66;102.51
+NZ-ORD-1112;16/01/2026;New;Dunedin;Product-24;Books;Comedy;Disney;1;1980.09;1658.15;321.94
+NZ-ORD-1113;17/01/2026;Returning;Dunedin;Product-30;Toys;Board Game;Telltale;6;1210.43;1141.64;68.79
+NZ-ORD-1114;18/01/2026;Returning;Hamilton;Product-2;Clothing;T-Shirt;Adidas;9;1771.11;1430.9;340.21
+NZ-ORD-1115;19/01/2026;Returning;Auckland;Product-10;Books;Documentary;National Geographic;9;220.96;-58.93;279.89
+NZ-ORD-1116;20/01/2026;New;Wellington;Product-6;Electronics;TV;Xiaomi;5;1189.72;1109.01;80.71
+NZ-ORD-1117;21/01/2026;New;Auckland;Product-18;Books;Documentary;20th Century Fox;1;859.62;561.61;298.01
+NZ-ORD-1118;22/01/2026;Returning;Hamilton;Product-20;Home Decor;Miniature Statue;Holmes Brok;4;1554.57;1355.18;199.39
+NZ-ORD-1119;23/01/2026;Returning;Wellington;Product-4;Toys;Board Game;Telltale;10;728.83;472.99;255.84
+NZ-ORD-1120;24/01/2026;New;Wellington;Product-27;Home Decor;Curtain;Brother;3;351.5;3.27;348.23
+NZ-ORD-1121;25/01/2026;Returning;Christchurch;Product-3;Books;Cartoon;Pixar;9;132.98;67.6;65.38
+NZ-ORD-1122;26/01/2026;Returning;Wellington;Product-6;Books;Horror;Universal;2;1571.15;1600.21;-29.06
+NZ-ORD-1123;27/01/2026;New;Christchurch;Product-12;Clothing;Jacket;Converse;6;398.8;-46.65;445.45
+NZ-ORD-1124;28/01/2026;New;Wellington;Product-10;Toys;Board Game;Exploding;2;1047.89;1108.98;-61.09
+NZ-ORD-1125;29/01/2026;Returning;Hamilton;Product-15;Home Decor;Miniature Statue;Oates;1;1673.51;1450.91;222.6
+NZ-ORD-1126;30/01/2026;New;Auckland;Product-16;Electronics;DVD Player;Samsung;4;1742.76;1787.86;-45.1
+NZ-ORD-1127;31/01/2026;Returning;Dunedin;Product-14;Electronics;CCTV;Xiaomi;1;180.19;-29.87;210.06
+NZ-ORD-1128;01/02/2026;Returning;Dunedin;Product-29;Toys;Doll;Hasbro;3;345.47;-93.83;439.3
+NZ-ORD-1129;02/02/2026;New;Hamilton;Product-19;Books;Documentary;National Geographic;1;502.93;439.39;63.54
+NZ-ORD-1130;03/02/2026;Returning;Hamilton;Product-25;Clothing;Pant;Puma;8;514.24;198.75;315.49
+NZ-ORD-1131;04/02/2026;New;Dunedin;Product-4;Clothing;Shoe;Puma;3;1475.44;1571.43;-95.99
+NZ-ORD-1132;05/02/2026;New;Hamilton;Product-6;Clothing;T-Shirt;Puma;6;660.27;337.21;323.06
+NZ-ORD-1133;06/02/2026;New;Dunedin;Product-16;Clothing;Pant;Nike;1;1665;1537.83;127.17
+NZ-ORD-1134;07/02/2026;New;Auckland;Product-29;Home Decor;Vase;IKEA;8;550.9;236.73;314.17
+NZ-ORD-1135;08/02/2026;New;Dunedin;Product-3;Toys;Robot;Bandai;3;1495.34;1589.8;-94.46
+NZ-ORD-1136;09/02/2026;Returning;Christchurch;Product-1;Electronics;Mobile Phone;Vivo;5;130.22;-114.5;244.72
+NZ-ORD-1137;10/02/2026;New;Dunedin;Product-27;Toys;Board Game;Hasbro;2;617.45;713.56;-96.11
+NZ-ORD-1138;11/02/2026;Returning;Auckland;Product-15;Home Decor;Curtain;IKEA;2;109.35;-214.6;323.95
+NZ-ORD-1139;12/02/2026;New;Wellington;Product-11;Toys;Doll;Barbie;9;1828.11;1545.49;282.62
+NZ-ORD-1140;13/02/2026;Returning;Hamilton;Product-10;Books;Documentary;Universal;1;459.15;-0.69;459.84
+NZ-ORD-1141;14/02/2026;Returning;Dunedin;Product-2;Toys;Card Game;Dungeons;2;945.9;998.55;-52.65
+NZ-ORD-1142;15/02/2026;Returning;Auckland;Product-24;Toys;Puzzle;Wonder World;9;1035;1042.36;-7.36
+NZ-ORD-1143;16/02/2026;Returning;Wellington;Product-20;Toys;Card Game;Marvel;9;1556.84;1183.26;373.58
+NZ-ORD-1144;17/02/2026;Returning;Auckland;Product-29;Electronics;Mobile Phone;Apple;2;1519.93;1282.22;237.71
+NZ-ORD-1145;18/02/2026;New;Auckland;Product-25;Electronics;DVD Player;Toshiba;5;30.13;-210.47;240.6
+NZ-ORD-1146;19/02/2026;New;Hamilton;Product-11;Home Decor;Window Blind;Kels;6;1162.8;992.01;170.79
+NZ-ORD-1147;20/02/2026;New;Wellington;Product-25;Electronics;DVD Player;Sony;3;1810.9;1745.2;65.7
+NZ-ORD-1148;21/02/2026;New;Christchurch;Product-5;Clothing;Jacket;Nike;7;1944.12;1551.76;392.36
+NZ-ORD-1149;22/02/2026;New;Hamilton;Product-29;Toys;Puzzle;Wonder World;4;168.98;230.76;-61.78
+NZ-ORD-1150;23/02/2026;Returning;Wellington;Product-6;Toys;Board Game;Exploding;6;1531.04;1301.28;229.76
+NZ-ORD-1151;24/02/2026;Returning;Christchurch;Product-10;Electronics;Hardisk SDD;Samsung;4;147.18;159.28;-12.1
+NZ-ORD-1152;25/02/2026;Returning;Dunedin;Product-9;Clothing;Shirt;Adidas;6;210.7;-107.47;318.17
+NZ-ORD-1153;26/02/2026;Returning;Auckland;Product-18;Toys;Robot;Bandai;10;1480.5;1418.37;62.13
+NZ-ORD-1154;27/02/2026;New;Hamilton;Product-17;Home Decor;Window Blind;Rails;5;1207.96;1139.77;68.19
+NZ-ORD-1155;28/02/2026;Returning;Dunedin;Product-25;Toys;Board Game;Marvel;10;613.39;554.75;58.64
+NZ-ORD-1156;01/03/2026;New;Christchurch;Product-28;Clothing;Shoe;Nike;10;460.67;437.89;22.78
+NZ-ORD-1157;02/03/2026;Returning;Hamilton;Product-7;Home Decor;Vinyl Paper;Seiko;6;797.79;633.66;164.13
+NZ-ORD-1158;03/03/2026;Returning;Christchurch;Product-17;Home Decor;Vase;Midea;10;277.91;5.99;271.92
+NZ-ORD-1159;04/03/2026;New;Hamilton;Product-17;Toys;Robot;Bandai;4;288.22;-176.75;464.97
+NZ-ORD-1160;05/03/2026;New;Wellington;Product-2;Toys;Board Game;Exploding;8;796.3;856.09;-59.79
+NZ-ORD-1161;06/03/2026;Returning;Christchurch;Product-9;Electronics;TV;Panasonic;4;1207.97;814.2;393.77
+NZ-ORD-1162;07/03/2026;Returning;Christchurch;Product-6;Home Decor;Vinyl Paper;Kenko;5;1752.17;1298.4;453.77
+NZ-ORD-1163;08/03/2026;New;Hamilton;Product-25;Home Decor;Vase;Midea;7;163.22;-71.9;235.12
+NZ-ORD-1164;09/03/2026;New;Auckland;Product-29;Clothing;T-Shirt;Adidas;10;776.54;295.12;481.42
+NZ-ORD-1165;10/03/2026;Returning;Auckland;Product-7;Books;Cartoon;Disney;5;1932.83;1988.16;-55.33
+NZ-ORD-1166;11/03/2026;Returning;Dunedin;Product-24;Toys;Doll;Marvel;10;1005.44;920.62;84.82
+NZ-ORD-1167;12/03/2026;New;Auckland;Product-6;Home Decor;Curtain;Kels;4;1911.08;1943.76;-32.68
+NZ-ORD-1168;13/03/2026;New;Christchurch;Product-29;Books;Documentary;National Geographic;6;324.28;268.3;55.98
+NZ-ORD-1169;14/03/2026;New;Wellington;Product-20;Books;Cartoon;Pixar;1;148.19;136.23;11.96
+NZ-ORD-1170;15/03/2026;Returning;Auckland;Product-9;Clothing;Shirt;New Balance;1;301.99;378.2;-76.21
+NZ-ORD-1171;16/03/2026;Returning;Christchurch;Product-3;Toys;Card Game;Hasbro;10;669.17;388.4;280.77
+NZ-ORD-1172;17/03/2026;New;Dunedin;Product-23;Clothing;Shoe;Adidas;6;578.18;329.99;248.19
+NZ-ORD-1173;18/03/2026;New;Auckland;Product-11;Clothing;Shoe;Puma;1;1837.59;1531.42;306.17
+NZ-ORD-1174;19/03/2026;Returning;Wellington;Product-10;Home Decor;Curtain;Kels;9;1611.82;1631.25;-19.43
+NZ-ORD-1175;20/03/2026;Returning;Wellington;Product-22;Toys;Robot;Bandai;3;1647.83;1526.25;121.58
+NZ-ORD-1176;21/03/2026;Returning;Dunedin;Product-28;Toys;Puzzle;Hasbro;9;1825.57;1533.13;292.44
+NZ-ORD-1177;22/03/2026;New;Hamilton;Product-16;Toys;Card Game;Telltale;10;197.87;241.47;-43.6
+NZ-ORD-1178;23/03/2026;New;Christchurch;Product-4;Electronics;CCTV;Huawei;8;1251.27;1032.31;218.96
+NZ-ORD-1179;24/03/2026;New;Wellington;Product-16;Clothing;Jacket;Converse;9;564.36;390.25;174.11
+NZ-ORD-1180;25/03/2026;Returning;Hamilton;Product-15;Books;Horror;Warner Bros;3;1870.65;1692.24;178.41
+NZ-ORD-1181;26/03/2026;New;Auckland;Product-27;Electronics;CCTV;Sony;5;1140.91;1032.27;108.64
+NZ-ORD-1182;27/03/2026;Returning;Auckland;Product-16;Books;Horror;Universal;8;1126.33;1079.21;47.12
+NZ-ORD-1183;28/03/2026;New;Christchurch;Product-24;Toys;Doll;Marvel;9;241.41;-1.39;242.8
+NZ-ORD-1184;29/03/2026;New;Hamilton;Product-22;Books;Documentary;Warner Bros;2;1148.04;695.73;452.31
+NZ-ORD-1185;30/03/2026;Returning;Christchurch;Product-2;Books;Horror;20th Century Fox;3;734.39;321.23;413.16
+NZ-ORD-1186;31/03/2026;New;Christchurch;Product-1;Electronics;Mobile Phone;Apple;3;1057.69;1051.83;5.86
+NZ-ORD-1187;01/04/2026;Returning;Auckland;Product-20;Electronics;TV;Panasonic;3;1658.4;1282.52;375.88
+NZ-ORD-1188;02/04/2026;Returning;Wellington;Product-4;Electronics;Mobile Phone;Vivo;4;1158.01;904.15;253.86
+NZ-ORD-1189;03/04/2026;New;Dunedin;Product-16;Clothing;Shirt;Nike;3;887.32;901.16;-13.84
+NZ-ORD-1190;04/04/2026;Returning;Wellington;Product-19;Clothing;Shoe;Nike;9;1394.59;931.7;462.89
+NZ-ORD-1191;05/04/2026;Returning;Auckland;Product-1;Toys;Doll;Marvel;2;869.76;438.52;431.24
+NZ-ORD-1192;06/04/2026;New;Dunedin;Product-3;Toys;Doll;Marvel;4;1518.2;1285.57;232.63
+NZ-ORD-1193;07/04/2026;New;Dunedin;Product-10;Books;Comedy;Disney;5;592.46;532.9;59.56
+NZ-ORD-1194;08/04/2026;New;Hamilton;Product-27;Toys;Robot;Konami;1;1740.22;1614.3;125.92
+NZ-ORD-1195;09/04/2026;Returning;Wellington;Product-6;Clothing;T-Shirt;Puma;6;693.84;338.21;355.63
+NZ-ORD-1196;10/04/2026;Returning;Hamilton;Product-13;Electronics;TV;Panasonic;5;855.45;505.3;350.15
+NZ-ORD-1197;11/04/2026;Returning;Christchurch;Product-23;Electronics;DVD Player;Changhong;1;76.68;136.84;-60.16
+NZ-ORD-1198;12/04/2026;New;Wellington;Product-11;Books;Cartoon;Nickelodeon;5;1120.41;927.77;192.64
+NZ-ORD-1199;13/04/2026;New;Hamilton;Product-24;Books;Comedy;Warner Bros;4;1591.33;1656.56;-65.23
+NZ-ORD-1200;14/04/2026;New;Christchurch;Product-7;Home Decor;Curtain;IKEA;2;634.69;487.97;146.72
+NZ-ORD-1201;15/04/2026;New;Hamilton;Product-28;Electronics;CCTV;Sony;2;790.58;474.77;315.81
+NZ-ORD-1202;16/04/2026;Returning;Hamilton;Product-28;Electronics;Mobile Phone;Huawei;10;425.84;49.14;376.7
+NZ-ORD-1203;17/04/2026;Returning;Dunedin;Product-1;Electronics;TV;Panasonic;3;760.65;542.55;218.1
+NZ-ORD-1204;18/04/2026;New;Wellington;Product-22;Electronics;CCTV;Samsung;5;132.24;179.49;-47.25
+NZ-ORD-1205;19/04/2026;New;Christchurch;Product-14;Electronics;DVD Player;Changhong;3;1504.53;1348.03;156.5
+NZ-ORD-1206;20/04/2026;New;Christchurch;Product-28;Toys;Doll;Lego;7;1704.73;1740.38;-35.65
+NZ-ORD-1207;21/04/2026;New;Hamilton;Product-9;Books;Documentary;Universal;5;90.84;3.9;86.94
+NZ-ORD-1208;22/04/2026;New;Dunedin;Product-6;Toys;Board Game;Exploding;2;168.41;187.25;-18.84
+NZ-ORD-1209;23/04/2026;New;Auckland;Product-3;Books;Romance;Lionsgate;4;1616.66;1679.49;-62.83
+NZ-ORD-1210;24/04/2026;Returning;Hamilton;Product-30;Clothing;Pant;Converse;8;958.6;951.56;7.04
+NZ-ORD-1211;25/04/2026;New;Auckland;Product-28;Toys;Robot;Capcom;7;1352.81;1149.17;203.64
+NZ-ORD-1212;26/04/2026;Returning;Hamilton;Product-12;Electronics;CCTV;Samsung;9;1849.53;1363.28;486.25
+NZ-ORD-1213;27/04/2026;Returning;Hamilton;Product-9;Home Decor;Curtain;Brother;5;1308.82;887.8;421.02
+NZ-ORD-1214;28/04/2026;Returning;Auckland;Product-8;Toys;Board Game;Telltale;9;71.7;-300.75;372.45
+NZ-ORD-1215;29/04/2026;New;Wellington;Product-7;Books;Cartoon;Warner Bros;5;648.8;385.31;263.49
+NZ-ORD-1216;30/04/2026;Returning;Wellington;Product-12;Clothing;Shirt;Puma;3;1689.34;1680.46;8.88
+NZ-ORD-1217;01/05/2026;Returning;Auckland;Product-30;Electronics;DVD Player;Sony;2;176.38;-21.2;197.58
+NZ-ORD-1218;02/05/2026;New;Hamilton;Product-12;Electronics;DVD Player;Changhong;10;457.96;134.02;323.94
+NZ-ORD-1219;03/05/2026;New;Auckland;Product-19;Clothing;Shirt;New Balance;5;1478.04;1112.86;365.18
+NZ-ORD-1220;04/05/2026;New;Auckland;Product-17;Clothing;T-Shirt;New Balance;4;428.19;359.15;69.04
+NZ-ORD-1221;05/05/2026;Returning;Hamilton;Product-8;Home Decor;Miniature Statue;Baurdani;9;1191.17;990.19;200.98
+NZ-ORD-1222;06/05/2026;New;Auckland;Product-30;Home Decor;Curtain;Brother;5;1182;782.39;399.61
+NZ-ORD-1223;07/05/2026;New;Auckland;Product-30;Toys;Puzzle;Telltale;6;1004.11;714.34;289.77
+NZ-ORD-1224;08/05/2026;Returning;Wellington;Product-24;Books;Documentary;Universal;9;166.78;-72.12;238.9
+NZ-ORD-1225;09/05/2026;New;Hamilton;Product-22;Electronics;Hardisk SDD;Seagate;7;52.99;-254.27;307.26
+NZ-ORD-1226;10/05/2026;New;Hamilton;Product-14;Clothing;Jacket;Nike;5;1748.84;1837.65;-88.81
+NZ-ORD-1227;11/05/2026;Returning;Hamilton;Product-6;Home Decor;Vase;Midea;4;1841.49;1607.79;233.7
+NZ-ORD-1228;12/05/2026;Returning;Dunedin;Product-6;Home Decor;Curtain;Brother;5;1143.12;1167.19;-24.07
+NZ-ORD-1229;13/05/2026;New;Hamilton;Product-3;Toys;Board Game;Exploding;4;79.64;-259.91;339.55
+NZ-ORD-1230;14/05/2026;Returning;Auckland;Product-1;Books;Romance;Warner Bros;10;1188.73;1253.6;-64.87
+NZ-ORD-1231;15/05/2026;Returning;Dunedin;Product-8;Books;Comedy;Warner Bros;1;220.53;70.25;150.28
+NZ-ORD-1232;16/05/2026;New;Dunedin;Product-21;Home Decor;Window Blind;Rails;8;1429.31;1317.32;111.99
+NZ-ORD-1233;17/05/2026;New;Christchurch;Product-27;Home Decor;Miniature Statue;Holmes Brok;4;626.22;620.63;5.59
+NZ-ORD-1234;18/05/2026;New;Christchurch;Product-2;Books;Horror;Universal;3;1531.41;1622.3;-90.89
+NZ-ORD-1235;19/05/2026;Returning;Auckland;Product-28;Clothing;Shoe;Converse;4;555.85;477.92;77.93
+NZ-ORD-1236;20/05/2026;New;Wellington;Product-14;Electronics;Hardisk SDD;Toshiba;7;1680.09;1477.99;202.1
+NZ-ORD-1237;21/05/2026;Returning;Christchurch;Product-3;Home Decor;Vinyl Paper;Level Up;1;1111.23;973.8;137.43
+NZ-ORD-1238;22/05/2026;New;Auckland;Product-14;Books;Comedy;Disney;5;1805.63;1782.6;23.03
+NZ-ORD-1239;23/05/2026;New;Hamilton;Product-21;Toys;Puzzle;Hasbro;10;1173.35;823.39;349.96
+NZ-ORD-1240;24/05/2026;New;Dunedin;Product-15;Clothing;Pant;Converse;4;416.36;361.06;55.3
+NZ-ORD-1241;25/05/2026;New;Hamilton;Product-10;Books;Documentary;Warner Bros;8;231.81;240.1;-8.29
+NZ-ORD-1242;26/05/2026;Returning;Wellington;Product-19;Toys;Puzzle;Hasbro;7;332.24;274.18;58.06
+NZ-ORD-1243;27/05/2026;New;Christchurch;Product-24;Books;Horror;Bloom House;5;387.81;-74.49;462.3
+NZ-ORD-1244;28/05/2026;Returning;Christchurch;Product-24;Toys;Board Game;Exploding;7;211.12;285.83;-74.71
+NZ-ORD-1245;29/05/2026;New;Hamilton;Product-16;Books;Horror;Warner Bros;4;516.94;575.66;-58.72
+NZ-ORD-1246;30/05/2026;New;Christchurch;Product-3;Books;Horror;Lionsgate;7;718.91;236.45;482.46
+NZ-ORD-1247;31/05/2026;Returning;Christchurch;Product-22;Clothing;T-Shirt;Converse;7;1750.42;1303.82;446.6
+NZ-ORD-1248;01/06/2026;New;Auckland;Product-16;Clothing;Shoe;Nike;7;275.42;73.47;201.95
+NZ-ORD-1249;02/06/2026;New;Wellington;Product-17;Toys;Robot;Namco;4;1248.61;1245.55;3.06
+NZ-ORD-1250;03/06/2026;New;Wellington;Product-3;Books;Comedy;20th Century Fox;2;1207.67;1234.89;-27.22
+NZ-ORD-1251;04/06/2026;New;Hamilton;Product-5;Home Decor;Curtain;Kels;1;945.39;605.17;340.22
+NZ-ORD-1252;05/06/2026;Returning;Christchurch;Product-14;Toys;Card Game;Dungeons;1;508.97;53.99;454.98
+NZ-ORD-1253;06/06/2026;Returning;Wellington;Product-27;Electronics;CCTV;Samsung;9;405.92;421.35;-15.43
+NZ-ORD-1254;07/06/2026;Returning;Hamilton;Product-11;Toys;Puzzle;Hasbro;7;390.58;22.46;368.12
+NZ-ORD-1255;08/06/2026;Returning;Christchurch;Product-27;Clothing;Jacket;New Balance;2;1950.07;1653.63;296.44
+NZ-ORD-1256;09/06/2026;New;Christchurch;Product-23;Clothing;Shoe;Puma;2;584.71;166.28;418.43
+NZ-ORD-1257;10/06/2026;Returning;Hamilton;Product-4;Books;Horror;Bloom House;6;377.69;435.19;-57.5
+NZ-ORD-1258;11/06/2026;Returning;Hamilton;Product-18;Toys;Robot;Konami;6;1049.49;854.18;195.31
+NZ-ORD-1259;12/06/2026;New;Dunedin;Product-6;Toys;Card Game;Marvel;1;680.07;399.52;280.55
+NZ-ORD-1260;13/06/2026;Returning;Auckland;Product-7;Clothing;Jacket;Puma;10;1591.74;1186.59;405.15
+NZ-ORD-1261;14/06/2026;New;Hamilton;Product-24;Toys;Card Game;Marvel;8;1811.99;1594;217.99
+NZ-ORD-1262;15/06/2026;Returning;Wellington;Product-30;Electronics;Hardisk SDD;Seagate;1;1202.14;1086.1;116.04
+NZ-ORD-1263;16/06/2026;New;Dunedin;Product-15;Electronics;Hardisk SDD;Samsung;9;539.45;538.26;1.19
+NZ-ORD-1264;17/06/2026;New;Auckland;Product-19;Books;Romance;Disney;6;1559;1191.67;367.33
+NZ-ORD-1265;18/06/2026;Returning;Wellington;Product-6;Clothing;Shirt;Adidas;1;970.11;808.37;161.74
+NZ-ORD-1266;19/06/2026;New;Christchurch;Product-1;Toys;Puzzle;Hasbro;5;1574.24;1559.04;15.2
+NZ-ORD-1267;20/06/2026;Returning;Wellington;Product-18;Books;Comedy;Lionsgate;7;1977.61;1492.03;485.58
+NZ-ORD-1268;21/06/2026;Returning;Auckland;Product-4;Clothing;Shirt;Puma;9;799.1;826.71;-27.61
+NZ-ORD-1269;22/06/2026;New;Wellington;Product-9;Books;Horror;Universal;7;179.24;-22.09;201.33
+NZ-ORD-1270;23/06/2026;New;Wellington;Product-13;Clothing;Shoe;New Balance;2;117.13;-295.21;412.34
+NZ-ORD-1271;24/06/2026;New;Dunedin;Product-23;Home Decor;Vinyl Paper;Kenko;6;1921.58;1908.52;13.06
+NZ-ORD-1272;25/06/2026;Returning;Wellington;Product-14;Clothing;Shirt;Adidas;2;623.35;265.15;358.2
+NZ-ORD-1273;26/06/2026;Returning;Wellington;Product-21;Electronics;Mobile Phone;Oppo;5;1122.53;981.53;141
+NZ-ORD-1274;27/06/2026;New;Dunedin;Product-7;Books;Comedy;Universal;4;756.75;389.56;367.19
+NZ-ORD-1275;28/06/2026;Returning;Hamilton;Product-8;Electronics;TV;Xiaomi;9;353;-17.22;370.22
+NZ-ORD-1276;29/06/2026;Returning;Christchurch;Product-17;Books;Cartoon;Dreamworks;2;1856.13;1941.57;-85.44
+NZ-ORD-1277;30/06/2026;New;Wellington;Product-1;Clothing;T-Shirt;Nike;5;1373.94;1068.27;305.67
+NZ-ORD-1278;01/07/2026;New;Christchurch;Product-20;Toys;Card Game;Hasbro;3;579.67;509.82;69.85
+NZ-ORD-1279;02/07/2026;Returning;Dunedin;Product-3;Toys;Board Game;Marvel;3;1241.92;1264.9;-22.98
+NZ-ORD-1280;03/07/2026;New;Dunedin;Product-21;Toys;Card Game;Dungeons;9;1024.02;611.43;412.59
+NZ-ORD-1281;04/07/2026;Returning;Wellington;Product-19;Home Decor;Vase;Yuzhei Wong;1;1126.35;930.46;195.89
+NZ-ORD-1282;05/07/2026;New;Dunedin;Product-11;Books;Romance;20th Century Fox;4;1605.65;1650.15;-44.5
+NZ-ORD-1283;06/07/2026;Returning;Auckland;Product-21;Clothing;Pant;New Balance;7;1064.2;836.28;227.92
+NZ-ORD-1284;07/07/2026;New;Hamilton;Product-18;Clothing;T-Shirt;Converse;9;1911.95;1531.79;380.16
+NZ-ORD-1285;08/07/2026;New;Dunedin;Product-11;Books;Documentary;Warner Bros;9;1679.11;1275.74;403.37
+NZ-ORD-1286;09/07/2026;New;Auckland;Product-24;Electronics;DVD Player;Toshiba;7;1465.67;1252.11;213.56
+NZ-ORD-1287;10/07/2026;Returning;Auckland;Product-14;Electronics;Mobile Phone;Oppo;1;1779.57;1733.5;46.07
+NZ-ORD-1288;11/07/2026;Returning;Auckland;Product-12;Books;Documentary;National Geographic;9;358.08;87.53;270.55
+NZ-ORD-1289;12/07/2026;Returning;Hamilton;Product-27;Books;Romance;Warner Bros;1;1294.82;1237.59;57.23
+NZ-ORD-1290;13/07/2026;New;Christchurch;Product-1;Toys;Robot;Namco;10;514.55;155.28;359.27
+NZ-ORD-1291;14/07/2026;New;Auckland;Product-27;Books;Cartoon;Disney;8;386.9;65.41;321.49
+NZ-ORD-1292;15/07/2026;Returning;Christchurch;Product-5;Home Decor;Miniature Statue;Baurdani;3;1038.64;994.31;44.33
+NZ-ORD-1293;16/07/2026;New;Christchurch;Product-21;Clothing;T-Shirt;Converse;2;1208.77;932.48;276.29
+NZ-ORD-1294;17/07/2026;Returning;Dunedin;Product-4;Home Decor;Miniature Statue;Bucchari;1;1268.18;1154.78;113.4
+NZ-ORD-1295;18/07/2026;New;Hamilton;Product-16;Electronics;CCTV;Huawei;10;1733.36;1352.8;380.56
+NZ-ORD-1296;19/07/2026;New;Wellington;Product-30;Clothing;Shirt;Adidas;4;759.39;417.42;341.97
+NZ-ORD-1297;20/07/2026;Returning;Auckland;Product-6;Clothing;Pant;Nike;6;174.14;-322.06;496.2
+NZ-ORD-1298;21/07/2026;New;Auckland;Product-5;Electronics;TV;Xiaomi;1;105.56;-96.48;202.04
+NZ-ORD-1299;22/07/2026;New;Hamilton;Product-18;Clothing;T-Shirt;Puma;7;1752.72;1756.41;-3.69
+NZ-ORD-1300;23/07/2026;Returning;Christchurch;Product-18;Home Decor;Vinyl Paper;Joyko;6;140.25;-258.38;398.63
+NZ-ORD-1301;24/07/2026;New;Christchurch;Product-2;Clothing;Pant;Converse;2;1177.32;946.12;231.2
+NZ-ORD-1302;25/07/2026;Returning;Hamilton;Product-24;Clothing;T-Shirt;Nike;7;641.17;162.35;478.82
+NZ-ORD-1303;26/07/2026;New;Dunedin;Product-23;Toys;Card Game;Telltale;9;869.96;564.17;305.79
+NZ-ORD-1304;27/07/2026;New;Auckland;Product-24;Clothing;Shoe;Converse;2;1002.61;1073.1;-70.49
+NZ-ORD-1305;28/07/2026;Returning;Dunedin;Product-16;Electronics;DVD Player;Panasonic;10;1285.45;1357.12;-71.67
+NZ-ORD-1306;29/07/2026;New;Hamilton;Product-16;Electronics;DVD Player;Toshiba;9;1834.07;1466.77;367.3
+NZ-ORD-1307;30/07/2026;Returning;Hamilton;Product-26;Electronics;TV;Panasonic;1;145.49;49.87;95.62
+NZ-ORD-1308;31/07/2026;Returning;Wellington;Product-6;Toys;Puzzle;Telltale;5;422.94;504.65;-81.71
+NZ-ORD-1309;01/08/2026;Returning;Hamilton;Product-3;Electronics;Hardisk SDD;Toshiba;6;994.88;496.58;498.3
+NZ-ORD-1310;02/08/2026;New;Christchurch;Product-12;Books;Horror;20th Century Fox;6;612.73;289.57;323.16
+NZ-ORD-1311;03/08/2026;Returning;Dunedin;Product-8;Books;Cartoon;Pixar;7;518.81;429.92;88.89
+NZ-ORD-1312;04/08/2026;Returning;Hamilton;Product-7;Clothing;Jacket;New Balance;5;599.58;404.33;195.25
+NZ-ORD-1313;05/08/2026;New;Christchurch;Product-25;Clothing;T-Shirt;Puma;10;1735.29;1678.76;56.53
+NZ-ORD-1314;06/08/2026;Returning;Wellington;Product-30;Books;Romance;20th Century Fox;8;837.86;750.64;87.22
+NZ-ORD-1315;07/08/2026;New;Dunedin;Product-6;Books;Cartoon;Dreamworks;7;984.38;577.45;406.93
+NZ-ORD-1316;08/08/2026;New;Wellington;Product-11;Electronics;CCTV;Xiaomi;6;1434.81;1031.73;403.08
+NZ-ORD-1317;09/08/2026;New;Hamilton;Product-10;Clothing;T-Shirt;Adidas;8;1860.57;1567.58;292.99
+NZ-ORD-1318;10/08/2026;New;Hamilton;Product-1;Toys;Board Game;Exploding;1;443.97;537.61;-93.64
+NZ-ORD-1319;11/08/2026;Returning;Christchurch;Product-18;Books;Romance;Universal;5;186.37;-230.43;416.8
+NZ-ORD-1320;12/08/2026;New;Dunedin;Product-15;Books;Cartoon;Disney;10;502.74;411.05;91.69
+NZ-ORD-1321;13/08/2026;Returning;Christchurch;Product-17;Toys;Card Game;Marvel;4;1608.71;1139.06;469.65
+NZ-ORD-1322;14/08/2026;Returning;Christchurch;Product-26;Electronics;DVD Player;Panasonic;5;1840.99;1693.08;147.91
+NZ-ORD-1323;15/08/2026;New;Christchurch;Product-6;Clothing;Jacket;Nike;8;1471.36;1189.29;282.07
+NZ-ORD-1324;16/08/2026;New;Wellington;Product-15;Books;Comedy;Disney;10;1520.74;1509.72;11.02
+NZ-ORD-1325;17/08/2026;Returning;Wellington;Product-18;Books;Romance;Lionsgate;3;230.81;254.22;-23.41
+NZ-ORD-1326;18/08/2026;Returning;Hamilton;Product-25;Electronics;CCTV;Huawei;7;1808.38;1722.19;86.19
+NZ-ORD-1327;19/08/2026;New;Wellington;Product-29;Clothing;T-Shirt;Converse;5;368.43;-19.71;388.14
+NZ-ORD-1328;20/08/2026;Returning;Dunedin;Product-3;Toys;Robot;Namco;5;547.85;93.84;454.01
+NZ-ORD-1329;21/08/2026;New;Wellington;Product-11;Electronics;Hardisk SDD;Sandisk;9;1836.18;1754.05;82.13
+NZ-ORD-1330;22/08/2026;New;Hamilton;Product-25;Electronics;CCTV;Samsung;7;437.55;127.87;309.68
+NZ-ORD-1331;23/08/2026;New;Wellington;Product-9;Home Decor;Vinyl Paper;Seiko;8;461.38;525.39;-64.01
+NZ-ORD-1332;24/08/2026;Returning;Auckland;Product-1;Toys;Puzzle;Wonder World;10;326.72;167.67;159.05
+NZ-ORD-1333;25/08/2026;Returning;Auckland;Product-4;Home Decor;Vase;Midea;1;1882.13;1650.32;231.81
+NZ-ORD-1334;26/08/2026;Returning;Wellington;Product-28;Books;Comedy;20th Century Fox;9;488.88;397.53;91.35
+NZ-ORD-1335;27/08/2026;Returning;Auckland;Product-24;Home Decor;Curtain;Brother;10;1407.81;1142.93;264.88
+NZ-ORD-1336;28/08/2026;New;Dunedin;Product-2;Books;Cartoon;Warner Bros;1;915.85;755.41;160.44
+NZ-ORD-1337;29/08/2026;New;Auckland;Product-23;Books;Romance;Lionsgate;8;1260.31;1346.79;-86.48
+NZ-ORD-1338;30/08/2026;New;Christchurch;Product-13;Home Decor;Vinyl Paper;Seven;6;1973.42;1904.42;69
+NZ-ORD-1339;31/08/2026;Returning;Dunedin;Product-12;Electronics;Mobile Phone;Huawei;1;1392.76;1428.1;-35.34
+NZ-ORD-1340;01/09/2026;New;Auckland;Product-3;Toys;Robot;Bandai;8;843.43;933.25;-89.82
+NZ-ORD-1341;02/09/2026;New;Christchurch;Product-30;Toys;Board Game;Telltale;3;1634.63;1501.51;133.12
+NZ-ORD-1342;03/09/2026;New;Hamilton;Product-26;Clothing;Shoe;Nike;3;115.75;165.42;-49.67
+NZ-ORD-1343;04/09/2026;New;Dunedin;Product-1;Home Decor;Vinyl Paper;Seiko;7;370.45;67.38;303.07
+NZ-ORD-1344;05/09/2026;New;Auckland;Product-1;Clothing;Pant;New Balance;3;1179.1;993.97;185.13
+NZ-ORD-1345;06/09/2026;Returning;Dunedin;Product-15;Electronics;DVD Player;Panasonic;10;197.16;120.63;76.53
+NZ-ORD-1346;07/09/2026;New;Christchurch;Product-2;Toys;Robot;Namco;2;1216.58;816.03;400.55
+NZ-ORD-1347;08/09/2026;New;Wellington;Product-13;Home Decor;Vase;Foshan;9;863.64;743.65;119.99
+NZ-ORD-1348;09/09/2026;Returning;Hamilton;Product-14;Books;Romance;Universal;5;1348.5;1108.01;240.49
+NZ-ORD-1349;10/09/2026;Returning;Auckland;Product-18;Books;Romance;Universal;4;1219.52;1058.47;161.05
+NZ-ORD-1350;11/09/2026;Returning;Hamilton;Product-4;Home Decor;Curtain;Brother;4;91.18;-168.4;259.58
+NZ-ORD-1351;12/09/2026;New;Christchurch;Product-14;Home Decor;Vase;IKEA;6;1890.27;1439.42;450.85
+NZ-ORD-1352;13/09/2026;Returning;Wellington;Product-11;Clothing;Shoe;Converse;6;618.89;683.43;-64.54
+NZ-ORD-1353;14/09/2026;Returning;Wellington;Product-24;Books;Horror;Warner Bros;3;38.24;132.93;-94.69
+NZ-ORD-1354;15/09/2026;New;Dunedin;Product-12;Books;Horror;Warner Bros;6;1357.41;1038.47;318.94
+NZ-ORD-1355;16/09/2026;Returning;Wellington;Product-24;Clothing;Shirt;Puma;3;1153.12;1131.84;21.28
+NZ-ORD-1356;17/09/2026;Returning;Auckland;Product-11;Home Decor;Vase;Yuzhei Wong;7;1227.66;753.85;473.81
+NZ-ORD-1357;18/09/2026;New;Auckland;Product-3;Toys;Board Game;Century;8;909.4;601.92;307.48
+NZ-ORD-1358;19/09/2026;New;Hamilton;Product-17;Home Decor;Window Blind;Kels;3;272.32;116.91;155.41
+NZ-ORD-1359;20/09/2026;New;Hamilton;Product-26;Home Decor;Window Blind;Rails;10;1812.74;1845.44;-32.7
+NZ-ORD-1360;21/09/2026;Returning;Hamilton;Product-7;Toys;Doll;Barbie;3;1284.96;1018.12;266.84
+NZ-ORD-1361;22/09/2026;New;Christchurch;Product-10;Clothing;Shoe;Nike;3;1312.1;1161.11;150.99
+NZ-ORD-1362;23/09/2026;New;Hamilton;Product-2;Electronics;Hardisk SDD;Seagate;6;307.74;56.6;251.14
+NZ-ORD-1363;24/09/2026;Returning;Auckland;Product-17;Books;Documentary;20th Century Fox;7;1574.3;1148.21;426.09
+NZ-ORD-1364;25/09/2026;Returning;Wellington;Product-16;Toys;Card Game;Marvel;6;1334.41;859.39;475.02
+NZ-ORD-1365;26/09/2026;Returning;Hamilton;Product-13;Books;Cartoon;Dreamworks;7;1026.69;948.23;78.46
+NZ-ORD-1366;27/09/2026;Returning;Christchurch;Product-30;Electronics;CCTV;Sony;10;1085.16;1146.28;-61.12
+NZ-ORD-1367;28/09/2026;New;Hamilton;Product-21;Home Decor;Curtain;IKEA;9;1702.76;1534.59;168.17
+NZ-ORD-1368;29/09/2026;Returning;Dunedin;Product-14;Home Decor;Miniature Statue;Bucchari;8;1286.31;1048.7;237.61
+NZ-ORD-1369;30/09/2026;New;Dunedin;Product-16;Clothing;Shirt;Adidas;1;1446.91;1195.61;251.3
+NZ-ORD-1370;01/10/2026;New;Christchurch;Product-15;Books;Horror;Lionsgate;8;1755.62;1789.68;-34.06
+NZ-ORD-1371;02/10/2026;New;Christchurch;Product-27;Electronics;Hardisk SDD;Seagate;1;79.3;163.94;-84.64
+NZ-ORD-1372;03/10/2026;Returning;Hamilton;Product-7;Books;Romance;Disney;10;939.76;693.07;246.69
+NZ-ORD-1373;04/10/2026;New;Dunedin;Product-8;Electronics;DVD Player;Samsung;6;1780.65;1669.62;111.03
+NZ-ORD-1374;05/10/2026;Returning;Auckland;Product-19;Electronics;DVD Player;Toshiba;1;1381.43;1247.04;134.39
+NZ-ORD-1375;06/10/2026;Returning;Hamilton;Product-7;Electronics;DVD Player;Changhong;2;329.4;202.57;126.83
+NZ-ORD-1376;07/10/2026;New;Auckland;Product-28;Clothing;Jacket;New Balance;2;45.72;16.47;29.25
+NZ-ORD-1377;08/10/2026;Returning;Auckland;Product-29;Clothing;T-Shirt;Converse;5;822.36;440.7;381.66
+NZ-ORD-1378;09/10/2026;Returning;Dunedin;Product-8;Home Decor;Curtain;IKEA;7;1551.33;1196.98;354.35
+NZ-ORD-1379;10/10/2026;New;Wellington;Product-27;Home Decor;Vase;IKEA;10;1952.35;1503.39;448.96
+NZ-ORD-1380;11/10/2026;New;Christchurch;Product-26;Electronics;Hardisk SDD;Toshiba;6;1370.85;1297.89;72.96
+NZ-ORD-1381;12/10/2026;Returning;Wellington;Product-16;Electronics;Mobile Phone;Vivo;4;1426.72;1298.01;128.71
+NZ-ORD-1382;13/10/2026;Returning;Christchurch;Product-4;Toys;Puzzle;Marvel;3;1383.57;1071.77;311.8
+NZ-ORD-1383;14/10/2026;Returning;Dunedin;Product-8;Clothing;Shirt;Puma;3;1143.84;818.81;325.03
+NZ-ORD-1384;15/10/2026;Returning;Hamilton;Product-18;Toys;Robot;Capcom;6;739.8;743.9;-4.1
+NZ-ORD-1385;16/10/2026;New;Auckland;Product-13;Electronics;Hardisk SDD;Samsung;1;904.9;655.41;249.49
+NZ-ORD-1386;17/10/2026;New;Wellington;Product-9;Toys;Robot;Konami;2;1965.86;1642.17;323.69
+NZ-ORD-1387;18/10/2026;New;Christchurch;Product-16;Books;Horror;Warner Bros;9;328.97;-37.06;366.03
+NZ-ORD-1388;19/10/2026;New;Hamilton;Product-28;Toys;Card Game;Telltale;4;990.42;1061.89;-71.47
+NZ-ORD-1389;20/10/2026;Returning;Hamilton;Product-4;Home Decor;Vase;IKEA;9;702.22;343.3;358.92
+NZ-ORD-1390;21/10/2026;Returning;Christchurch;Product-12;Toys;Puzzle;Gramedia;2;1842.65;1528.94;313.71
+NZ-ORD-1391;22/10/2026;Returning;Auckland;Product-3;Books;Cartoon;Disney;7;1868.87;1793.5;75.37
+NZ-ORD-1392;23/10/2026;New;Hamilton;Product-2;Toys;Card Game;Hasbro;7;213.31;-204.4;417.71
+NZ-ORD-1393;24/10/2026;Returning;Christchurch;Product-21;Home Decor;Curtain;Rails;5;64.66;46.26;18.4
+NZ-ORD-1394;25/10/2026;New;Christchurch;Product-4;Home Decor;Curtain;Brother;2;1942.38;2029.66;-87.28
+NZ-ORD-1395;26/10/2026;New;Hamilton;Product-5;Electronics;DVD Player;Samsung;1;678.18;756.82;-78.64
+NZ-ORD-1396;27/10/2026;Returning;Wellington;Product-17;Books;Documentary;Universal;8;1953.2;1833.82;119.38
+NZ-ORD-1397;28/10/2026;Returning;Hamilton;Product-28;Electronics;Mobile Phone;Oppo;4;691.71;424.2;267.51
+NZ-ORD-1398;29/10/2026;Returning;Auckland;Product-30;Electronics;CCTV;Huawei;4;780.82;415.77;365.05
+NZ-ORD-1399;30/10/2026;Returning;Christchurch;Product-1;Electronics;TV;Panasonic;5;1868.93;1629.9;239.03
+NZ-ORD-1400;31/10/2026;New;Dunedin;Product-5;Clothing;Pant;New Balance;5;272.49;226.25;46.24
+NZ-ORD-1401;01/11/2026;Returning;Hamilton;Product-2;Toys;Card Game;Hasbro;2;1898.26;1756.65;141.61
+NZ-ORD-1402;02/11/2026;Returning;Dunedin;Product-1;Toys;Robot;Bandai;9;39.84;-368.14;407.98
+NZ-ORD-1403;03/11/2026;Returning;Auckland;Product-14;Clothing;Pant;Puma;8;1827.11;1853.64;-26.53
+NZ-ORD-1404;04/11/2026;Returning;Dunedin;Product-8;Books;Documentary;National Geographic;1;1838.31;1623.4;214.91
+NZ-ORD-1405;05/11/2026;New;Hamilton;Product-26;Electronics;Mobile Phone;Vivo;9;849.05;385.46;463.59
+NZ-ORD-1406;06/11/2026;Returning;Auckland;Product-5;Clothing;Jacket;New Balance;2;1425.84;937.26;488.58
+NZ-ORD-1407;07/11/2026;Returning;Dunedin;Product-19;Clothing;Pant;Nike;10;1745.76;1557.66;188.1
+NZ-ORD-1408;08/11/2026;New;Wellington;Product-14;Home Decor;Curtain;Brother;8;120.25;-360.92;481.17
+NZ-ORD-1409;09/11/2026;New;Auckland;Product-19;Toys;Puzzle;Hasbro;5;360.78;298.22;62.56
+NZ-ORD-1410;10/11/2026;Returning;Hamilton;Product-23;Home Decor;Curtain;Rails;6;1288.55;1263.39;25.16
+NZ-ORD-1411;11/11/2026;New;Wellington;Product-18;Clothing;Shirt;Converse;5;1548.13;1252.16;295.97
+NZ-ORD-1412;12/11/2026;New;Christchurch;Product-24;Home Decor;Miniature Statue;Bucchari;4;1080.5;1152.13;-71.63
+NZ-ORD-1413;13/11/2026;New;Wellington;Product-23;Toys;Board Game;Hasbro;7;55.47;-38.6;94.07
+NZ-ORD-1414;14/11/2026;New;Dunedin;Product-26;Electronics;Mobile Phone;Apple;1;1523.2;1553.77;-30.57
+NZ-ORD-1415;15/11/2026;Returning;Christchurch;Product-30;Clothing;T-Shirt;Puma;7;1681.56;1188.41;493.15
+NZ-ORD-1416;16/11/2026;Returning;Auckland;Product-3;Home Decor;Curtain;Rails;6;1046.36;799.98;246.38
+NZ-ORD-1417;17/11/2026;Returning;Wellington;Product-14;Toys;Puzzle;Wonder World;10;1770.53;1546.22;224.31
+NZ-ORD-1418;18/11/2026;Returning;Hamilton;Product-20;Electronics;Hardisk SDD;Sandisk;10;1528.12;1224.15;303.97
+NZ-ORD-1419;19/11/2026;New;Dunedin;Product-19;Toys;Board Game;Exploding;5;131.63;-336.86;468.49
+NZ-ORD-1420;20/11/2026;Returning;Hamilton;Product-20;Electronics;DVD Player;Panasonic;8;1643.27;1191.66;451.61
+NZ-ORD-1421;21/11/2026;New;Christchurch;Product-3;Electronics;CCTV;Xiaomi;2;1982.33;1949.12;33.21
+NZ-ORD-1422;22/11/2026;New;Hamilton;Product-19;Clothing;Pant;Puma;1;308.73;0.77;307.96
+NZ-ORD-1423;23/11/2026;New;Christchurch;Product-18;Electronics;Hardisk SDD;Samsung;9;1198.52;718.71;479.81
+NZ-ORD-1424;24/11/2026;Returning;Dunedin;Product-29;Electronics;Hardisk SDD;Seagate;8;1764.28;1529.67;234.61
+NZ-ORD-1425;25/11/2026;New;Dunedin;Product-13;Books;Cartoon;Warner Bros;8;614.24;543.12;71.12
+NZ-ORD-1426;26/11/2026;Returning;Christchurch;Product-3;Electronics;TV;Toshiba;1;1190.54;1182.72;7.82
+NZ-ORD-1427;27/11/2026;New;Dunedin;Product-4;Books;Romance;20th Century Fox;2;213.3;-13.5;226.8
+NZ-ORD-1428;28/11/2026;Returning;Wellington;Product-10;Home Decor;Miniature Statue;Tuscany;10;689.78;487.39;202.39
+NZ-ORD-1429;29/11/2026;New;Wellington;Product-2;Books;Documentary;Universal;4;393.24;329.36;63.88
+NZ-ORD-1430;30/11/2026;Returning;Hamilton;Product-18;Books;Romance;Lionsgate;2;983.61;926.04;57.57
+NZ-ORD-1431;01/12/2026;New;Dunedin;Product-7;Toys;Board Game;Telltale;3;1692.75;1722.15;-29.4
+NZ-ORD-1432;02/12/2026;New;Wellington;Product-21;Clothing;T-Shirt;New Balance;2;694.28;212.44;481.84
+NZ-ORD-1433;03/12/2026;New;Christchurch;Product-25;Books;Romance;Warner Bros;4;1686.59;1270.19;416.4
+NZ-ORD-1434;04/12/2026;New;Christchurch;Product-24;Books;Romance;20th Century Fox;5;1662.42;1510.4;152.02
+NZ-ORD-1435;05/12/2026;Returning;Wellington;Product-8;Toys;Robot;Konami;8;53.59;115.66;-62.07
+NZ-ORD-1436;06/12/2026;New;Wellington;Product-24;Toys;Doll;Barbie;5;1368.24;988.83;379.41
+NZ-ORD-1437;07/12/2026;New;Wellington;Product-5;Clothing;Shoe;Nike;6;1289.4;1123.37;166.03
+NZ-ORD-1438;08/12/2026;New;Christchurch;Product-29;Books;Cartoon;Pixar;3;1653.81;1293.78;360.03
+NZ-ORD-1439;09/12/2026;Returning;Dunedin;Product-25;Toys;Card Game;Dungeons;6;1978.49;1628.72;349.77
+NZ-ORD-1440;10/12/2026;Returning;Auckland;Product-7;Electronics;DVD Player;Sony;1;857.73;574.6;283.13
+NZ-ORD-1441;11/12/2026;New;Hamilton;Product-27;Books;Horror;Bloom House;10;1674.88;1226.53;448.35
+NZ-ORD-1442;12/12/2026;New;Hamilton;Product-11;Clothing;Shirt;Nike;5;1037.84;934.26;103.58
+NZ-ORD-1443;13/12/2026;Returning;Wellington;Product-22;Home Decor;Vinyl Paper;Seven;5;1388.36;1163.85;224.51
+NZ-ORD-1444;14/12/2026;Returning;Dunedin;Product-7;Books;Horror;Universal;9;1508.02;1092.38;415.64
+NZ-ORD-1445;15/12/2026;Returning;Dunedin;Product-11;Clothing;Shirt;Adidas;3;1599.82;1451.19;148.63
+NZ-ORD-1446;16/12/2026;Returning;Dunedin;Product-30;Toys;Card Game;Hasbro;4;390.65;198.52;192.13
+NZ-ORD-1447;17/12/2026;Returning;Auckland;Product-28;Clothing;Pant;Adidas;9;571.35;125.54;445.81
+NZ-ORD-1448;18/12/2026;Returning;Auckland;Product-10;Clothing;Pant;Nike;10;445.77;531.45;-85.68
+NZ-ORD-1449;19/12/2026;Returning;Hamilton;Product-7;Clothing;Shirt;New Balance;5;983.37;681.07;302.3
+NZ-ORD-1450;20/12/2026;Returning;Dunedin;Product-8;Home Decor;Curtain;Bardy;8;1435.94;1192.46;243.48
+NZ-ORD-1451;21/12/2026;Returning;Auckland;Product-5;Books;Documentary;Discovery;6;1681.97;1728.89;-46.92
+NZ-ORD-1452;22/12/2026;New;Dunedin;Product-30;Electronics;TV;Samsung;1;476.49;22.47;454.02
+NZ-ORD-1453;23/12/2026;Returning;Hamilton;Product-15;Home Decor;Curtain;Rails;2;1925.24;1516.96;408.28
+NZ-ORD-1454;24/12/2026;New;Auckland;Product-12;Books;Documentary;20th Century Fox;3;1349.82;1400.15;-50.33
+NZ-ORD-1455;25/12/2026;Returning;Wellington;Product-30;Books;Romance;Universal;1;288.79;-93.11;381.9
+NZ-ORD-1456;26/12/2026;Returning;Wellington;Product-26;Home Decor;Vinyl Paper;Joyko;2;752.06;831.75;-79.69
+NZ-ORD-1457;27/12/2026;New;Wellington;Product-22;Clothing;Pant;Puma;9;55.39;141.65;-86.26
+NZ-ORD-1458;28/12/2026;Returning;Wellington;Product-3;Electronics;TV;Panasonic;9;973.12;976.58;-3.46
+NZ-ORD-1459;29/12/2026;Returning;Hamilton;Product-8;Home Decor;Miniature Statue;Oates;8;920.97;681.9;239.07
+NZ-ORD-1460;30/12/2026;New;Auckland;Product-26;Home Decor;Curtain;Brother;3;1639.7;1716.28;-76.58
+NZ-ORD-1461;31/12/2026;Returning;Christchurch;Product-7;Clothing;Pant;Converse;10;1928.51;1470.78;457.73
+NZ-ORD-1462;01/01/2027;New;Christchurch;Product-2;Books;Comedy;Warner Bros;4;1790.58;1695.39;95.19
+NZ-ORD-1463;02/01/2027;New;Christchurch;Product-13;Electronics;CCTV;Sony;5;1608.24;1611.23;-2.99
+NZ-ORD-1464;03/01/2027;Returning;Wellington;Product-10;Electronics;DVD Player;Sony;7;551.92;587.22;-35.3
+NZ-ORD-1465;04/01/2027;Returning;Auckland;Product-3;Electronics;Hardisk SDD;Kingston;8;345.05;442.76;-97.71
+NZ-ORD-1466;05/01/2027;Returning;Wellington;Product-13;Electronics;CCTV;Samsung;9;107.06;-109.52;216.58
+NZ-ORD-1467;06/01/2027;New;Wellington;Product-29;Electronics;CCTV;Samsung;6;1622.25;1598.01;24.24
+NZ-ORD-1468;07/01/2027;Returning;Hamilton;Product-23;Toys;Puzzle;Telltale;7;936.12;923.73;12.39
+NZ-ORD-1469;08/01/2027;New;Wellington;Product-17;Electronics;Mobile Phone;Vivo;7;1118.91;876.6;242.31
+NZ-ORD-1470;09/01/2027;New;Christchurch;Product-26;Electronics;CCTV;Sony;8;872.53;771.5;101.03
+NZ-ORD-1471;10/01/2027;Returning;Auckland;Product-26;Books;Comedy;20th Century Fox;6;561.98;346.94;215.04
+NZ-ORD-1472;11/01/2027;New;Christchurch;Product-29;Home Decor;Miniature Statue;Holmes Brok;2;211.9;149.41;62.49
+NZ-ORD-1473;12/01/2027;New;Dunedin;Product-8;Clothing;Jacket;New Balance;10;1443.61;1146.1;297.51
+NZ-ORD-1474;13/01/2027;Returning;Hamilton;Product-12;Toys;Robot;Konami;4;107.34;81.27;26.07
+NZ-ORD-1475;14/01/2027;Returning;Christchurch;Product-15;Electronics;DVD Player;Toshiba;6;1126.42;950;176.42
+NZ-ORD-1476;15/01/2027;New;Christchurch;Product-16;Books;Cartoon;Pixar;5;425;227.54;197.46
+NZ-ORD-1477;16/01/2027;New;Auckland;Product-14;Home Decor;Window Blind;Brother;4;1161.18;919.22;241.96
+NZ-ORD-1478;17/01/2027;Returning;Auckland;Product-26;Electronics;DVD Player;Panasonic;2;185.35;-36.45;221.8
+NZ-ORD-1479;18/01/2027;New;Christchurch;Product-19;Books;Documentary;Discovery;2;1227.55;758.21;469.34
+NZ-ORD-1480;19/01/2027;New;Hamilton;Product-26;Books;Documentary;20th Century Fox;8;1889.4;1761.18;128.22
+NZ-ORD-1481;20/01/2027;New;Wellington;Product-15;Home Decor;Vinyl Paper;Seiko;8;1707.72;1300.62;407.1
+NZ-ORD-1482;21/01/2027;New;Christchurch;Product-12;Clothing;Shoe;New Balance;3;233.83;297.04;-63.21
+NZ-ORD-1483;22/01/2027;Returning;Wellington;Product-19;Toys;Card Game;Telltale;8;1668.29;1658.43;9.86
+NZ-ORD-1484;23/01/2027;New;Christchurch;Product-14;Toys;Board Game;Exploding;6;1865.68;1818.04;47.64
+NZ-ORD-1485;24/01/2027;New;Hamilton;Product-2;Electronics;TV;Sony;2;1280.73;1037.92;242.81
+NZ-ORD-1486;25/01/2027;New;Auckland;Product-17;Electronics;TV;Xiaomi;9;1442.18;984.58;457.6
+NZ-ORD-1487;26/01/2027;New;Dunedin;Product-12;Clothing;Shirt;Converse;6;1437.67;1021.55;416.12
+NZ-ORD-1488;27/01/2027;New;Auckland;Product-9;Electronics;CCTV;Sony;5;1192.5;1126.4;66.1
+NZ-ORD-1489;28/01/2027;Returning;Dunedin;Product-22;Toys;Robot;Capcom;1;408.77;-57.85;466.62
+NZ-ORD-1490;29/01/2027;Returning;Christchurch;Product-30;Electronics;TV;Panasonic;6;926.01;612.84;313.17
+NZ-ORD-1491;30/01/2027;New;Wellington;Product-21;Electronics;CCTV;Sony;4;1620.79;1564.85;55.94
+NZ-ORD-1492;31/01/2027;Returning;Dunedin;Product-30;Books;Comedy;20th Century Fox;7;1879.1;1565.89;313.21
+NZ-ORD-1493;01/02/2027;New;Dunedin;Product-4;Electronics;Mobile Phone;Apple;3;658.88;549.22;109.66
+NZ-ORD-1494;02/02/2027;Returning;Dunedin;Product-29;Electronics;CCTV;Huawei;10;1451.12;1257.67;193.45
+NZ-ORD-1495;03/02/2027;Returning;Dunedin;Product-18;Clothing;Pant;Adidas;7;1045.24;1079.97;-34.73
+NZ-ORD-1496;04/02/2027;New;Dunedin;Product-30;Home Decor;Curtain;IKEA;2;396.95;493.59;-96.64
+NZ-ORD-1497;05/02/2027;New;Dunedin;Product-8;Electronics;CCTV;Sony;7;808.12;693.31;114.81
+NZ-ORD-1498;06/02/2027;New;Wellington;Product-20;Books;Comedy;Warner Bros;5;198.21;-133.53;331.74
+NZ-ORD-1499;07/02/2027;New;Auckland;Product-20;Clothing;Jacket;Nike;10;1147.13;1059.34;87.79
+NZ-ORD-1500;08/02/2027;New;Hamilton;Product-13;Books;Horror;Lionsgate;9;1542.01;1567.55;-25.54
+NZ-ORD-1501;09/02/2027;New;Dunedin;Product-11;Home Decor;Curtain;Kels;3;1841.04;1585.96;255.08
+NZ-ORD-1502;10/02/2027;New;Wellington;Product-23;Home Decor;Vase;Zhongwei;5;74.06;113.11;-39.05
+NZ-ORD-1503;11/02/2027;New;Hamilton;Product-7;Home Decor;Vase;IKEA;6;1809.71;1719.15;90.56
+NZ-ORD-1504;12/02/2027;New;Auckland;Product-25;Electronics;TV;Sony;10;1898.5;1752.27;146.23
+NZ-ORD-1505;13/02/2027;Returning;Auckland;Product-15;Clothing;Shirt;Puma;6;571.73;474.62;97.11
+NZ-ORD-1506;14/02/2027;New;Hamilton;Product-13;Books;Documentary;Universal;5;1050.15;896.68;153.47
+NZ-ORD-1507;15/02/2027;Returning;Christchurch;Product-10;Electronics;TV;Panasonic;7;612.33;644.33;-32
+NZ-ORD-1508;16/02/2027;Returning;Christchurch;Product-23;Clothing;Jacket;Nike;4;1134.22;784.25;349.97
+NZ-ORD-1509;17/02/2027;New;Auckland;Product-18;Books;Romance;Universal;5;458.95;462.67;-3.72
+NZ-ORD-1510;18/02/2027;Returning;Auckland;Product-26;Toys;Board Game;Marvel;2;1301.78;982.23;319.55
+NZ-ORD-1511;19/02/2027;Returning;Wellington;Product-26;Books;Horror;Warner Bros;3;1514.88;1311.37;203.51
+NZ-ORD-1512;20/02/2027;New;Wellington;Product-30;Home Decor;Curtain;IKEA;3;1731.21;1631.31;99.9
+NZ-ORD-1513;21/02/2027;New;Hamilton;Product-4;Electronics;CCTV;Sony;5;1266.56;1038.42;228.14
+NZ-ORD-1514;22/02/2027;New;Auckland;Product-3;Electronics;DVD Player;Sony;5;764.39;559.58;204.81
+NZ-ORD-1515;23/02/2027;Returning;Wellington;Product-25;Books;Documentary;National Geographic;4;1597.35;1669.34;-71.99
+NZ-ORD-1516;24/02/2027;Returning;Auckland;Product-20;Clothing;Pant;Puma;1;481.73;480.65;1.08
+NZ-ORD-1517;25/02/2027;Returning;Hamilton;Product-24;Clothing;Jacket;Nike;4;1890.15;1775.99;114.16
+NZ-ORD-1518;26/02/2027;New;Auckland;Product-12;Toys;Card Game;Telltale;4;972.29;714.9;257.39
+NZ-ORD-1519;27/02/2027;New;Auckland;Product-16;Home Decor;Miniature Statue;Tuscany;3;1749.97;1787.81;-37.84
+NZ-ORD-1520;28/02/2027;Returning;Christchurch;Product-17;Clothing;T-Shirt;Puma;4;195.91;72.87;123.04
+NZ-ORD-1521;01/03/2027;Returning;Wellington;Product-4;Clothing;Shoe;Nike;4;1267.85;986.44;281.41
+NZ-ORD-1522;02/03/2027;Returning;Hamilton;Product-29;Home Decor;Curtain;Brother;5;589.05;218.6;370.45
+NZ-ORD-1523;03/03/2027;New;Auckland;Product-5;Toys;Robot;Capcom;1;842.13;661.47;180.66
+NZ-ORD-1524;04/03/2027;Returning;Wellington;Product-17;Electronics;DVD Player;Toshiba;8;1195.78;1049.86;145.92
+NZ-ORD-1525;05/03/2027;New;Dunedin;Product-18;Clothing;Pant;Adidas;2;1779.82;1439.82;340
+NZ-ORD-1526;06/03/2027;Returning;Christchurch;Product-12;Electronics;TV;Panasonic;5;801.56;554.4;247.16
+NZ-ORD-1527;07/03/2027;Returning;Dunedin;Product-13;Books;Comedy;20th Century Fox;6;876.28;433.17;443.11
+NZ-ORD-1528;08/03/2027;Returning;Auckland;Product-30;Clothing;Shoe;Puma;1;1760.16;1692.5;67.66
+NZ-ORD-1529;09/03/2027;New;Auckland;Product-1;Clothing;T-Shirt;Nike;8;1588.56;1260.14;328.42
+NZ-ORD-1530;10/03/2027;Returning;Auckland;Product-10;Toys;Robot;Bandai;2;657.81;373.29;284.52
+NZ-ORD-1531;11/03/2027;Returning;Wellington;Product-2;Home Decor;Vase;Midea;8;810.05;632.43;177.62
+NZ-ORD-1532;12/03/2027;Returning;Christchurch;Product-22;Home Decor;Curtain;IKEA;1;1684.16;1606.28;77.88
+NZ-ORD-1533;13/03/2027;Returning;Wellington;Product-29;Clothing;Pant;New Balance;5;1599.03;1671.38;-72.35
+NZ-ORD-1534;14/03/2027;Returning;Wellington;Product-22;Electronics;Mobile Phone;Huawei;2;1243.78;1194.78;49
+NZ-ORD-1535;15/03/2027;New;Wellington;Product-14;Toys;Robot;Namco;9;380.87;233.5;147.37
+NZ-ORD-1536;16/03/2027;Returning;Christchurch;Product-5;Home Decor;Window Blind;Rails;6;1691.59;1658.15;33.44
+NZ-ORD-1537;17/03/2027;New;Wellington;Product-25;Electronics;DVD Player;Toshiba;3;1354.33;1113.66;240.67
+NZ-ORD-1538;18/03/2027;Returning;Dunedin;Product-4;Clothing;Pant;New Balance;5;1247.94;1203.66;44.28
+NZ-ORD-1539;19/03/2027;New;Auckland;Product-6;Toys;Robot;Bandai;7;1125.77;1099.2;26.57
+NZ-ORD-1540;20/03/2027;Returning;Wellington;Product-16;Clothing;T-Shirt;Adidas;4;499.18;452.28;46.9
+NZ-ORD-1541;21/03/2027;Returning;Wellington;Product-6;Clothing;T-Shirt;Adidas;1;1198.47;1119.01;79.46
+NZ-ORD-1542;22/03/2027;New;Auckland;Product-23;Clothing;T-Shirt;Nike;10;1111.4;852.27;259.13
+NZ-ORD-1543;23/03/2027;New;Hamilton;Product-28;Home Decor;Vase;Foshan;9;900.61;853.43;47.18
+NZ-ORD-1544;24/03/2027;New;Christchurch;Product-19;Home Decor;Vinyl Paper;Kenko;2;1213.16;730.29;482.87
+NZ-ORD-1545;25/03/2027;New;Christchurch;Product-16;Books;Documentary;Universal;7;396.45;378.5;17.95
+NZ-ORD-1546;26/03/2027;Returning;Dunedin;Product-29;Electronics;TV;Xiaomi;8;1080.34;858.8;221.54
+NZ-ORD-1547;27/03/2027;Returning;Dunedin;Product-4;Toys;Robot;Sega;10;467.19;140.58;326.61
+NZ-ORD-1548;28/03/2027;Returning;Christchurch;Product-21;Books;Comedy;Warner Bros;9;1183.85;709.95;473.9
+NZ-ORD-1549;29/03/2027;New;Hamilton;Product-30;Clothing;Jacket;Puma;6;1365.56;1213.99;151.57
+NZ-ORD-1550;30/03/2027;Returning;Dunedin;Product-29;Electronics;CCTV;Huawei;4;1458.53;1316.58;141.95
+NZ-ORD-1551;31/03/2027;Returning;Hamilton;Product-20;Home Decor;Curtain;Brother;1;1774.54;1764.74;9.8
+NZ-ORD-1552;01/04/2027;Returning;Dunedin;Product-10;Books;Romance;Universal;9;1297.67;1226.52;71.15
+NZ-ORD-1553;02/04/2027;Returning;Auckland;Product-16;Clothing;T-Shirt;Puma;9;396.52;161.9;234.62
+NZ-ORD-1554;03/04/2027;New;Auckland;Product-3;Clothing;Pant;Puma;10;1267.97;908.82;359.15
+NZ-ORD-1555;04/04/2027;Returning;Hamilton;Product-14;Home Decor;Window Blind;Rails;5;1990.5;1780.13;210.37
+NZ-ORD-1556;05/04/2027;New;Wellington;Product-11;Books;Comedy;Disney;7;562.28;390.25;172.03
+NZ-ORD-1557;06/04/2027;New;Wellington;Product-28;Home Decor;Vinyl Paper;Kenko;9;477.13;-18.44;495.57
+NZ-ORD-1558;07/04/2027;New;Wellington;Product-24;Home Decor;Curtain;Kels;4;1386.48;1436.39;-49.91
+NZ-ORD-1559;08/04/2027;New;Auckland;Product-14;Electronics;TV;Samsung;4;627.42;179.78;447.64
+NZ-ORD-1560;09/04/2027;Returning;Wellington;Product-19;Home Decor;Miniature Statue;Tuscany;6;1933.26;1853.55;79.71
+NZ-ORD-1561;10/04/2027;New;Auckland;Product-21;Toys;Card Game;Dungeons;9;394.12;490.77;-96.65
+NZ-ORD-1562;11/04/2027;New;Dunedin;Product-13;Toys;Board Game;Hasbro;2;894.83;471.04;423.79
+NZ-ORD-1563;12/04/2027;Returning;Dunedin;Product-3;Toys;Card Game;Telltale;4;569.8;615.36;-45.56
+NZ-ORD-1564;13/04/2027;Returning;Christchurch;Product-10;Books;Documentary;Discovery;6;253.56;-238.81;492.37
+NZ-ORD-1565;14/04/2027;Returning;Hamilton;Product-19;Books;Romance;Disney;3;211.27;179.4;31.87
+NZ-ORD-1566;15/04/2027;Returning;Dunedin;Product-22;Clothing;Jacket;New Balance;5;1195.7;986.18;209.52
+NZ-ORD-1567;16/04/2027;New;Christchurch;Product-27;Books;Romance;Warner Bros;7;106.51;-193.68;300.19
+NZ-ORD-1568;17/04/2027;Returning;Wellington;Product-30;Electronics;Mobile Phone;Huawei;5;1955.66;2002.29;-46.63
+NZ-ORD-1569;18/04/2027;Returning;Dunedin;Product-23;Toys;Card Game;Marvel;4;1099.23;994.23;105
+NZ-ORD-1570;19/04/2027;New;Hamilton;Product-13;Electronics;Hardisk SDD;Sandisk;4;1921.89;1535.39;386.5
+NZ-ORD-1571;20/04/2027;New;Wellington;Product-5;Electronics;Mobile Phone;Apple;7;971.13;956.11;15.02
+NZ-ORD-1572;21/04/2027;New;Dunedin;Product-4;Toys;Doll;Lego;1;1229.19;1189.92;39.27
+NZ-ORD-1573;22/04/2027;Returning;Hamilton;Product-17;Clothing;T-Shirt;Puma;6;358.23;336.84;21.39
+NZ-ORD-1574;23/04/2027;New;Dunedin;Product-7;Electronics;CCTV;Huawei;6;1585.48;1140.23;445.25
+NZ-ORD-1575;24/04/2027;Returning;Wellington;Product-10;Books;Romance;Disney;7;865.08;655.63;209.45
+NZ-ORD-1576;25/04/2027;Returning;Hamilton;Product-20;Books;Cartoon;Dreamworks;10;948.82;1020.86;-72.04
+NZ-ORD-1577;26/04/2027;Returning;Auckland;Product-28;Toys;Card Game;Century;5;1642.83;1740.11;-97.28
+NZ-ORD-1578;27/04/2027;Returning;Auckland;Product-21;Books;Romance;Disney;8;1448.49;1256.5;191.99
+NZ-ORD-1579;28/04/2027;New;Auckland;Product-3;Books;Romance;Lionsgate;8;951.29;890.95;60.34
+NZ-ORD-1580;29/04/2027;New;Dunedin;Product-10;Toys;Board Game;Marvel;8;694.98;298.32;396.66
+NZ-ORD-1581;30/04/2027;Returning;Hamilton;Product-18;Clothing;Jacket;New Balance;7;1179.15;1072.72;106.43
+NZ-ORD-1582;01/05/2027;Returning;Hamilton;Product-4;Electronics;Hardisk SDD;Seagate;5;1579.45;1615.8;-36.35
+NZ-ORD-1583;02/05/2027;Returning;Wellington;Product-15;Electronics;Hardisk SDD;Samsung;8;794.37;629.12;165.25
+NZ-ORD-1584;03/05/2027;Returning;Dunedin;Product-5;Home Decor;Window Blind;Rails;4;1538.23;1518.96;19.27
+NZ-ORD-1585;04/05/2027;Returning;Dunedin;Product-3;Books;Cartoon;Nickelodeon;4;631.5;354.33;277.17
+NZ-ORD-1586;05/05/2027;Returning;Auckland;Product-8;Clothing;Jacket;New Balance;1;721.21;710.98;10.23
+NZ-ORD-1587;06/05/2027;New;Dunedin;Product-10;Electronics;CCTV;Samsung;6;1963.64;1608.59;355.05
+NZ-ORD-1588;07/05/2027;New;Christchurch;Product-3;Electronics;Mobile Phone;Oppo;2;808.43;739.15;69.28
+NZ-ORD-1589;08/05/2027;Returning;Hamilton;Product-2;Toys;Board Game;Century;9;621.16;646.12;-24.96
+NZ-ORD-1590;09/05/2027;New;Hamilton;Product-4;Home Decor;Miniature Statue;Baurdani;3;1960.88;1751.42;209.46
+NZ-ORD-1591;10/05/2027;Returning;Hamilton;Product-30;Electronics;Hardisk SDD;Toshiba;10;139.99;65.82;74.17
+NZ-ORD-1592;11/05/2027;Returning;Auckland;Product-20;Home Decor;Vase;Foshan;6;992.46;830.46;162
+NZ-ORD-1593;12/05/2027;Returning;Christchurch;Product-3;Home Decor;Window Blind;Rails;3;1341.62;995.06;346.56
+NZ-ORD-1594;13/05/2027;Returning;Hamilton;Product-11;Books;Documentary;Warner Bros;8;1715.27;1277.61;437.66
+NZ-ORD-1595;14/05/2027;New;Auckland;Product-4;Toys;Puzzle;Hasbro;9;1070.37;1143.7;-73.33
+NZ-ORD-1596;15/05/2027;Returning;Wellington;Product-20;Books;Horror;Universal;1;1539.02;1122.57;416.45
+NZ-ORD-1597;16/05/2027;New;Auckland;Product-17;Clothing;T-Shirt;Puma;4;1895.46;1543.47;351.99
+NZ-ORD-1598;17/05/2027;Returning;Wellington;Product-20;Home Decor;Curtain;IKEA;10;438.48;248.68;189.8
+NZ-ORD-1599;18/05/2027;New;Dunedin;Product-21;Toys;Board Game;Hasbro;4;447.61;467.64;-20.03
+NZ-ORD-1600;19/05/2027;Returning;Wellington;Product-11;Clothing;Shoe;Adidas;3;684.82;641.55;43.27
+NZ-ORD-1601;20/05/2027;New;Auckland;Product-23;Clothing;T-Shirt;New Balance;4;1755.73;1415.78;339.95
+NZ-ORD-1602;21/05/2027;Returning;Dunedin;Product-19;Books;Cartoon;Warner Bros;5;1690.26;1243.45;446.81
+NZ-ORD-1603;22/05/2027;Returning;Christchurch;Product-10;Home Decor;Curtain;IKEA;3;471.37;78.45;392.92
+NZ-ORD-1604;23/05/2027;New;Christchurch;Product-15;Clothing;Jacket;Nike;4;1754.29;1553.29;201
+NZ-ORD-1605;24/05/2027;Returning;Christchurch;Product-25;Electronics;TV;Samsung;7;1602.93;1584.4;18.53
+NZ-ORD-1606;25/05/2027;New;Dunedin;Product-16;Home Decor;Vinyl Paper;Joyko;7;811.41;398.01;413.4
+NZ-ORD-1607;26/05/2027;New;Hamilton;Product-16;Electronics;DVD Player;Panasonic;3;1225.67;1313.77;-88.1
+NZ-ORD-1608;27/05/2027;New;Wellington;Product-10;Toys;Puzzle;Telltale;3;462.98;461.21;1.77
+NZ-ORD-1609;28/05/2027;New;Christchurch;Product-2;Electronics;TV;Sony;7;1452.69;1422.78;29.91
+NZ-ORD-1610;29/05/2027;Returning;Auckland;Product-9;Books;Horror;Warner Bros;2;1896.92;1808.64;88.28
+NZ-ORD-1611;30/05/2027;Returning;Wellington;Product-25;Toys;Board Game;Exploding;5;1713.97;1359.39;354.58
+NZ-ORD-1612;31/05/2027;New;Auckland;Product-29;Electronics;DVD Player;Changhong;5;1938.87;1633.55;305.32
+NZ-ORD-1613;01/06/2027;New;Hamilton;Product-20;Home Decor;Miniature Statue;Holmes Brok;3;112.68;-199.43;312.11
+NZ-ORD-1614;02/06/2027;New;Dunedin;Product-25;Electronics;CCTV;Samsung;6;1469.66;1335.34;134.32
+NZ-ORD-1615;03/06/2027;Returning;Auckland;Product-2;Toys;Card Game;Century;9;904.95;453.12;451.83
+NZ-ORD-1616;04/06/2027;Returning;Wellington;Product-8;Home Decor;Vase;Zhongwei;2;571.95;513.29;58.66
+NZ-ORD-1617;05/06/2027;Returning;Wellington;Product-18;Toys;Card Game;Telltale;10;1190.78;1073.49;117.29
+NZ-ORD-1618;06/06/2027;Returning;Dunedin;Product-17;Home Decor;Vase;IKEA;3;1327.92;1378.36;-50.44
+NZ-ORD-1619;07/06/2027;Returning;Christchurch;Product-25;Clothing;T-Shirt;Converse;9;534.65;545.1;-10.45
+NZ-ORD-1620;08/06/2027;New;Wellington;Product-25;Toys;Puzzle;Marvel;1;1817.66;1843.64;-25.98
+NZ-ORD-1621;09/06/2027;New;Wellington;Product-28;Clothing;Pant;Puma;10;1255.11;765.58;489.53
+NZ-ORD-1622;10/06/2027;Returning;Auckland;Product-7;Home Decor;Miniature Statue;Bucchari;7;1592.82;1506.74;86.08
+NZ-ORD-1623;11/06/2027;New;Dunedin;Product-17;Home Decor;Window Blind;Bardy;2;1944.79;1519.77;425.02
+NZ-ORD-1624;12/06/2027;Returning;Hamilton;Product-8;Books;Cartoon;Dreamworks;6;1429.96;1224.01;205.95
+NZ-ORD-1625;13/06/2027;Returning;Auckland;Product-12;Home Decor;Window Blind;Bardy;2;1693.3;1372.45;320.85
+NZ-ORD-1626;14/06/2027;Returning;Wellington;Product-14;Books;Cartoon;Dreamworks;4;55.24;-362.79;418.03
+NZ-ORD-1627;15/06/2027;New;Dunedin;Product-20;Electronics;Hardisk SDD;Samsung;4;1362.05;940.44;421.61
+NZ-ORD-1628;16/06/2027;Returning;Hamilton;Product-13;Toys;Puzzle;Wonder World;5;818.27;365.25;453.02
+NZ-ORD-1629;17/06/2027;Returning;Hamilton;Product-10;Clothing;Jacket;Nike;9;1345.12;936.34;408.78
+NZ-ORD-1630;18/06/2027;New;Auckland;Product-14;Home Decor;Curtain;Bardy;6;216.06;272.1;-56.04
+NZ-ORD-1631;19/06/2027;New;Auckland;Product-23;Home Decor;Vase;Yuzhei Wong;2;1502.19;1542.37;-40.18
+NZ-ORD-1632;20/06/2027;New;Dunedin;Product-15;Home Decor;Vinyl Paper;Joyko;3;325.82;-160.15;485.97
+NZ-ORD-1633;21/06/2027;Returning;Christchurch;Product-25;Home Decor;Curtain;Brother;3;1725.14;1437.53;287.61
+NZ-ORD-1634;22/06/2027;Returning;Auckland;Product-2;Books;Horror;Warner Bros;2;1828.65;1556.31;272.34
+NZ-ORD-1635;23/06/2027;New;Hamilton;Product-25;Electronics;TV;Panasonic;9;1966.61;1982.67;-16.06
+NZ-ORD-1636;24/06/2027;New;Dunedin;Product-3;Toys;Board Game;Century;3;327.02;15.31;311.71
+NZ-ORD-1637;25/06/2027;New;Hamilton;Product-5;Books;Documentary;Universal;4;1662.98;1352.68;310.3
+NZ-ORD-1638;26/06/2027;Returning;Christchurch;Product-21;Clothing;Pant;Converse;10;1482.12;1543.27;-61.15
+NZ-ORD-1639;27/06/2027;Returning;Wellington;Product-17;Books;Horror;Bloom House;1;1178.55;1274.17;-95.62
+NZ-ORD-1640;28/06/2027;New;Dunedin;Product-23;Home Decor;Vase;IKEA;8;1160.85;705.72;455.13
+NZ-ORD-1641;29/06/2027;New;Hamilton;Product-16;Electronics;CCTV;Sony;5;194.9;86.5;108.4
+NZ-ORD-1642;30/06/2027;New;Dunedin;Product-6;Books;Cartoon;Nickelodeon;10;1000.89;984.02;16.87
+NZ-ORD-1643;01/07/2027;New;Wellington;Product-17;Electronics;CCTV;Huawei;5;1643.2;1367.86;275.34
+NZ-ORD-1644;02/07/2027;New;Auckland;Product-24;Toys;Doll;Hasbro;4;1959.33;1796.54;162.79
+NZ-ORD-1645;03/07/2027;Returning;Auckland;Product-12;Books;Comedy;Universal;5;688.92;689.58;-0.66
+NZ-ORD-1646;04/07/2027;New;Christchurch;Product-18;Clothing;T-Shirt;New Balance;5;521.43;90.05;431.38
+NZ-ORD-1647;05/07/2027;Returning;Hamilton;Product-9;Electronics;Hardisk SDD;Kingston;9;218.9;228.99;-10.09
+NZ-ORD-1648;06/07/2027;New;Christchurch;Product-19;Clothing;Shirt;New Balance;3;473.1;341.72;131.38
+NZ-ORD-1649;07/07/2027;Returning;Wellington;Product-19;Electronics;TV;Sony;5;149.66;-40.97;190.63
+NZ-ORD-1650;08/07/2027;Returning;Hamilton;Product-23;Home Decor;Curtain;Brother;9;183.18;-197.7;380.88
+NZ-ORD-1651;09/07/2027;New;Hamilton;Product-30;Electronics;CCTV;Sony;3;1749.71;1387.78;361.93
+NZ-ORD-1652;10/07/2027;Returning;Christchurch;Product-4;Home Decor;Vinyl Paper;Level Up;9;1427.99;1461.33;-33.34
+NZ-ORD-1653;11/07/2027;New;Dunedin;Product-27;Clothing;Pant;Nike;5;886.74;467.41;419.33
+NZ-ORD-1654;12/07/2027;New;Auckland;Product-12;Toys;Doll;Marvel;10;1678.11;1381.84;296.27
+NZ-ORD-1655;13/07/2027;New;Auckland;Product-19;Books;Comedy;Warner Bros;3;179.58;56.91;122.67
+NZ-ORD-1656;14/07/2027;Returning;Auckland;Product-23;Books;Comedy;Warner Bros;5;414.35;153.66;260.69
+NZ-ORD-1657;15/07/2027;Returning;Hamilton;Product-6;Electronics;TV;Xiaomi;7;1155.93;693.52;462.41
+NZ-ORD-1658;16/07/2027;Returning;Auckland;Product-2;Electronics;DVD Player;Changhong;3;493.59;556.53;-62.94
+NZ-ORD-1659;17/07/2027;New;Wellington;Product-21;Books;Horror;Universal;5;282.02;59.03;222.99
+NZ-ORD-1660;18/07/2027;Returning;Hamilton;Product-18;Books;Horror;Bloom House;4;66.54;-50.78;117.32
+NZ-ORD-1661;19/07/2027;Returning;Dunedin;Product-27;Toys;Puzzle;Hasbro;3;587.93;270.22;317.71
+NZ-ORD-1662;20/07/2027;Returning;Dunedin;Product-26;Clothing;Jacket;Adidas;9;995.82;908.07;87.75
+NZ-ORD-1663;21/07/2027;New;Christchurch;Product-6;Home Decor;Curtain;IKEA;10;85.96;81.2;4.76
+NZ-ORD-1664;22/07/2027;Returning;Wellington;Product-5;Toys;Board Game;Telltale;7;1932.47;1728.95;203.52
+NZ-ORD-1665;23/07/2027;Returning;Auckland;Product-12;Electronics;Mobile Phone;Vivo;1;330.38;187.19;143.19
+NZ-ORD-1666;24/07/2027;New;Dunedin;Product-15;Clothing;T-Shirt;Puma;8;1043.2;923.54;119.66
+NZ-ORD-1667;25/07/2027;Returning;Dunedin;Product-4;Electronics;TV;Sony;2;425.2;100.9;324.3
+NZ-ORD-1668;26/07/2027;Returning;Dunedin;Product-13;Toys;Puzzle;Hasbro;5;171.87;-1.97;173.84
+NZ-ORD-1669;27/07/2027;Returning;Auckland;Product-27;Electronics;TV;Samsung;1;928.04;889.67;38.37
+NZ-ORD-1670;28/07/2027;Returning;Auckland;Product-8;Electronics;DVD Player;Panasonic;7;1706.41;1783.21;-76.8
+NZ-ORD-1671;29/07/2027;Returning;Wellington;Product-7;Home Decor;Curtain;Bardy;9;1621.69;1497.2;124.49
+NZ-ORD-1672;30/07/2027;Returning;Hamilton;Product-29;Clothing;T-Shirt;Puma;7;1261.61;800.22;461.39
+NZ-ORD-1673;31/07/2027;Returning;Auckland;Product-29;Clothing;Shirt;New Balance;3;297.89;-201.05;498.94
+NZ-ORD-1674;01/08/2027;Returning;Dunedin;Product-17;Books;Cartoon;Nickelodeon;3;1929.36;1528.48;400.88
+NZ-ORD-1675;02/08/2027;New;Dunedin;Product-26;Home Decor;Vinyl Paper;Kenko;3;616.84;595.65;21.19
+NZ-ORD-1676;03/08/2027;New;Wellington;Product-9;Books;Romance;Lionsgate;4;1487.38;1086.59;400.79
+NZ-ORD-1677;04/08/2027;New;Wellington;Product-23;Clothing;Pant;Nike;9;796.69;472.29;324.4
+NZ-ORD-1678;05/08/2027;Returning;Wellington;Product-24;Home Decor;Window Blind;Brother;10;1611.49;1600.12;11.37
+NZ-ORD-1679;06/08/2027;New;Wellington;Product-12;Electronics;TV;Xiaomi;4;248.93;176.15;72.78
+NZ-ORD-1680;07/08/2027;New;Wellington;Product-11;Home Decor;Vase;Yuzhei Wong;5;1798.87;1642.32;156.55
+NZ-ORD-1681;08/08/2027;Returning;Christchurch;Product-16;Electronics;TV;Panasonic;3;628.24;387.82;240.42
+NZ-ORD-1682;09/08/2027;Returning;Auckland;Product-27;Clothing;Pant;New Balance;7;1520.4;1038.75;481.65
+NZ-ORD-1683;10/08/2027;New;Hamilton;Product-29;Home Decor;Miniature Statue;Tuscany;1;1993.48;1732.24;261.24
+NZ-ORD-1684;11/08/2027;Returning;Wellington;Product-26;Electronics;Mobile Phone;Apple;5;1584.65;1354.84;229.81
+NZ-ORD-1685;12/08/2027;Returning;Dunedin;Product-7;Toys;Puzzle;Gramedia;6;105.76;-268;373.76
+NZ-ORD-1686;13/08/2027;Returning;Auckland;Product-2;Toys;Card Game;Marvel;6;711.65;687.15;24.5
+NZ-ORD-1687;14/08/2027;Returning;Hamilton;Product-14;Toys;Robot;Sega;7;495.75;595.24;-99.49
+NZ-ORD-1688;15/08/2027;Returning;Christchurch;Product-11;Toys;Robot;Capcom;10;586.38;114.4;471.98
+NZ-ORD-1689;16/08/2027;New;Dunedin;Product-14;Electronics;Hardisk SDD;Samsung;2;428.01;-66.92;494.93
+NZ-ORD-1690;17/08/2027;New;Dunedin;Product-5;Electronics;TV;Panasonic;5;877.81;531.38;346.43
+NZ-ORD-1691;18/08/2027;Returning;Wellington;Product-15;Home Decor;Miniature Statue;Holmes Brok;8;1736.6;1710.39;26.21
+NZ-ORD-1692;19/08/2027;Returning;Auckland;Product-29;Clothing;Pant;Converse;8;139.48;160.36;-20.88
+NZ-ORD-1693;20/08/2027;Returning;Christchurch;Product-10;Clothing;Shirt;New Balance;10;324.92;293.41;31.51
+NZ-ORD-1694;21/08/2027;New;Dunedin;Product-16;Books;Cartoon;Pixar;2;337.06;-32.53;369.59
+NZ-ORD-1695;22/08/2027;New;Hamilton;Product-27;Home Decor;Vinyl Paper;Joyko;1;99.7;-377.62;477.32
+NZ-ORD-1696;23/08/2027;New;Auckland;Product-5;Home Decor;Curtain;Bardy;7;1264.44;968.79;295.65
+NZ-ORD-1697;24/08/2027;New;Dunedin;Product-27;Home Decor;Curtain;IKEA;6;979.73;796.03;183.7
+NZ-ORD-1698;25/08/2027;New;Dunedin;Product-21;Home Decor;Window Blind;IKEA;6;522.89;26.43;496.46
+NZ-ORD-1699;26/08/2027;New;Auckland;Product-12;Books;Comedy;Disney;1;1632.93;1321.27;311.66
+NZ-ORD-1700;27/08/2027;Returning;Auckland;Product-4;Electronics;Mobile Phone;Huawei;4;1394.5;1049.21;345.29
+NZ-ORD-1701;28/08/2027;New;Dunedin;Product-7;Toys;Card Game;Telltale;6;1469.58;1041.48;428.1
+NZ-ORD-1702;29/08/2027;New;Wellington;Product-21;Home Decor;Window Blind;Brother;8;1188.16;996.92;191.24
+NZ-ORD-1703;30/08/2027;New;Hamilton;Product-9;Home Decor;Curtain;Rails;3;579.02;648.17;-69.15
+NZ-ORD-1704;31/08/2027;Returning;Wellington;Product-16;Clothing;Shirt;Converse;6;1476.83;1488.46;-11.63
+NZ-ORD-1705;01/09/2027;New;Hamilton;Product-15;Books;Cartoon;Disney;4;1584.71;1480.26;104.45
+NZ-ORD-1706;02/09/2027;New;Hamilton;Product-9;Home Decor;Window Blind;Rails;6;390.64;383.05;7.59
+NZ-ORD-1707;03/09/2027;Returning;Hamilton;Product-29;Home Decor;Vase;IKEA;8;272.31;285.4;-13.09
+NZ-ORD-1708;04/09/2027;Returning;Christchurch;Product-4;Home Decor;Curtain;Rails;5;1101.2;1093.03;8.17
+NZ-ORD-1709;05/09/2027;Returning;Wellington;Product-10;Clothing;Shoe;New Balance;8;1016.27;780.71;235.56
+NZ-ORD-1710;06/09/2027;Returning;Dunedin;Product-14;Electronics;DVD Player;Changhong;9;197.49;-159.36;356.85
+NZ-ORD-1711;07/09/2027;New;Wellington;Product-1;Home Decor;Window Blind;Bardy;5;1760.14;1526.87;233.27
+NZ-ORD-1712;08/09/2027;Returning;Auckland;Product-12;Books;Documentary;Warner Bros;3;1929.73;1533.93;395.8
+NZ-ORD-1713;09/09/2027;Returning;Christchurch;Product-18;Electronics;Mobile Phone;Oppo;9;1055.42;881.38;174.04
+NZ-ORD-1714;10/09/2027;New;Hamilton;Product-24;Home Decor;Vase;IKEA;4;1607.58;1703.96;-96.38
+NZ-ORD-1715;11/09/2027;New;Christchurch;Product-22;Clothing;Jacket;Nike;7;261.34;-75.73;337.07
+NZ-ORD-1716;12/09/2027;Returning;Hamilton;Product-2;Electronics;CCTV;Toshiba;1;1495.55;1515.25;-19.7
+NZ-ORD-1717;13/09/2027;New;Christchurch;Product-13;Toys;Board Game;Marvel;7;1791.34;1498.02;293.32
+NZ-ORD-1718;14/09/2027;Returning;Wellington;Product-19;Electronics;TV;Samsung;10;32.89;-189.48;222.37
+NZ-ORD-1719;15/09/2027;New;Auckland;Product-3;Home Decor;Miniature Statue;Holmes Brok;9;640.99;537.23;103.76
+NZ-ORD-1720;16/09/2027;New;Dunedin;Product-24;Clothing;Pant;Nike;7;1556.67;1620.48;-63.81
+NZ-ORD-1721;17/09/2027;New;Dunedin;Product-22;Clothing;Pant;New Balance;1;689.42;367.12;322.3
+NZ-ORD-1722;18/09/2027;Returning;Wellington;Product-13;Clothing;Shoe;Converse;8;439.51;431.4;8.11
+NZ-ORD-1723;19/09/2027;Returning;Auckland;Product-18;Books;Comedy;20th Century Fox;8;1580.07;1244.24;335.83
+NZ-ORD-1724;20/09/2027;Returning;Wellington;Product-7;Toys;Doll;Barbie;7;658.32;697.57;-39.25
+NZ-ORD-1725;21/09/2027;Returning;Auckland;Product-16;Clothing;T-Shirt;Puma;2;1420.3;1000.06;420.24
+NZ-ORD-1726;22/09/2027;New;Wellington;Product-3;Clothing;Jacket;New Balance;3;1045.85;777.79;268.06
+NZ-ORD-1727;23/09/2027;Returning;Wellington;Product-20;Toys;Card Game;Marvel;1;468.63;269.62;199.01
+NZ-ORD-1728;24/09/2027;New;Dunedin;Product-25;Clothing;Shoe;Nike;9;506.73;525.24;-18.51
+NZ-ORD-1729;25/09/2027;New;Wellington;Product-17;Books;Documentary;Discovery;3;285.85;127.69;158.16
+NZ-ORD-1730;26/09/2027;Returning;Wellington;Product-3;Books;Horror;Warner Bros;6;671.07;691.38;-20.31
+NZ-ORD-1731;27/09/2027;Returning;Hamilton;Product-15;Clothing;Shirt;Puma;3;110;76.05;33.95
+NZ-ORD-1732;28/09/2027;Returning;Wellington;Product-1;Toys;Puzzle;Wonder World;7;1125.5;812.13;313.37
+NZ-ORD-1733;29/09/2027;Returning;Auckland;Product-25;Clothing;Jacket;Converse;4;1969.12;1623.9;345.22
+NZ-ORD-1734;30/09/2027;Returning;Hamilton;Product-23;Books;Cartoon;Nickelodeon;5;1787.73;1470.16;317.57
+NZ-ORD-1735;01/10/2027;New;Wellington;Product-17;Home Decor;Vinyl Paper;Level Up;3;1281.32;1090.52;190.8
+NZ-ORD-1736;02/10/2027;Returning;Hamilton;Product-4;Home Decor;Curtain;Brother;8;432.92;502.56;-69.64
+NZ-ORD-1737;03/10/2027;New;Wellington;Product-2;Home Decor;Miniature Statue;Oates;9;430.76;154.51;276.25
+NZ-ORD-1738;04/10/2027;New;Hamilton;Product-27;Toys;Puzzle;Hasbro;4;308.8;276.01;32.79
+NZ-ORD-1739;05/10/2027;New;Wellington;Product-25;Toys;Puzzle;Marvel;1;1546.2;1425.21;120.99
+NZ-ORD-1740;06/10/2027;New;Dunedin;Product-13;Books;Horror;Universal;8;1747.52;1356.47;391.05
+NZ-ORD-1741;07/10/2027;New;Auckland;Product-7;Books;Romance;Universal;7;1258.85;1015.54;243.31
+NZ-ORD-1742;08/10/2027;New;Dunedin;Product-1;Toys;Robot;Konami;7;1192.14;942.79;249.35
+NZ-ORD-1743;09/10/2027;Returning;Auckland;Product-3;Home Decor;Window Blind;Bardy;5;1064.85;1121.24;-56.39
+NZ-ORD-1744;10/10/2027;Returning;Christchurch;Product-12;Toys;Doll;Barbie;9;869.48;547.85;321.63
+NZ-ORD-1745;11/10/2027;New;Christchurch;Product-28;Toys;Robot;Bandai;1;115.42;-123.85;239.27
+NZ-ORD-1746;12/10/2027;New;Dunedin;Product-8;Books;Documentary;Universal;10;465.47;128.61;336.86
+NZ-ORD-1747;13/10/2027;Returning;Wellington;Product-20;Clothing;Jacket;Puma;4;1168.93;1205.66;-36.73
+NZ-ORD-1748;14/10/2027;New;Hamilton;Product-3;Clothing;Shoe;New Balance;4;1961.87;1869.33;92.54
+NZ-ORD-1749;15/10/2027;New;Christchurch;Product-21;Books;Cartoon;Nickelodeon;9;1946.49;1785.41;161.08
+NZ-ORD-1750;16/10/2027;Returning;Wellington;Product-6;Books;Horror;Lionsgate;2;1051.65;562.91;488.74
+NZ-ORD-1751;17/10/2027;New;Hamilton;Product-1;Clothing;T-Shirt;Puma;1;399.17;311.34;87.83
+NZ-ORD-1752;18/10/2027;New;Hamilton;Product-9;Electronics;DVD Player;Sony;5;1044.06;944.22;99.84
+NZ-ORD-1753;19/10/2027;New;Christchurch;Product-15;Home Decor;Miniature Statue;Baurdani;7;1126.72;922.88;203.84
+NZ-ORD-1754;20/10/2027;Returning;Auckland;Product-20;Clothing;T-Shirt;Nike;5;1627.76;1615.88;11.88
+NZ-ORD-1755;21/10/2027;Returning;Auckland;Product-4;Toys;Doll;Hasbro;5;701.81;208.32;493.49
+NZ-ORD-1756;22/10/2027;New;Wellington;Product-23;Clothing;T-Shirt;New Balance;10;322.74;-95.72;418.46
+NZ-ORD-1757;23/10/2027;Returning;Auckland;Product-10;Books;Documentary;Discovery;9;1814.09;1743.28;70.81
+NZ-ORD-1758;24/10/2027;New;Christchurch;Product-7;Toys;Card Game;Dungeons;1;1122.86;1067.07;55.79
+NZ-ORD-1759;25/10/2027;Returning;Christchurch;Product-22;Clothing;Pant;Converse;8;144.23;-72.63;216.86
+NZ-ORD-1760;26/10/2027;Returning;Auckland;Product-11;Clothing;T-Shirt;Nike;3;1942.67;1764.69;177.98
+NZ-ORD-1761;27/10/2027;Returning;Auckland;Product-6;Clothing;T-Shirt;Nike;5;1464.79;1505.15;-40.36
+NZ-ORD-1762;28/10/2027;Returning;Dunedin;Product-11;Home Decor;Curtain;Rails;1;118.31;214.62;-96.31
+NZ-ORD-1763;29/10/2027;Returning;Christchurch;Product-5;Toys;Puzzle;Marvel;4;1562.56;1329.98;232.58
+NZ-ORD-1764;30/10/2027;Returning;Dunedin;Product-8;Electronics;Hardisk SDD;Toshiba;8;268.25;-176.29;444.54
+NZ-ORD-1765;31/10/2027;New;Wellington;Product-30;Clothing;Shirt;Nike;4;313.41;110.31;203.1
+NZ-ORD-1766;01/11/2027;Returning;Dunedin;Product-11;Electronics;Mobile Phone;Oppo;1;1594.62;1407.9;186.72
+NZ-ORD-1767;02/11/2027;Returning;Christchurch;Product-10;Books;Comedy;Universal;5;1796.65;1387.74;408.91
+NZ-ORD-1768;03/11/2027;New;Wellington;Product-4;Toys;Board Game;Century;5;374.74;317.23;57.51
+NZ-ORD-1769;04/11/2027;Returning;Christchurch;Product-15;Toys;Puzzle;Telltale;7;738.75;666.9;71.85
+NZ-ORD-1770;05/11/2027;Returning;Hamilton;Product-6;Electronics;DVD Player;Toshiba;3;520.61;287.24;233.37
+NZ-ORD-1771;06/11/2027;New;Wellington;Product-20;Home Decor;Vase;Midea;4;270.6;310.99;-40.39
+NZ-ORD-1772;07/11/2027;New;Wellington;Product-20;Books;Cartoon;Disney;5;545.36;97.58;447.78
+NZ-ORD-1773;08/11/2027;Returning;Dunedin;Product-21;Clothing;Pant;Puma;4;1196.31;986.35;209.96
+NZ-ORD-1774;09/11/2027;Returning;Christchurch;Product-30;Books;Comedy;Universal;1;1883.3;1746.01;137.29
+NZ-ORD-1775;10/11/2027;New;Hamilton;Product-4;Electronics;TV;Sony;9;111.5;-367.3;478.8
+NZ-ORD-1776;11/11/2027;New;Auckland;Product-14;Books;Documentary;Discovery;3;1592.12;1472.08;120.04
+NZ-ORD-1777;12/11/2027;Returning;Christchurch;Product-25;Books;Horror;Lionsgate;10;1524.44;1618.59;-94.15
+NZ-ORD-1778;13/11/2027;Returning;Wellington;Product-1;Books;Cartoon;Pixar;5;738.88;553.85;185.03
+NZ-ORD-1779;14/11/2027;New;Hamilton;Product-3;Toys;Robot;Bandai;9;1027.72;586.8;440.92
+NZ-ORD-1780;15/11/2027;Returning;Hamilton;Product-1;Clothing;Shirt;Nike;4;1504.62;1105.57;399.05
+NZ-ORD-1781;16/11/2027;New;Christchurch;Product-9;Toys;Puzzle;Wonder World;4;185.15;209.65;-24.5
+NZ-ORD-1782;17/11/2027;New;Auckland;Product-20;Clothing;T-Shirt;Puma;3;1165.85;1236.71;-70.86
+NZ-ORD-1783;18/11/2027;Returning;Wellington;Product-23;Clothing;T-Shirt;Converse;4;811.86;856.79;-44.93
+NZ-ORD-1784;19/11/2027;New;Christchurch;Product-19;Books;Romance;Disney;8;1871.03;1611.33;259.7
+NZ-ORD-1785;20/11/2027;New;Dunedin;Product-15;Electronics;DVD Player;Panasonic;10;1390.79;1344.47;46.32
+NZ-ORD-1786;21/11/2027;Returning;Wellington;Product-13;Toys;Puzzle;Marvel;6;42.45;-284.15;326.6
+NZ-ORD-1787;22/11/2027;New;Auckland;Product-12;Toys;Puzzle;Wonder World;9;1336.66;1283.59;53.07
+NZ-ORD-1788;23/11/2027;New;Wellington;Product-12;Clothing;Pant;Nike;2;967.9;709.13;258.77
+NZ-ORD-1789;24/11/2027;Returning;Wellington;Product-26;Home Decor;Miniature Statue;Holmes Brok;2;1170.69;1039.78;130.91
+NZ-ORD-1790;25/11/2027;New;Dunedin;Product-21;Electronics;TV;Xiaomi;7;778.35;838.32;-59.97
+NZ-ORD-1791;26/11/2027;Returning;Hamilton;Product-29;Books;Cartoon;Warner Bros;7;1471.4;1181.1;290.3
+NZ-ORD-1792;27/11/2027;New;Auckland;Product-12;Home Decor;Vase;Foshan;1;369.34;269.81;99.53
+NZ-ORD-1793;28/11/2027;New;Wellington;Product-12;Books;Horror;Universal;4;958.72;545.24;413.48
+NZ-ORD-1794;29/11/2027;New;Auckland;Product-28;Clothing;Shoe;Adidas;6;130.52;-335.48;466
+NZ-ORD-1795;30/11/2027;New;Auckland;Product-18;Electronics;CCTV;Xiaomi;4;1912.98;1667.99;244.99
+NZ-ORD-1796;01/12/2027;New;Auckland;Product-26;Electronics;Mobile Phone;Apple;4;542.46;377.76;164.7
+NZ-ORD-1797;02/12/2027;Returning;Hamilton;Product-28;Toys;Board Game;Hasbro;10;327.02;387.57;-60.55
+NZ-ORD-1798;03/12/2027;New;Christchurch;Product-11;Books;Horror;Lionsgate;2;599.32;591.9;7.42
+NZ-ORD-1799;04/12/2027;Returning;Christchurch;Product-3;Home Decor;Vase;Midea;1;887.38;644.91;242.47
+NZ-ORD-1800;05/12/2027;Returning;Dunedin;Product-14;Clothing;T-Shirt;Puma;9;622.82;336.99;285.83
+NZ-ORD-1801;06/12/2027;Returning;Wellington;Product-4;Home Decor;Vase;Midea;5;1764.87;1354.11;410.76
+NZ-ORD-1802;07/12/2027;Returning;Auckland;Product-21;Home Decor;Curtain;Brother;6;1819.23;1499.36;319.87
+NZ-ORD-1803;08/12/2027;New;Dunedin;Product-24;Clothing;Shoe;Adidas;7;1797.62;1628.93;168.69
+NZ-ORD-1804;09/12/2027;New;Dunedin;Product-28;Home Decor;Vinyl Paper;Level Up;5;1519.83;1368.39;151.44
+NZ-ORD-1805;10/12/2027;New;Wellington;Product-28;Home Decor;Vinyl Paper;Seiko;1;1486.66;1091;395.66
+NZ-ORD-1806;11/12/2027;Returning;Auckland;Product-3;Books;Romance;Warner Bros;7;1471.02;1521.67;-50.65
+NZ-ORD-1807;12/12/2027;Returning;Dunedin;Product-29;Electronics;CCTV;Samsung;3;341.16;-51.58;392.74
+NZ-ORD-1808;13/12/2027;Returning;Auckland;Product-10;Toys;Board Game;Century;2;634.07;699.87;-65.8
+NZ-ORD-1809;14/12/2027;Returning;Auckland;Product-9;Clothing;Shoe;Puma;6;1496.17;1520.1;-23.93
+NZ-ORD-1810;15/12/2027;Returning;Auckland;Product-2;Clothing;Shoe;Puma;10;1793.03;1496.46;296.57
+NZ-ORD-1811;16/12/2027;Returning;Christchurch;Product-18;Home Decor;Miniature Statue;Baurdani;6;1098.14;990.39;107.75
+NZ-ORD-1812;17/12/2027;New;Hamilton;Product-19;Toys;Doll;Hasbro;8;529.92;473.21;56.71
+NZ-ORD-1813;18/12/2027;Returning;Dunedin;Product-11;Electronics;TV;Sony;6;1035.3;685.13;350.17
+NZ-ORD-1814;19/12/2027;New;Christchurch;Product-26;Books;Cartoon;Disney;9;722.23;635.96;86.27
+NZ-ORD-1815;20/12/2027;Returning;Dunedin;Product-8;Books;Cartoon;Warner Bros;3;1966.99;1574.13;392.86
+NZ-ORD-1816;21/12/2027;Returning;Wellington;Product-29;Clothing;Jacket;Nike;5;1840.07;1866.98;-26.91
+NZ-ORD-1817;22/12/2027;Returning;Auckland;Product-6;Electronics;TV;Samsung;7;1282.24;1167.51;114.73
+NZ-ORD-1818;23/12/2027;Returning;Wellington;Product-3;Books;Comedy;Universal;8;749.33;726.3;23.03
+NZ-ORD-1819;24/12/2027;New;Christchurch;Product-6;Electronics;Mobile Phone;Apple;1;1749.23;1810.7;-61.47
+NZ-ORD-1820;25/12/2027;Returning;Dunedin;Product-17;Toys;Robot;Bandai;1;1715.53;1468.22;247.31
+NZ-ORD-1821;26/12/2027;New;Christchurch;Product-11;Electronics;Mobile Phone;Vivo;3;566.57;481.09;85.48
+NZ-ORD-1822;27/12/2027;New;Christchurch;Product-7;Books;Documentary;Universal;4;1519.02;1139.19;379.83
+NZ-ORD-1823;28/12/2027;Returning;Christchurch;Product-24;Clothing;Pant;Converse;2;220.02;-188.23;408.25
+NZ-ORD-1824;29/12/2027;Returning;Auckland;Product-4;Home Decor;Curtain;IKEA;7;249.57;293.52;-43.95
+NZ-ORD-1825;30/12/2027;New;Hamilton;Product-16;Clothing;Shirt;Puma;8;1971.92;1634.08;337.84
+NZ-ORD-1826;31/12/2027;New;Christchurch;Product-23;Books;Documentary;Discovery;5;915.11;553.5;361.61
